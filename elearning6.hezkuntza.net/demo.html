@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="es" xml:lang="es">
+<head>
+   <title>Moodle demo | Moodle.org</title>
+    <link rel="shortcut icon" sizes="64x64" href="https://moodle.org/theme/moodleorg/pix/favicons/favicon.ico">
+<link rel="icon" href="https://moodle.org/theme/moodleorg/pix/favicons/favicon-32.webp" sizes="32x32">
+<link rel="icon" href="https://moodle.org/theme/moodleorg/pix/favicons/favicon-192.webp" sizes="192x192">
+<link rel="apple-touch-icon" href="https://moodle.org/theme/moodleorg/pix/favicons/favicon-180.webp">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="https://moodle.org/theme/moodleorg/pix/favicons/favicon-270.png">
+    <meta property="og:url" content="https://moodle.org/demo/">
+<meta property="twitter:url" content="https://moodle.org/demo/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Moodle demo | Moodle.org">
+<meta property="og:image" content="https://moodle.org/theme/moodleorg/pix/moodle_logo_tm.png">
+<meta property="og:image:secure_url" content="https://moodle.org/theme/moodleorg/pix/moodle_logo_tm.png">
+<meta property="twitter:image" content="https://moodle.org/theme/moodleorg/pix/moodle_logo_tm.png">
+<meta name="apple-itunes-app" content="app-id=633359593, app-argument=https://moodle.org/demo/"/><link rel="manifest" href="https://moodle.org/admin/tool/mobile/mobile.webmanifest.php" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Moodle demo | Moodle.org" />
+<link rel="stylesheet" type="text/css" href="https://moodle.org/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://moodle.org/theme/styles.php/moodleorg/1745837349_1744616947/all" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle.org","apibase":"https:\/\/moodle.org\/r.php\/api","homeurl":{},"sesskey":"yqKCnTUGmM","sessiontimeout":"432000","sessiontimeoutwarning":"1200","themerev":"1745837349","slasharguments":1,"theme":"moodleorg","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1745837349","admin":"admin","svgicons":true,"usertimezone":"Australia\/Perth","language":"es","courseId":1,"courseContextId":5310,"contextid":50,"contextInstanceId":0,"langrev":1745871912,"templaterev":"1745837349","siteId":1,"userId":0};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/moodle.org\/lib\/yuilib\/3.18.1\/","comboBase":"https:\/\/moodle.org\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/moodle.org\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle.org\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle.org\/theme\/yui_combo.php?m\/1745837349\/","combine":true,"comboBase":"https:\/\/moodle.org\/theme\/yui_combo.php?","ext":false,"root":"m\/1745837349\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form","datatype-date-format"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-local_plugins-favourites":{"requires":["base","node","event","io-base","json-parse","handlebars"]},"moodle-local_plugins-vcswidget":{"requires":["base","node","io-base","event","json-parse"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]}}},"gallery":{"name":"gallery","base":"https:\/\/moodle.org\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/moodle.org\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1745837349\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle.org\/lib\/javascript.php\/1745837349\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/moodle.org\/lib\/javascript.php\/1745837349\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}},"logInclude":[],"logExclude":[],"logLevel":null};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WHX358LB');</script>
+<!-- End Google Tag Manager -->
+<!-- OneTrust Cookies Consent Notice start for moodle.org -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/41472476-2396-4599-82d6-b8c87f439f8e/OtAutoBlock.js" ></script>
+<script src="https://cdn.cookielaw.org/consent/41472476-2396-4599-82d6-b8c87f439f8e/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="41472476-2396-4599-82d6-b8c87f439f8e" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for moodle.org -->
+<!-- 6Sense WebTag -->
+<script id="6senseWebTag" src="https://j.6sc.co/j/c8971021-fc65-4bbd-9a05-b6e57875e886.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-demo-index" class="format-site  path-demo dir-ltr lang-es yui-skin-sam yui3-skin-sam moodle-org pagelayout-demo course-1 context-50 notloggedin theme ">
+<div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+<div id="page-wrapper" class="d-print-block">
+
+    <div>
+    <a class="visually-hidden-focusable" href="#maincontent">Salta al contenido principal</a>
+</div><script src="https://moodle.org/lib/javascript.php/1745837349/lib/polyfills/polyfill.js"></script>
+<script src="https://moodle.org/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js"></script><script src="https://moodle.org/lib/javascript.php/1745837349/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHX358LB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav id="moodlesitestopnavbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-white border-0 justify-content-start" style="z-index: 1040;" dir="ltr">
+    <div class="waffle-menu">
+        <a href="https://moodle.org" class="navbar-brand position-lg-fixed d-none d-lg-flex align-items-center m-0 p-0 aabtn">
+            <img src="https://moodle.org/theme/moodleorg/pix/moodle_logo_TM.svg" class="logo mr-1" height="42px" alt=" home">
+        </a>
+        <button class="navbar-toggler mt-2 mr-2" type="button" data-toggle="collapse" data-target="#sitetopnavbar" aria-controls="sitetopnavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon ml-2"></span>
+        </button>
+    </div>
+
+
+
+    <div class="collapse navbar-collapse justify-content-end mt-2" id="sitetopnavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item Forums">
+                <a class="nav-link " href="https://moodle.org/course"><span>Forums</span></a>
+            </li>
+            <li class="nav-item documentation">
+                <a class="nav-link" href="https://docs.moodle.org"><span>Documentation</span></a>
+            </li>
+            <li class="nav-item download">
+                <a class="nav-link " href="https://download.moodle.org"><span>Downloads</span></a>
+            </li>
+            <li class="nav-item demo">
+                <a class="nav-link active" href="https://moodle.org/demo"><span>Demo</span></a>
+            </li>
+            <li class="nav-item tracker">
+                <a class="nav-link" href="https://tracker.moodle.org"><span>Tracker</span></a>
+            </li>
+            <li class="nav-item development">
+                <a class="nav-link" href="https://moodledev.io/"><span>Development</span></a>
+            </li>
+            <li class="nav-item translation">
+                <a class="nav-link " href="https://lang.moodle.org"><span>Translation</span></a>
+            </li>
+            <li class="nav-item search d-none d-lg-flex">
+                <a class="nav-link icon-no-margin" href="https://moodle.org/public/search"><span class="sr-only">Search</span>
+                    <i class="fa fa-search icon"></i>
+                </a>
+            </li>
+
+            <hr height="8px" >
+            <li class="nav-item search-mob d-flex d-lg-none">
+                <a class="nav-link icon-no-margin" href="https://moodle.org/public/search">
+                    <i class="fa fa-search icon mr-2"></i>
+                    Search
+                </a>
+            </li>
+            <li class="nav-item search d-flex d-lg-none">
+                <a class="moodle_sites nav-link icon-no-margin"  >
+                    <svg width="18" height="18" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="3" cy="3.5" r="3" fill="#194866"></circle>
+                        <circle cx="3" cy="11.5" r="3" fill="#194866"></circle>
+                        <circle cx="3" cy="19.5" r="3" fill="#194866"></circle>
+                        <circle cx="11" cy="3.5" r="3" fill="#194866"></circle>
+                        <circle cx="11" cy="11.5" r="3" fill="#194866"></circle>
+                        <circle cx="11" cy="19.5" r="3" fill="#194866"></circle>
+                        <circle cx="19" cy="3.5" r="3" fill="#194866"></circle>
+                        <circle cx="19" cy="11.5" r="3" fill="#194866"></circle>
+                        <circle cx="19" cy="19.5" r="3" fill="#194866"></circle>
+                    </svg>
+                    <span class="mx-2 ">Other Moodle sites <img class="ml-5 mt-n1" src="https://moodle.org/theme/moodleorg/pix/arrow-r.svg" width="10" height="10">
+                    </span>
+                </a>
+            </li>
+            <div class="d-none d-lg-flex">
+            
+            <li class="nav-item menu">
+                <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" aria-haspopup="true"
+                    aria-label="Other Moodle sites" aria-controls="dropdown-popup"
+                    title="Other Moodle sites">
+                    <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="3" cy="3.5" r="3" fill="#194866"></circle>
+                        <circle cx="3" cy="11.5" r="3" fill="#194866"></circle>
+                        <circle cx="3" cy="19.5" r="3" fill="#194866"></circle>
+                        <circle cx="11" cy="3.5" r="3" fill="#194866"></circle>
+                        <circle cx="11" cy="11.5" r="3" fill="#194866"></circle>
+                        <circle cx="11" cy="19.5" r="3" fill="#194866"></circle>
+                        <circle cx="19" cy="3.5" r="3" fill="#194866"></circle>
+                        <circle cx="19" cy="11.5" r="3" fill="#194866"></circle>
+                        <circle cx="19" cy="19.5" r="3" fill="#194866"></circle>
+                    </svg>
+                </a>
+            
+                <div class="dropdown-menu dropdown-menu-end" id="dropdown-popup">
+                    <div class="p-3 pathways">
+                        <div class="pb-1 heading">What are you looking for?</div>
+                        <hr>
+                        <p>
+                            Learn about Moodle's products, like Moodle LMS or Moodle Workplace, or find a Moodle Certified Service Provider.<br>
+                            <br>
+                            <a href="https://moodle.com">Moodle.com <i class="fa fa-long-arrow-right icon"></i></a>
+                        </p>
+                        <hr>
+                        <p>
+                             Our social network to share and curate open educational resources.<br>
+                            <br>
+                            <a href="https://moodle.net">MoodleNet <i class="fa fa-long-arrow-right icon"></i></a>
+                        </p>
+                        <hr>
+                        <p>
+                            Courses and programs to develop your skills as a Moodle educator, administrator, designer or developer.<br>
+                            <br>
+                            <a href="https://moodle.academy">Moodle Academy <i class="fa fa-long-arrow-right icon"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            
+            </div>
+        </ul>
+        <ul class="sites-nav navbar-nav d-none">
+        <img class="ml-n1 back" src="https://moodle.org/theme/moodleorg/pix/arrow-left.svg" width="24" height="24">
+           <div class="pt-2 pathways">
+            <p>
+                <a href="https://moodle.com">Moodle.com</a>
+                <br>
+                Learn about Moodle's products, like Moodle LMS or Moodle Workplace, or find a Moodle Certified Service Provider.<br>
+            </p>
+            <hr>
+            <p>
+                <a href="https://moodle.net">MoodleNet</a>
+                <br>
+                Our social network to share and curate open educational resources.<br>
+            </p>
+            <hr>
+            <p>
+                <a href="https://moodle.academy">Moodle Academy</a>
+                <br>
+                Courses and programs to develop your skills as a Moodle educator, administrator, designer or developer.<br>
+            </p>
+        </div>
+        </ul>
+
+    </div>
+
+
+</nav>
+
+
+    
+    
+    <nav class="navbar fixed-top navbar-light bg-white navbar-expand border-0 secondary-nav" aria-label="Navegación del sitio" style="top: 50px;">
+    
+      <a href="https://moodle.org/">
+    
+    
+    
+            <img src="https://moodle.org/theme/moodleorg/pix/moodle_logo_TM.svg" class="d-lg-none d-xl-none ml-n2">
+    
+    
+        </a>
+    
+    
+        <ul class="navbar-nav d-none d-md-none d-lg-flex d-xl-flex my-1 px-1">
+            <!-- page_heading_menu -->
+            
+        </ul>
+    
+        <div id="usernavigation" class="navbar-nav ml-auto ">
+                <div id="searchinput-navbar-6810ac9a323af6810ac9a2af343" class="simplesearchform">
+    <div class="collapse" id="searchform-navbar">
+        <form autocomplete="off" action="https://moodle.org/search/index.php" method="get" accept-charset="utf-8" class="mform d-flex flex-wrap align-items-center searchform-navbar">
+                <input type="hidden" name="context" value="50">
+            <div class="input-group">
+
+                <input type="text"
+                    id="searchinput-6810ac9a323af6810ac9a2af343"
+                    class="form-control withclear"
+                    placeholder="Buscar"
+                    aria-label="Buscar"
+                    name="q"
+                    data-region="input"
+                    autocomplete="off"
+                >
+                <label for="searchinput-6810ac9a323af6810ac9a2af343">
+                    <span class="visually-hidden">Buscar</span>
+                </label>
+                <a class="btn btn-close"
+                    data-action="closesearch"
+                    data-bs-toggle="collapse"
+                    href="#searchform-navbar"
+                    role="button"
+                >
+                    <span class="visually-hidden">Cerrar</span>
+                </a>
+                <button type="submit" class="btn btn-submit" data-action="submit">
+                    <i class="icon fa fa-magnifying-glass fa-fw " aria-hidden="true"  ></i>
+                    <span class="visually-hidden">Buscar</span>
+                </button>
+            </div>
+        </form>
+    </div>
+    <a
+        class="rounded-0 nav-link icon-no-margin"
+        data-bs-toggle="collapse"
+        data-action="opensearch"
+        href="#searchform-navbar"
+        role="button"
+        aria-expanded="false"
+        aria-controls="searchform-navbar"
+        title="Selector de búsqueda de entrada"
+    >
+        <i class="icon fa fa-magnifying-glass fa-fw " aria-hidden="true"  ></i>
+        <span class="visually-hidden">Selector de búsqueda de entrada</span>
+    </a>
+</div>
+                <div class="divider border-left h-75 align-self-center mx-1"></div>
+                <div class="langmenu">
+                    <div class="dropdown show">
+                        <a href="#" role="button" id="lang-menu-toggle" data-bs-toggle="dropdown" aria-label="Idioma" aria-haspopup="true" aria-controls="lang-action-menu" class="btn dropdown-toggle">
+                            <i class="icon fa fa-language fa-fw me-1" aria-hidden="true"></i>
+                            <span class="langbutton">
+                                Español - Internacional ‎(es)‎
+                            </span>
+                            <b class="caret"></b>
+                        </a>
+                        <div role="menu" aria-labelledby="lang-menu-toggle" id="lang-action-menu" class="dropdown-menu dropdown-menu-end">
+                                    <a href="https://moodle.org/demo/?lang=am" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="am" >
+                                         አማርኛ ‎(am)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=om" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="om" >
+                                        Afaan Oromoo ‎(om)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=af" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="af" >
+                                        Afrikaans ‎(af)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=an" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="an" >
+                                        Aragonés ‎(an)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=oc_es" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="oc" >
+                                        Aranés ‎(oc_es)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ast" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="es" >
+                                        Asturianu ‎(ast)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=az" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="az" >
+                                        Azərbaycanca ‎(az)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=id_old" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="id" >
+                                        Bahasa Indonesia ‎(id_old)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ms" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ms" >
+                                        Bahasa Melayu ‎(ms)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=bar" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="de" >
+                                        Bairisch ‎(bar)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=bm" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="bm" >
+                                        Bamanankan ‎(bm)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=bi" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="bi" >
+                                        Bislama ‎(bi)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=bs" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="bs" >
+                                        Bosanski ‎(bs)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=br" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="br" >
+                                        Brezhoneg ‎(br)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ca_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ca" >
+                                        Català ‎(ca_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ca" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ca" >
+                                        Català ‎(ca)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ca_valencia" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ca" >
+                                        Català (Valencià) ‎(ca_valencia)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=cs" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="cs" >
+                                        Čeština ‎(cs)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=mis" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="mi" >
+                                        Crnogorski ‎(mis)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=cy" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="cy" >
+                                        Cymraeg ‎(cy)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=da_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="da" >
+                                        Dansk ‎(da_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=da" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="da" >
+                                        Dansk ‎(da)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=da_kursus" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="da" >
+                                        Dansk (kursus) ‎(da_kursus)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=da_rum" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="da" >
+                                        Dansk Rum ‎(da_rum)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=se" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="se" >
+                                        Davvisámegiella ‎(se)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=de_ch" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="de" >
+                                        Deutsch - Schweiz ‎(de_ch)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=de_comm" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="de" >
+                                        Deutsch (community) ‎(de_comm)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=de_kids" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="de" >
+                                        Deutsch ‎(de_kids)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=de_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="de" >
+                                        Deutsch ‎(de_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=de" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="de" >
+                                        Deutsch ‎(de)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=de_du" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="de" >
+                                        Deutsch (du) ‎(de_du)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=dsb" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="de" >
+                                        Dolnoserbski ‎(dsb)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=mh" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="mh" >
+                                        Ebon ‎(mh)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=et" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="et" >
+                                        eesti ‎(et)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=en_ca" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="en" >
+                                        English (Canada) ‎(en_ca)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=en_kids" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="en" >
+                                        English ‎(en_kids)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=en_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="en" >
+                                        English ‎(en_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=en" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="en" >
+                                        English ‎(en)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=id" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="id" >
+                                        English ‎(id)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=en_ar" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="en" >
+                                        English (pirate) ‎(en_ar)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=en_us_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="en" >
+                                        English (United States) ‎(en_us_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=en_us" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="en" >
+                                        English (United States) ‎(en_us)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=en_us_k12" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="en" >
+                                        English (United States) K12 ‎(en_us_k12)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=es_ar" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="es-ar" >
+                                        Español - Argentina ‎(es_ar)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=es_co" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="es-co" >
+                                        Español - Colombia ‎(es_co)‎
+                                    </a>
+                                    <a href="#" class="dropdown-item ps-5" role="menuitem" aria-current="true"
+                                            >
+                                        Español - Internacional ‎(es)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=es_mx_kids" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="es-mx" >
+                                        Español - México ‎(es_mx_kids)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=es_mx" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="es-mx" >
+                                        Español - México ‎(es_mx)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=es_ve" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="es-ve" >
+                                        Español - Venezuela ‎(es_ve)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=es_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="es" >
+                                        Español ‎(es_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=eo" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="eo" >
+                                        Esperanto ‎(eo)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=eu" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="eu" >
+                                        Euskara ‎(eu)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ee" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ee" >
+                                        Èʋegbe ‎(ee)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=fil" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fil" >
+                                        Filipino ‎(fil)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sv_fi" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sv" >
+                                        Finlandssvenska ‎(sv_fi)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=fo" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fo" >
+                                        Føroyskt ‎(fo)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=fr_ca" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fr" >
+                                        Français (Canada) ‎(fr_ca)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=fr_incl" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fr" >
+                                        Français (écriture inclusive) ‎(fr_incl)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=fr_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fr" >
+                                        Français ‎(fr_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=fr" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fr" >
+                                        Français ‎(fr)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=fr_ca_epi" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fr" >
+                                        Francais Canada – Épicène ‎(fr_ca_epi)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ga" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ga" >
+                                        Gaeilge ‎(ga)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=gd" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="gd" >
+                                        Gàidhlig ‎(gd)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=gl" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="gl" >
+                                        Galego ‎(gl)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=oc_gsc" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="oc_gsc" >
+                                        Gascon ‎(oc_gsc)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ha" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ha" >
+                                        Hausa ‎(ha)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=hsb" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="po" >
+                                        Hornjoserbsce ‎(hsb)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=hr_schools" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="hr" >
+                                        Hrvatski ‎(hr_schools)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=hr" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="hr" >
+                                        Hrvatski ‎(hr)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=haw" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ha" >
+                                        ʻŌlelo Hawaiʻi ‎(haw)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ig" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ig" >
+                                        Igbo ‎(ig)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=xh" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="xh" >
+                                        isiXhosa ‎(xh)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=zu" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="zu" >
+                                        isiZulu ‎(zu)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=is" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="is" >
+                                        Íslenska ‎(is)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=it_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="it" >
+                                        Italiano ‎(it_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=it" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="it" >
+                                        Italiano ‎(it)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ja_kids" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ja" >
+                                        Japanese ‎(ja_kids)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=kl" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="da" >
+                                        Kalaallisut ‎(kl)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=qxr" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="qx" >
+                                        Kichwa - Cañar Highland ‎(qxr)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=rw" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="rw" >
+                                        Kinyarwanda ‎(rw)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sw" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sw" >
+                                        Kiswahili ‎(sw)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=hat" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ht" >
+                                        Kreyòl Ayisyen ‎(hat)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=kmr" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ku" >
+                                        Kurmanji ‎(kmr)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=fkv" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="no" >
+                                        Kvääni ‎(fkv)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=la" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="la" >
+                                        Latin ‎(la)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=lv_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="lv" >
+                                        Latviešu ‎(lv_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=lv" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="lv" >
+                                        Latviešu ‎(lv)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=lb" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="lb" >
+                                        Lëtzebuergesch ‎(lb)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=lt_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="lt" >
+                                        Lietuvių ‎(lt_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=lt" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="lt" >
+                                        Lietuvių ‎(lt)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=lt_uni" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="lt" >
+                                        Lietuvių (universitetas) ‎(lt_uni)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=lg" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="lg" >
+                                        Luganda ‎(lg)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=smj" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="no" >
+                                        Lulesamisk ‎(smj)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=hu" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="hu" >
+                                        magyar ‎(hu)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=mg" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="mg" >
+                                        Malagasy ‎(mg)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=mi_tn" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="mi" >
+                                        Māori - Tainui ‎(mi_tn)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=mi_wwow" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="mi" >
+                                        Māori - Waikato ‎(mi_wwow)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=mi" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="mi" >
+                                        Māori Te Reo ‎(mi)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=arn" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ar" >
+                                        Mapudungún ‎(arn)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=mwl" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="mwl" >
+                                        Mirandés ‎(mwl)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=mn_mong" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="mn" >
+                                        Mongolian ‎(mn_mong)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=nl_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="nl" >
+                                        Nederlands ‎(nl_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=nl" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="nl" >
+                                        Nederlands ‎(nl)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=nb" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="nb" >
+                                        Norsk - bokmål ‎(nb)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=nn" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="no" >
+                                        Norsk - nynorsk ‎(nn)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=no_gr" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="no" >
+                                        Norsk ‎(no_gr)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=no_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="no" >
+                                        Norsk ‎(no_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=no" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="no" >
+                                        Norsk ‎(no)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=uz" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="uz" >
+                                        O&#039;zbekcha ‎(uz)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=oc_lnc" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="oc" >
+                                        Occitan-Lengadocian ‎(oc_lnc)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=pap" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="pa" >
+                                        Papiamento ‎(pap)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=pcm" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="pc" >
+                                        Pidgin ‎(pcm)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=pl" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="pl" >
+                                        Polski ‎(pl)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=pt_br_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="pt-br" >
+                                        Português - Brasil ‎(pt_br_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=pt_br" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="pt-br" >
+                                        Português - Brasil ‎(pt_br)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=pt" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="pt" >
+                                        Português - Portugal ‎(pt)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=kaa" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ka" >
+                                        Qaraqalpaq tili ‎(kaa)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=qu" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="qu" >
+                                        Quechua ‎(qu)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ro_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ro" >
+                                        Română ‎(ro_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ro" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ro" >
+                                        Română ‎(ro)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=rm_surs" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="rm" >
+                                        Romansh Sursilvan ‎(rm_surs)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sm" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sm" >
+                                        Samoan ‎(sm)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sa" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sa" >
+                                        Sanskrit ‎(sa)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sc" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sc" >
+                                        Sard ‎(sc)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=tn" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="tn" >
+                                        Setswana ‎(tn)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sq" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sq" >
+                                        Shqip ‎(sq)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=scn" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sc" >
+                                        Sicilianu ‎(scn)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=szl" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sz" >
+                                        Ślōnski ‎(szl)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sk" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sk" >
+                                        Slovenčina ‎(sk)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sl" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sl" >
+                                        Slovenščina ‎(sl)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=so" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="in" >
+                                        Soomaali ‎(so)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sma" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="no" >
+                                        Sørsamisk ‎(sma)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sr_lt" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sr" >
+                                        Srpski ‎(sr_lt)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=fi" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fi" >
+                                        Suomi ‎(fi)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=fi_co" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fi" >
+                                        Suomi+ ‎(fi_co)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sv_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sv" >
+                                        Svenska ‎(sv_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sv" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sv" >
+                                        Svenska ‎(sv)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=tl" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="tl" >
+                                        Tagalog ‎(tl)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ta" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ta" >
+                                        Tamil ‎(ta)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=kab" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ka" >
+                                        Taqbaylit ‎(kab)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=tet" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="tet" >
+                                        Tetun Dili ‎(tet)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=th" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="th" >
+                                        Thai ‎(th)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=xct" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="xc" >
+                                        Tibetan ‎(xct)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=tpi" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="tpi" >
+                                        Tok Pisin ‎(tpi)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=to" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="to" >
+                                        Tongan ‎(to)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=tr" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="tr" >
+                                        Türkçe ‎(tr)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=tk" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="tk" >
+                                        Turkmen ‎(tk)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ug_lt" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ug" >
+                                        Uyghur - latin ‎(ug_lt)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=fj" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fj" >
+                                        VakaViti ‎(fj)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ca_valencia_racv" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ca" >
+                                        Valencià_RACV ‎(ca_valencia_racv)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=vi" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="vi" >
+                                        Vietnamese ‎(vi)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=wo" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fr" >
+                                        Wolof ‎(wo)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=zh_cn_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="zh" >
+                                        Workplace 简体中文版 ‎(zh_cn_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=zh_tw_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="zh" >
+                                        Workplace 繁體中文版 ‎(zh_tw_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ja_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ja" >
+                                        Workplace準拠の日本語 ‎(ja_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=yo" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="yo" >
+                                        Yorùbá ‎(yo)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=el_kids" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="el" >
+                                        Ελληνικά ‎(el_kids)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=el_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="el" >
+                                        Ελληνικά ‎(el_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=el" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="el" >
+                                        Ελληνικά ‎(el)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=el_uni" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="el" >
+                                        Ελληνικά για σχολές ‎(el_uni)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ab" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ab" >
+                                        Аԥсуа бызшәа ‎(ab)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ba" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ba" >
+                                        Башҡорт теле ‎(ba)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=be" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="be" >
+                                        Беларуская ‎(be)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=bg" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="bg" >
+                                        Български ‎(bg)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ky" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ru" >
+                                        Кыргызча ‎(ky)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=kk" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="kk" >
+                                        Қазақша ‎(kk)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=mk" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="mk" >
+                                        Македонски ‎(mk)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=mn" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="mn" >
+                                        Монгол ‎(mn)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ru" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ru" >
+                                        Русский ‎(ru)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sr_cr" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sr" >
+                                        Српски ‎(sr_cr)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=tt" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="tt" >
+                                        Татар ‎(tt)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=tg" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="tg" >
+                                        Тоҷикӣ ‎(tg)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=uk" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="uk" >
+                                        Українська ‎(uk)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ka" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ka" >
+                                        ქართული ‎(ka)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=hy" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="hy" >
+                                        Հայերեն ‎(hy)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=he" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="he" >
+                                        עברית ‎(he)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=he_kids" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="he" >
+                                        עברית בתי־ספר ‎(he_kids)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=he_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="he" >
+                                        עברית עבור Workplace ‎(he_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ug_ug" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ug" >
+                                        ئۇيغۇرچە ‎(ug_ug)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ur" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ur" >
+                                        اردو ‎(ur)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ar" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ar" >
+                                        العربية ‎(ar)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ar_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ar" >
+                                        بالعربي workplace ‎(ar_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=prs" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fa" >
+                                        دری ‎(prs)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=sd_ap" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="sd" >
+                                        سنڌي ‎(sd_ap)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ckb" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ku" >
+                                        سۆرانی ‎(ckb)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=fa" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="fa" >
+                                        فارسی ‎(fa)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ps" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ps" >
+                                        لیسي ‎(ps)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=dv" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="dv" >
+                                        ދިވެހި ‎(dv)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=zgh" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="zg" >
+                                        ⵜⴰⵎⴰⵣⵉⵖⵜ ‎(zgh)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ti" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ti" >
+                                        ትግርኛ ‎(ti)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ne" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ne" >
+                                        नेपाली ‎(ne)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=mr" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="mr" >
+                                        मराठी ‎(mr)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=hi_wp" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="hi" >
+                                        वर्कप्लेस  के लिए  हिंदी ‎(hi_wp)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=hi_kids" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="hi" >
+                                        हिंदी ‎(hi_kids)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=hi" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="hi" >
+                                        हिंदी ‎(hi)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=bn" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="bn" >
+                                        বাংলা ‎(bn)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=pan" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="pa" >
+                                        ਪੰਜਾਬੀ ‎(pan)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=gu" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="gu" >
+                                        ગુજરાતી ‎(gu)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=or" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="or" >
+                                        ଓଡ଼ିଆ ‎(or)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ta_lk" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ta" >
+                                        தமிழ் ‎(ta_lk)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=te" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="te" >
+                                        తెలుగు  ‎(te)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=kn" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="kn" >
+                                        ಕನ್ನಡ ‎(kn)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ml" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ml" >
+                                        മലയാളം ‎(ml)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=si" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="si" >
+                                        සිංහල ‎(si)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=lo" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="lo" >
+                                        ລາວ ‎(lo)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=dz" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="dz" >
+                                        རྫོང་ཁ ‎(dz)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=my" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="my" >
+                                        ဗမာစာ ‎(my)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=km" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="km" >
+                                        ខ្មែរ ‎(km)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=iu" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="iu" >
+                                        ᐃᓄᒃᑎᑐᑦ ‎(iu)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ko" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ko" >
+                                        한국어 ‎(ko)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=ja" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="ja" >
+                                        日本語 ‎(ja)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=zh_tw" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="zh" >
+                                        正體中文 ‎(zh_tw)‎
+                                    </a>
+                                    <a href="https://moodle.org/demo/?lang=zh_cn" class="dropdown-item ps-5" role="menuitem" 
+                                            lang="zh" >
+                                        简体中文 ‎(zh_cn)‎
+                                    </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider border-left h-75 align-self-center mx-1"></div>
+            
+            <div class="d-flex align-items-stretch usermenu-container" data-region="usermenu">
+                    <div class="usermenu">
+                            <span class="login ps-2">
+                                    <a href="https://moodle.org/login/index.php">Acceder</a>
+                            </span>
+                    </div>
+            </div>
+            
+        </div>
+    </nav>
+    
+    
+
+<div  class="drawer drawer-left drawer-primary d-print-none not-initialized" data-region="fixed-drawer" id="theme_boost-drawers-primary" data-preference="" data-state="show-drawer-primary" data-forceopen="0" data-close-on-resize="1">
+    <div class="drawerheader">
+        <button
+            class="btn btn-icon drawertoggle hidden"
+            data-toggler="drawers"
+            data-action="closedrawer"
+            data-target="theme_boost-drawers-primary"
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            title="Cerrar caja"
+        >
+            <i class="icon fa fa-xmark fa-fw " aria-hidden="true"  ></i>
+        </button>
+        <a
+            href="https://moodle.org/"
+            title=""
+            data-region="site-home-link"
+            class="aabtn text-reset d-flex align-items-center py-1 h-100 d-md-none"
+        >
+                        <span class="sitename" title=""></span>
+
+        </a>
+        <div class="drawerheadercontent hidden">
+            
+        </div>
+    </div>
+    <div class="drawercontent drag-container" data-usertour="scroller">
+                <div class="list-group">
+                <a href="https://moodle.org/" class="list-group-item list-group-item-action active " aria-current="true">
+                    Página Principal
+                </a>
+        </div>
+
+    </div>
+</div>
+
+    <div id="page" data-region="mainpage">
+        <div id="page-content" class="container">
+            <div role="main"><span id="maincontent"></span></div>
+            <div class="container">
+                <header id="page-header">
+                    <h1 class="brandheader my-3">Try Moodle</h1>
+                    <p class="lead">Have fun with Moodle. Try it in our demo university or in the sandbox environment.</p>
+                    <p>Each demo site is reset to its blank state every hour, on the hour.
+                    Other people may be using the demo site at the same time as you; this can result in unexpected things happening.
+                    We cannot be held responsible for any content added to a demo site by other site users.</p>
+                </header>
+                <div class="row my-5">
+                    <div class="col-md-6 text-center">
+                        <a href="https://school.moodledemo.net/">
+                            <img src="https://moodle.org/theme/image.php/moodleorg/theme_moodleorg/1745837349/demo/schooldemo" alt="Mount Orange School icon"  class="rounded-circle" style="max-width: 150px" />
+                        </a>
+                        <div class="mt-3">
+                            <a class="btn btn-arrow mb-2" href="https://school.moodledemo.net/">
+                                <span>Mount Orange University</span>
+                            </a>
+                        </div>
+                        <p>Explore Moodle in action on this site populated with courses, activities and users.</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <a href="https://sandbox.moodledemo.net/">
+                            <img src="https://moodle.org/theme/image.php/moodleorg/theme_moodleorg/1745837349/demo/sandbox" alt="Moodle Sandbox icon" class="rounded-circle img-fluid" style="max-width: 150px" />
+                        </a>
+                        <div class="mt-3">
+                            <a class="btn btn-arrow mb-2" href="https://sandbox.moodledemo.net/">
+                                <span>Moodle Sandbox</span>
+                            </a>
+                        </div>
+                        <p>Try Moodle's standard features on this empty out-of-the-box site.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="page-footer" class="footer-popover bg-white">
+        <div data-region="footer-container-popover">
+            <button class="btn btn-icon bg-secondary icon-no-margin btn-footer-popover" data-action="footer-popover" aria-label="Mostrar pie de página">
+                <i class="icon fa fa-question fa-fw " aria-hidden="true"  ></i>
+            </button>
+        </div>
+            <p class="translationhash"><span data-translationhash="af82b40a0d5fec0b5f0c4f448f201e05"></span></p>
+<div class="footer-dark text-light brand-footer" dir="LTR">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 col-lg-4 col-xl-4 d-none d-md-flex flex-md-row flex-lg-column align-items-center order-md-last order-lg-0 mt-md-3 mt-lg-0">
+<div class="d-flex flex-md-column"><a href="https://moodle.com/"><img class="logo" src="https://stats.moodle.org/theme/moodleorg/pix/logo-footer.svg" alt="Logo"></a> <a href="https://moodle.com/bcorp/"><img class="logo" title="This company meets the highest standards of social and environmental impact" src="https://stats.moodle.org/theme/moodleorg/pix/b-corp-footer.png" alt="This company meets the highest standards of social and environmental impact"></a></div>
+<div class="bg-transparent border-0 d-flex mt-5 mt-md-1 ml-md-10 ml-lg-0 donations">
+<div>
+<h5 class="text-white line-height-4 mb-2 ">Empowering educators to improve our world</h5>
+<div class="card-text d-flex flex-md-row flex-lg-column"><a class="btn btn-arrow mr-md-5" href="https://moodle.org/donations/"> Donate </a> <a class="btn btn-arrow" href="https://moodle.com/shop/"> Shop </a></div>
+</div>
+</div>
+</div>
+<div class="col-md-12 col-lg-8 col-xl-8 order-md-first order-lg-0">
+<div class="card-deck d-flex flex-column flex-md-row">
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Moodle <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="https://docs.moodle.org/400/en/About_Moodle">About Moodle</a></li>
+<li><a href="https://moodle.org/security/">Security alerts</a></li>
+<li><a href="https://stats.moodle.org/">Statistics</a></li>
+<li><a href="https://moodle.org/mod/page/view.php?id=8191">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Support <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="https://docs.moodle.org/">Documentation</a></li>
+<li><a href="https://moodle.org/forums/">Forums</a></li>
+<li><a href="https://moodle.com/solutions/certified-service-providers/">Service Providers</a></li>
+<li><a href="https://moodle.org/mod/data/view.php?d=54">Jobs database</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Get Involved <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="https://moodledev.io/general/development/gettingstarted">Development</a></li>
+<li><a href="https://moodle.org/plugins/?q=type:theme">Themes</a></li>
+<li><a href="https://lang.moodle.org/">Translation</a></li>
+<li><a href="https://moodle.org//mod/page/view.php?id=8749">User Experience</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Contributions <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="https://moodle.org/dev/">Developer credits</a></li>
+<li><a href="https://lang.moodle.org/local/amos/credits.php">Translator credits</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Downloads <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="https://download.moodle.org/releases/latest/">Latest release</a></li>
+<li><a href="https://moodle.org/plugins/">Plugins</a></li>
+<li><a href="https://download.moodle.org/mobile/">Moodle App</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Tracker <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="https://tracker.moodle.org/browse/MDL">Browse issues</a></li>
+<li><a href="https://moodle.org/mod/page/view.php?id=8751">Suggest a feature</a></li>
+<li><a href="https://moodle.org/mod/page/view.php?id=8750">Report a bug</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Development <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="https://moodledev.io/">Dev Docs</a></li>
+<li><a href="https://moodledev.io/general/community/roadmap">Roadmap</a></li>
+<li><a href="https://moodle.org/mod/forum/view.php?id=55">Developer forum</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0 d-flex d-md-none flex-column footer-logo mt-6 mx-auto">
+<div class="inner-card-body pl-1">
+<h5 class="text-white line-height-4 mb-2">Empowering educators to improve our world</h5>
+<div class="card-text d-flex"><a class="btn btn-arrow mr-4" href="https://moodle.org/donations/"> Donate </a> <a class="btn btn-arrow d-flex" href="https://moodle.com/shop/"> Shop </a></div>
+</div>
+</div>
+<div class="social-icons-block mb-6 mt-7 d-flex d-md-none mx-auto"><a class="facebook social-icon mr-6" href="https://www.facebook.com/moodle/" aria-label="Go to Facebook"> <img src="https://stats.moodle.org/theme/moodleorg/pix/social/m_facebook.svg" width="32" height="32"> </a> <a class="linkedin social-icon mr-6" title="Go to LinkedIn" href="https://www.linkedin.com/company/moodle"> <img src="https://stats.moodle.org/theme/moodleorg/pix/social/m_linkedin.svg" width="32" height="32"> </a> <a class="twitter social-icon mr-6" title="Go to Twitter" href="https://twitter.com/moodle"> <img src="https://stats.moodle.org/theme/moodleorg/pix/social/m_twitter.svg" width="32" height="32"> </a> <a class="youtube social-icon mr-6" title="Go to Youtube" href="https://www.youtube.com/moodle"> <img src="https://stats.moodle.org/theme/moodleorg/pix/social/m_youtube.svg" width="32" height="32"> </a></div>
+<a class="d-flex d-md-none mb-6 ml-n3" href="https://moodle.com/bcorp/"><img class="logo mx-auto" title="This company meets the highest standards of social and environmental impact" src="https://stats.moodle.org/theme/moodleorg/pix/b-corp-footer.png" alt="This company meets the highest standards of social and environmental impact" width="204" height="104"></a></div>
+</div>
+</div>
+<hr class="my-5 d-none d-lg-flex ml-lg-9 d-md-none row" style="border-top: 1px solid #476d85;" width="90%"><hr class="my-5 d-none d-lg-none ml-lg-9 d-md-flex row" width="100%">
+<div class="row ml-4 ml-lg-7 pl-lg-5 ml-md-n3">
+<div class="col-md-3 col-lg-2 link text-small "><a href="https://moodle.org/mod/page/view.php?id=8753&amp;forceview=1">Accessibility Statement</a></div>
+<div class="col-md-2 col-lg-2 link text-small ml-lg-5"><a href="https://moodle.com/cookies-policy/">Cookies Policy</a></div>
+<div class="col-md-2 col-lg-2 link text-small ml-lg-n3"><a href="https://moodle.org/mod/page/view.php?id=7080&amp;forceview=1">Site Policy</a></div>
+<div class="col-md-2 col-lg-2 link text-small ml-lg-n5 "><a class="ml-lg-n2" href="https://moodle.com/privacy-notice/">Privacy Notice</a></div>
+<div class="col-md-3 col-lg-2 link text-small ml-lg-n4"><a href="https://moodle.com/trademarks/">Trademark Policy</a></div>
+<div class="social-icons-block d-none d-md-flex mt-md-5 mt-lg-0 ml-md-3"><a class="facebook social-icon" href="https://www.facebook.com/moodle/" aria-label="Go to Facebook"> <img src="https://stats.moodle.org/theme/moodleorg/pix/social/old/facebook.svg" width="20" height="20"> </a> <a class="linkedin social-icon" title="Go to LinkedIn" href="https://www.linkedin.com/company/moodle"> <img src="https://stats.moodle.org/theme/moodleorg/pix/social/old/linkedin.svg" width="20" height="20"> </a> <a class="twitter social-icon" title="Go to Twitter" href="https://twitter.com/moodle"> <img src="https://stats.moodle.org/theme/moodleorg/pix/social/old/twitter.svg" width="20" height="20"> </a> <a class="youtube social-icon" title="Go to Youtube" href="https://www.youtube.com/moodle"> <img src="https://stats.moodle.org/theme/moodleorg/pix/social/old/youtube.svg" width="20" height="20"> </a></div>
+</div>
+</div>
+</div>
+    
+        <div class="footer-content-popover container footer-dark bg-dark text-light" data-region="footer-content-popover">
+                <div class="footer-section p-3 border-bottom">
+                        <div><a href="https://docs.moodle.org/500/es/demo/index"><i class="icon fa fa-book fa-fw " aria-hidden="true"  ></i>Documentación para esta página</a></div>
+    
+    
+                        <div><a href="https://moodle.org/contact" target="blank"><i class="icon fa-regular fa-envelope fa-fw " aria-hidden="true"  ></i>Contactar con el soporte del sitio<i class="icon fa fa-arrow-up-right-from-square fa-fw ms-1" aria-hidden="true"  ></i></a></div>
+                </div>
+            <div class="footer-section p-3 border-bottom">
+                <div class="logininfo">
+                    <div class="logininfo">Usted no se ha identificado. (<a href="https://moodle.org/login/index.php">Acceder</a>)</div>
+                </div>
+                <div class="tool_usertours-resettourcontainer">
+                </div>
+    
+                <div class="policiesfooter"><a href="https://moodle.org/admin/tool/policy/viewall.php?returnurl=https%3A%2F%2Fmoodle.org%2Fdemo%2F">Políticas</a></div><div><a class="mobilelink" href="https://download.moodle.org/mobile?version=2025041400&amp;lang=es&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile&amp;siteurl=https%3A%2F%2Fmoodle.org">Descargar la app para dispositivos móviles</a></div>
+                <script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://moodle.org/lib/requirejs.php/1745837349/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://moodle.org/lib/javascript.php/1745837349/lib/jquery/jquery-3.7.1.min',
+        jqueryui: 'https://moodle.org/lib/javascript.php/1745837349/lib/jquery/ui-1.14.1/jquery-ui.min',
+        jqueryprivate: 'https://moodle.org/lib/javascript.php/1745837349/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://moodle.org/lib/javascript.php/1745837349/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");
+require(['core/first'], function() {
+require(['core/prefetch'])
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('es');
+});;
+M.util.js_pending('filter_mathjaxloader/loader'); require(['filter_mathjaxloader/loader'], function(amd) {amd.configure({"mathjaxurl":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@3.2.2\/es5\/tex-mml-chtml.js","mathjaxconfig":"","lang":"es"}); M.util.js_complete('filter_mathjaxloader/loader');});;
+M.util.js_pending('filter_glossary/autolinker'); require(['filter_glossary/autolinker'], function(amd) {amd.init(); M.util.js_complete('filter_glossary/autolinker');});;
+
+require(['jquery'], function($) {
+    $(document).ready(function() {
+
+        var fluid = function() {
+            if ($(window).width() >= 992) {
+                $("#usernavigation").appendTo(".secondary-nav");
+                $('#usernavigation').removeClass('nav-mobile');
+               $(".sites-nav").addClass('d-none');
+               $('.navbar-nav').show();
+            } else {
+                $("#usernavigation").appendTo("#moodlesitestopnavbar");
+                $('#usernavigation').addClass('nav-mobile');
+                $("#usernavigation").show();
+            }
+        };
+
+        $('.moodle_sites').on('click', function() {
+        
+            $(".sites-nav").removeClass('d-none');
+            $('.navbar-nav').hide();
+            $(".sites-nav").show();
+            fluid();
+        });
+
+        $('.sites-nav .back').on('click', function() {
+        
+            $(".sites-nav").addClass('d-none');
+            $('.navbar-nav').show();
+            $(".sites-nav").hide();
+            fluid();
+        });
+
+        // Fire on DOM ready
+        fluid();
+
+        // Fire upon resize
+        $(window).resize(fluid);
+
+    });
+});
+;
+
+require(
+[
+    'jquery',
+],
+function(
+    $
+) {
+    const container = document.getElementById('searchform-navbar');
+    const opensearch = container.parentElement.querySelector('[data-action="opensearch"]');
+    const input = container.querySelector('[data-region="input"]');
+    const submit = container.querySelector('[data-action="submit"]');
+
+    submit.addEventListener('click', (e) => {
+        if (input.valUE === '') {
+            e.preventDefault();
+        }
+    });
+
+    container.addEventListener('hidden.bs.collapse', () => {
+        opensearch.classList.remove('d-none');
+        input.value = '';
+    });
+
+    container.addEventListener('show.bs.collapse', () => {
+        opensearch.classList.add('d-none');
+    });
+
+    container.addEventListener('shown.bs.collapse', () => {
+        input.focus();
+    });
+});
+;
+
+require(
+[
+    'jquery',
+],
+function(
+    $
+) {
+    const container = document.getElementById('searchform-navbar');
+    const opensearch = container.parentElement.querySelector('[data-action="opensearch"]');
+    const input = container.querySelector('[data-region="input"]');
+    const submit = container.querySelector('[data-action="submit"]');
+
+    submit.addEventListener('click', (e) => {
+        if (input.valUE === '') {
+            e.preventDefault();
+        }
+    });
+
+    container.addEventListener('hidden.bs.collapse', () => {
+        opensearch.classList.remove('d-none');
+        input.value = '';
+    });
+
+    container.addEventListener('show.bs.collapse', () => {
+        opensearch.classList.add('d-none');
+    });
+
+    container.addEventListener('shown.bs.collapse', () => {
+        input.focus();
+    });
+});
+;
+
+    require(['core/usermenu'], function(UserMenu) {
+        UserMenu.init();
+    });
+;
+
+M.util.js_pending('theme_boost/drawers:load');
+require(['theme_boost/drawers'], function() {
+    M.util.js_complete('theme_boost/drawers:load');
+});
+;
+
+require(['jquery'], function($) {
+    $(document).ready(function() {
+        $('.footer-dark .card-title').on('click', function() {
+            if ($(window).width() < 754) {
+                $(this).next().toggle('1000');
+                $(this).find('i').toggleClass('fa-minus fa-plus');
+            }
+        });
+    });
+});
+
+require(['theme_boost/footer-popover'], function(FooterPopover) {
+    FooterPopover.init();
+});
+;
+
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader', 'theme_boost/drawer'], function(Loader, Drawer) {
+    Drawer.init();
+    M.util.js_complete('theme_boost/loader');
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(50, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;
+M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});;
+M.util.js_pending('core/storage_validation'); require(['core/storage_validation'], function(amd) {amd.init(null); M.util.js_complete('core/storage_validation');});
+    M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima modificaci\u00f3n","name":"Nombre","error":"Error","info":"Informaci\u00f3n","yes":"S\u00ed","no":"No","cancel":"Cancelar","confirm":"Confirmar","areyousure":"\u00bfEst\u00e1 seguro?","closebuttontitle":"Cerrar","unknownerror":"Error desconocido","file":"Archivo","url":"URL","collapseall":"Colapsar todo","expandall":"Expandir todo"},"repository":{"type":"Tipo","size":"Tama\u00f1o","invalidjson":"Cadena JSON no v\u00e1lida","nofilesattached":"No se han adjuntado archivos","filepicker":"Selector de archivos","logout":"Salir","nofilesavailable":"No hay archivos disponibles","norepositoriesavailable":"Lo sentimos, ninguno de sus repositorios actuales puede devolver archivos en el formato solicitado.","fileexistsdialogheader":"El archivo existe","fileexistsdialog_editor":"Un archivo con ese nombre ha sido anexado al texto que Usted est\u00e1 editando","fileexistsdialog_filemanager":"Ya ha sido anexado un archivo con ese nombre","renameto":"Cambiar el nombre a \"{$a}\"","referencesexist":"Existen {$a} enlaces a este archivo","select":"Seleccionar"},"admin":{"confirmdeletecomments":"\u00bfSeguro que quiere eliminar el\/los comentario(s) seleccionados?","confirmation":"Confirmaci\u00f3n"},"debug":{"debuginfo":"Informaci\u00f3n de depuraci\u00f3n","line":"L\u00ednea","stacktrace":"Trazado de la pila (stack)"},"langconfig":{"labelsep":":"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {M.util.help_popups.setup(Y);
+ M.util.js_pending('random6810ac9a2af344'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6810ac9a2af344'); });
+})();
+//]]>
+</script>
+
+            </div>
+            <div class="footer-section p-3">
+                <div>Desarrollado por <a href="https://moodle.com">Moodle</a></div>
+            </div>
+        </div>
+    
+        <div class="footer-content-debugging footer-dark bg-dark text-light">
+            <div class="container-fluid footer-dark-inner">
+                
+            </div>
+        </div>
+    </footer>
+</div>
+
+</div>
+
+
+</body></html>

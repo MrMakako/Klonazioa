@@ -1,0 +1,999 @@
+﻿<!DOCTYPE html>
+
+<html dir="ltr" lang="en" xml:lang="en">
+<head>
+   <title>Home | stats.moodle.org</title>
+    <link rel="shortcut icon" sizes="64x64" href="https://stats.moodle.org/theme/moodleorg/pix/favicons/favicon.ico">
+<link rel="icon" href="https://stats.moodle.org/theme/moodleorg/pix/favicons/favicon-32.webp" sizes="32x32">
+<link rel="icon" href="https://stats.moodle.org/theme/moodleorg/pix/favicons/favicon-192.webp" sizes="192x192">
+<link rel="apple-touch-icon" href="https://stats.moodle.org/theme/moodleorg/pix/favicons/favicon-180.webp">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="https://stats.moodle.org/theme/moodleorg/pix/favicons/favicon-270.png">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script><meta property="og:url" content="https://stats.moodle.org/">
+<meta property="twitter:url" content="https://stats.moodle.org/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Home | stats.moodle.org">
+<meta property="og:image" content="https://stats.moodle.org/theme/moodleorg/pix/moodle_logo_tm.png">
+<meta property="og:image:secure_url" content="https://stats.moodle.org/theme/moodleorg/pix/moodle_logo_tm.png">
+<meta property="twitter:image" content="https://stats.moodle.org/theme/moodleorg/pix/moodle_logo_tm.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="moodle, Home | stats.moodle.org">
+<link rel="stylesheet" type="text/css" href="https://stats.moodle.org/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css"><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://stats.moodle.org/theme/styles.php/moodleorg/1745325711_1745325646/all">
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/stats.moodle.org","apibase":"https:\/\/stats.moodle.org\/r.php\/api","homeurl":{},"sesskey":"z65bqanzny","sessiontimeout":"7200","sessiontimeoutwarning":1200,"themerev":"1745325711","slasharguments":1,"theme":"moodleorg","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1745325490","admin":"admin","svgicons":true,"usertimezone":"Australia\/Perth","language":"en","courseId":1,"courseContextId":2,"contextid":2,"contextInstanceId":1,"langrev":1745325490,"templaterev":"1745325490","siteId":1,"userId":0};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/stats.moodle.org\/lib\/yuilib\/3.18.1\/","comboBase":"https:\/\/stats.moodle.org\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/stats.moodle.org\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/stats.moodle.org\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/stats.moodle.org\/theme\/yui_combo.php?m\/1745325490\/","combine":true,"comboBase":"https:\/\/stats.moodle.org\/theme\/yui_combo.php?","ext":false,"root":"m\/1745325490\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form","datatype-date-format"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]}}},"gallery":{"name":"gallery","base":"https:\/\/stats.moodle.org\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/stats.moodle.org\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1745325490\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/stats.moodle.org\/lib\/javascript.php\/1745325490\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/stats.moodle.org\/lib\/javascript.php\/1745325490\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}},"logInclude":[],"logExclude":[],"logLevel":null};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WFL2RF4G');</script>
+<!-- End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body id="page-site-index" class="limitedwidth format-site course path-site dir-ltr lang-en yui-skin-sam yui3-skin-sam stats-moodle-org pagelayout-frontpage course-1 context-2 notloggedin theme ">
+<div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+<div id="page-wrapper" class="d-print-block">
+
+    <div>
+    <a class="visually-hidden-focusable" href="#maincontent">Skip to main content</a>
+</div><script src="https://stats.moodle.org/lib/javascript.php/1745325490/lib/polyfills/polyfill.js"></script>
+<script src="https://stats.moodle.org/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js"></script><script src="https://stats.moodle.org/lib/javascript.php/1745325490/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFL2RF4G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav id="moodlesitestopnavbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-white border-0 justify-content-start" style="z-index: 1040;" dir="ltr">
+    <div class="waffle-menu">
+        <a href="index.htm" class="navbar-brand position-lg-fixed d-none d-lg-flex align-items-center m-0 p-0 aabtn">
+            <img src="https://stats.moodle.org/theme/moodleorg/pix/moodle_logo_TM.svg" class="logo mr-1" height="42px" alt="stats.moodle.org home">
+        </a>
+        <button class="navbar-toggler mt-2 mr-2" type="button" data-toggle="collapse" data-target="#sitetopnavbar" aria-controls="sitetopnavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon ml-2"></span>
+        </button>
+    </div>
+
+    <a href="index.htm">
+    <img src="https://stats.moodle.org/theme/moodleorg/pix/moodle_logo_TM.svg" class="d-lg-none mt-2" height="32px" alt="Moodle.org" style="margin-left: 1rem;">
+    </a>
+
+
+    <div class="collapse navbar-collapse justify-content-end mt-2" id="sitetopnavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item Forums">
+                <a class="nav-link " href="course/index.htm"><span>Forums</span></a>
+            </li>
+            <li class="nav-item documentation">
+                <a class="nav-link" href="500/en/Main_page.html"><span>Documentation</span></a>
+            </li>
+            <li class="nav-item download">
+                <a class="nav-link " href="index-1.htm"><span>Downloads</span></a>
+            </li>
+            <li class="nav-item demo">
+                <a class="nav-link " href="demo.html"><span>Demo</span></a>
+            </li>
+            <li class="nav-item tracker">
+                <a class="nav-link" href="https://tracker.moodle.org"><span>Tracker</span></a>
+            </li>
+            <li class="nav-item development">
+                <a class="nav-link" href="index-2.htm"><span>Development</span></a>
+            </li>
+            <li class="nav-item translation">
+                <a class="nav-link " href="index-3.htm"><span>Translation</span></a>
+            </li>
+            <li class="nav-item search d-none d-lg-flex">
+                <a class="nav-link icon-no-margin" href="public/search.html"><span class="sr-only">Search</span>
+                    <i class="fa fa-search icon"></i>
+                </a>
+            </li>
+
+            <hr height="8px">
+            <li class="nav-item search-mob d-flex d-lg-none">
+                <a class="nav-link icon-no-margin" href="public/search.html">
+                    <i class="fa fa-search icon mr-2"></i>
+                    Search
+                </a>
+            </li>
+            <li class="nav-item search d-flex d-lg-none">
+                <a class="moodle_sites nav-link icon-no-margin">
+                    <svg width="18" height="18" viewbox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="3" cy="3.5" r="3" fill="#194866"></circle>
+                        <circle cx="3" cy="11.5" r="3" fill="#194866"></circle>
+                        <circle cx="3" cy="19.5" r="3" fill="#194866"></circle>
+                        <circle cx="11" cy="3.5" r="3" fill="#194866"></circle>
+                        <circle cx="11" cy="11.5" r="3" fill="#194866"></circle>
+                        <circle cx="11" cy="19.5" r="3" fill="#194866"></circle>
+                        <circle cx="19" cy="3.5" r="3" fill="#194866"></circle>
+                        <circle cx="19" cy="11.5" r="3" fill="#194866"></circle>
+                        <circle cx="19" cy="19.5" r="3" fill="#194866"></circle>
+                    </svg>
+                    <span class="mx-2 ">Other Moodle sites <img class="ml-5 mt-n1" src="https://stats.moodle.org/theme/moodleorg/pix/arrow-r.svg" width="10" height="10">
+                    </span>
+                </a>
+            </li>
+            <div class="d-none d-lg-flex">
+            
+            <li class="nav-item menu">
+                <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" aria-haspopup="true" aria-label="Other Moodle sites" aria-controls="dropdown-popup" title="Other Moodle sites">
+                    <svg width="22" height="23" viewbox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="3" cy="3.5" r="3" fill="#194866"></circle>
+                        <circle cx="3" cy="11.5" r="3" fill="#194866"></circle>
+                        <circle cx="3" cy="19.5" r="3" fill="#194866"></circle>
+                        <circle cx="11" cy="3.5" r="3" fill="#194866"></circle>
+                        <circle cx="11" cy="11.5" r="3" fill="#194866"></circle>
+                        <circle cx="11" cy="19.5" r="3" fill="#194866"></circle>
+                        <circle cx="19" cy="3.5" r="3" fill="#194866"></circle>
+                        <circle cx="19" cy="11.5" r="3" fill="#194866"></circle>
+                        <circle cx="19" cy="19.5" r="3" fill="#194866"></circle>
+                    </svg>
+                </a>
+            
+                <div class="dropdown-menu dropdown-menu-end" id="dropdown-popup">
+                    <div class="p-3 pathways">
+                        <div class="pb-1 heading">What are you looking for?</div>
+                        <hr>
+                        <p>
+                            Learn about Moodle's products, like Moodle LMS or Moodle Workplace, or find a Moodle Certified Service Provider.<br>
+                            <br>
+                            <a href="https://moodle.com">Moodle.com <i class="fa fa-long-arrow-right icon"></i></a>
+                        </p>
+                        <hr>
+                        <p>
+                             Our social network to share and curate open educational resources.<br>
+                            <br>
+                            <a href="index-4.htm">MoodleNet <i class="fa fa-long-arrow-right icon"></i></a>
+                        </p>
+                        <hr>
+                        <p>
+                            Courses and programs to develop your skills as a Moodle educator, administrator, designer or developer.<br>
+                            <br>
+                            <a href="index-5.htm">Moodle Academy <i class="fa fa-long-arrow-right icon"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            
+            </div>
+        </ul>
+        <ul class="sites-nav navbar-nav d-none">
+        <img class="ml-n1 back" src="https://stats.moodle.org/theme/moodleorg/pix/arrow-left.svg" width="24" height="24">
+           <div class="pt-2 pathways">
+            <p>
+                <a href="https://moodle.com">Moodle.com</a>
+                <br>
+                Learn about Moodle's products, like Moodle LMS or Moodle Workplace, or find a Moodle Certified Service Provider.<br>
+            </p>
+            <hr>
+            <p>
+                <a href="index-4.htm">MoodleNet</a>
+                <br>
+                Our social network to share and curate open educational resources.<br>
+            </p>
+            <hr>
+            <p>
+                <a href="index-5.htm">Moodle Academy</a>
+                <br>
+                Courses and programs to develop your skills as a Moodle educator, administrator, designer or developer.<br>
+            </p>
+        </div>
+        </ul>
+
+    </div>
+
+
+</nav>
+
+
+    
+    
+
+<div class="drawer drawer-left drawer-primary d-print-none not-initialized" data-region="fixed-drawer" id="theme_boost-drawers-primary" data-preference="" data-state="show-drawer-primary" data-forceopen="0" data-close-on-resize="1">
+    <div class="drawerheader">
+        <button class="btn btn-icon drawertoggle hidden" data-toggler="drawers" data-action="closedrawer" data-target="theme_boost-drawers-primary" data-bs-toggle="tooltip" data-bs-placement="right" title="Close drawer">
+            <i class="icon fa fa-xmark fa-fw " aria-hidden="true"></i>
+        </button>
+        <a href="index-6.htm" title="stats.moodle.org" data-region="site-home-link" class="aabtn text-reset d-flex align-items-center py-1 h-100 d-md-none">
+                        <span class="sitename" title="stats.moodle.org">stats.moodle.org</span>
+
+        </a>
+        <div class="drawerheadercontent hidden">
+            
+        </div>
+    </div>
+    <div class="drawercontent drag-container" data-usertour="scroller">
+                <div class="list-group">
+                <a href="index-6.htm" class="list-group-item list-group-item-action active " aria-current="true">
+                    Home
+                </a>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+    <div id="page" data-region="mainpage" style="margin-top: 50px !important;">
+    
+
+        <div class="main-inner">
+            <div id="page-content" class="container">
+                <div id="region-main-box">
+                    <section id="region-main" class="bg-transparent" aria-label="Content">
+                        <span class="notifications" id="user-notifications"></span>
+                        <div role="main"><span id="maincontent"></span><div id="statsfrontpage">
+
+    <h1 class="brandheader" style="margin: 1.5rem 0 1rem">Statistics</h1>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-xl-3 d-flex align-items-stretch mb-3">
+                <div data-widget="statsbox" class="card w-100 bg-light shadow">
+                    <div class="card-body text-center">
+                        <h4>Sites</h4>
+                        <p class="display-4" style="font-size: 1.5rem">148,564</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 d-flex align-items-stretch mb-3">
+                <div data-widget="statsbox" class="card w-100 bg-light shadow">
+                    <div class="card-body text-center">
+                        <h4>Courses</h4>
+                        <p class="display-4" style="font-size: 1.5rem">50,884,989</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 d-flex align-items-stretch mb-3">
+                <div data-widget="statsbox" class="card w-100 bg-light shadow">
+                    <div class="card-body text-center">
+                        <h4>Users</h4>
+                        <p class="display-4" style="font-size: 1.5rem">444,346,851</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 d-flex align-items-stretch mb-3">
+                <div data-widget="statsbox" class="card w-100 bg-light shadow">
+                    <div class="card-body text-center">
+                        <h4>Enrolments</h4>
+                        <p class="display-4" style="font-size: 1.5rem">3,135,571,843</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 d-flex align-items-stretch mb-3">
+                <div data-widget="statsbox" class="card w-100 bg-light shadow">
+                    <div class="card-body text-center">
+                        <h4>Forum posts</h4>
+                        <p class="display-4" style="font-size: 1.5rem">804,457,570</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 d-flex align-items-stretch mb-3">
+                <div data-widget="statsbox" class="card w-100 bg-light shadow">
+                    <div class="card-body text-center">
+                        <h4>Resources</h4>
+                        <p class="display-4" style="font-size: 1.5rem">445,715,862</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 d-flex align-items-stretch mb-3">
+                <div data-widget="statsbox" class="card w-100 bg-light shadow">
+                    <div class="card-body text-center">
+                        <h4>Quiz questions</h4>
+                        <p class="display-4" style="font-size: 1.5rem">10,435,023,741</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 d-flex align-items-stretch mb-3">
+                <div data-widget="statsbox" class="card w-100 bg-light shadow">
+                    <div class="card-body text-center">
+                        <h4>Countries</h4>
+                        <p class="display-4" style="font-size: 1.5rem">237</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <p class="my-2"><a href="/sites">Registered Moodle sites</a></p>
+        <small>We perform <a href="http://docs.moodle.org/en/Usage">regular bulk checking of sites</a> to make sure they still exist, so occasionally you may see reductions in the count</small>
+    </div>
+
+    <h2 class="text-center mt-5">Moodle registration map</h2>
+
+    <div class="text-center mb-2">
+        <select style="visibility: hidden" id="chart-registration-countries-region">
+            <option value="world">World</option>
+            <option value="002">Africa</option>
+            <option value="021">Northern America</option>
+            <option value="029">Caribbean</option>
+            <option value="013">Central America</option>
+            <option value="005">South America</option>
+            <option value="142">Asia</option>
+            <option value="150">Europe</option>
+            <option value="009">Oceania</option>
+        </select>
+    </div>
+
+    <div id="chart-registration-countries" class="w-100" data-chart="[{&quot;countrycode&quot;:&quot;ES&quot;,&quot;countryname&quot;:&quot;Spain&quot;,&quot;sites&quot;:&quot;12811&quot;,&quot;fsites&quot;:&quot;12,811&quot;},{&quot;countrycode&quot;:&quot;US&quot;,&quot;countryname&quot;:&quot;United States&quot;,&quot;sites&quot;:&quot;11910&quot;,&quot;fsites&quot;:&quot;11,910&quot;},{&quot;countrycode&quot;:&quot;DE&quot;,&quot;countryname&quot;:&quot;Germany&quot;,&quot;sites&quot;:&quot;8166&quot;,&quot;fsites&quot;:&quot;8,166&quot;},{&quot;countrycode&quot;:&quot;MX&quot;,&quot;countryname&quot;:&quot;Mexico&quot;,&quot;sites&quot;:&quot;7813&quot;,&quot;fsites&quot;:&quot;7,813&quot;},{&quot;countrycode&quot;:&quot;BR&quot;,&quot;countryname&quot;:&quot;Brazil&quot;,&quot;sites&quot;:&quot;7338&quot;,&quot;fsites&quot;:&quot;7,338&quot;},{&quot;countrycode&quot;:&quot;RU&quot;,&quot;countryname&quot;:&quot;Russian Federation&quot;,&quot;sites&quot;:&quot;5246&quot;,&quot;fsites&quot;:&quot;5,246&quot;},{&quot;countrycode&quot;:&quot;ID&quot;,&quot;countryname&quot;:&quot;Indonesia&quot;,&quot;sites&quot;:&quot;5225&quot;,&quot;fsites&quot;:&quot;5,225&quot;},{&quot;countrycode&quot;:&quot;FR&quot;,&quot;countryname&quot;:&quot;France&quot;,&quot;sites&quot;:&quot;5220&quot;,&quot;fsites&quot;:&quot;5,220&quot;},{&quot;countrycode&quot;:&quot;CO&quot;,&quot;countryname&quot;:&quot;Colombia&quot;,&quot;sites&quot;:&quot;4519&quot;,&quot;fsites&quot;:&quot;4,519&quot;},{&quot;countrycode&quot;:&quot;IT&quot;,&quot;countryname&quot;:&quot;Italy&quot;,&quot;sites&quot;:&quot;4373&quot;,&quot;fsites&quot;:&quot;4,373&quot;},{&quot;countrycode&quot;:&quot;GB&quot;,&quot;countryname&quot;:&quot;United Kingdom&quot;,&quot;sites&quot;:&quot;4365&quot;,&quot;fsites&quot;:&quot;4,365&quot;},{&quot;countrycode&quot;:&quot;AR&quot;,&quot;countryname&quot;:&quot;Argentina&quot;,&quot;sites&quot;:&quot;3907&quot;,&quot;fsites&quot;:&quot;3,907&quot;},{&quot;countrycode&quot;:&quot;IN&quot;,&quot;countryname&quot;:&quot;India&quot;,&quot;sites&quot;:&quot;3718&quot;,&quot;fsites&quot;:&quot;3,718&quot;},{&quot;countrycode&quot;:&quot;CL&quot;,&quot;countryname&quot;:&quot;Chile&quot;,&quot;sites&quot;:&quot;3067&quot;,&quot;fsites&quot;:&quot;3,067&quot;},{&quot;countrycode&quot;:&quot;AU&quot;,&quot;countryname&quot;:&quot;Australia&quot;,&quot;sites&quot;:&quot;2957&quot;,&quot;fsites&quot;:&quot;2,957&quot;},{&quot;countrycode&quot;:&quot;CA&quot;,&quot;countryname&quot;:&quot;Canada&quot;,&quot;sites&quot;:&quot;2658&quot;,&quot;fsites&quot;:&quot;2,658&quot;},{&quot;countrycode&quot;:&quot;PE&quot;,&quot;countryname&quot;:&quot;Peru&quot;,&quot;sites&quot;:&quot;2646&quot;,&quot;fsites&quot;:&quot;2,646&quot;},{&quot;countrycode&quot;:&quot;EC&quot;,&quot;countryname&quot;:&quot;Ecuador&quot;,&quot;sites&quot;:&quot;2574&quot;,&quot;fsites&quot;:&quot;2,574&quot;},{&quot;countrycode&quot;:&quot;PT&quot;,&quot;countryname&quot;:&quot;Portugal&quot;,&quot;sites&quot;:&quot;2123&quot;,&quot;fsites&quot;:&quot;2,123&quot;},{&quot;countrycode&quot;:&quot;ZA&quot;,&quot;countryname&quot;:&quot;South Africa&quot;,&quot;sites&quot;:&quot;2062&quot;,&quot;fsites&quot;:&quot;2,062&quot;},{&quot;countrycode&quot;:&quot;PL&quot;,&quot;countryname&quot;:&quot;Poland&quot;,&quot;sites&quot;:&quot;1963&quot;,&quot;fsites&quot;:&quot;1,963&quot;},{&quot;countrycode&quot;:&quot;CH&quot;,&quot;countryname&quot;:&quot;Switzerland&quot;,&quot;sites&quot;:&quot;1550&quot;,&quot;fsites&quot;:&quot;1,550&quot;},{&quot;countrycode&quot;:&quot;JP&quot;,&quot;countryname&quot;:&quot;Japan&quot;,&quot;sites&quot;:&quot;1548&quot;,&quot;fsites&quot;:&quot;1,548&quot;},{&quot;countrycode&quot;:&quot;GR&quot;,&quot;countryname&quot;:&quot;Greece&quot;,&quot;sites&quot;:&quot;1379&quot;,&quot;fsites&quot;:&quot;1,379&quot;},{&quot;countrycode&quot;:&quot;NL&quot;,&quot;countryname&quot;:&quot;Netherlands&quot;,&quot;sites&quot;:&quot;1324&quot;,&quot;fsites&quot;:&quot;1,324&quot;},{&quot;countrycode&quot;:&quot;AT&quot;,&quot;countryname&quot;:&quot;Austria&quot;,&quot;sites&quot;:&quot;1208&quot;,&quot;fsites&quot;:&quot;1,208&quot;},{&quot;countrycode&quot;:&quot;VN&quot;,&quot;countryname&quot;:&quot;Viet Nam&quot;,&quot;sites&quot;:&quot;1180&quot;,&quot;fsites&quot;:&quot;1,180&quot;},{&quot;countrycode&quot;:&quot;UA&quot;,&quot;countryname&quot;:&quot;Ukraine&quot;,&quot;sites&quot;:&quot;1112&quot;,&quot;fsites&quot;:&quot;1,112&quot;},{&quot;countrycode&quot;:&quot;PH&quot;,&quot;countryname&quot;:&quot;Philippines&quot;,&quot;sites&quot;:&quot;1085&quot;,&quot;fsites&quot;:&quot;1,085&quot;},{&quot;countrycode&quot;:&quot;TH&quot;,&quot;countryname&quot;:&quot;Thailand&quot;,&quot;sites&quot;:&quot;1083&quot;,&quot;fsites&quot;:&quot;1,083&quot;},{&quot;countrycode&quot;:&quot;EG&quot;,&quot;countryname&quot;:&quot;Egypt&quot;,&quot;sites&quot;:&quot;987&quot;,&quot;fsites&quot;:&quot;987&quot;},{&quot;countrycode&quot;:&quot;BO&quot;,&quot;countryname&quot;:&quot;Bolivia (Plurinational State of)&quot;,&quot;sites&quot;:&quot;957&quot;,&quot;fsites&quot;:&quot;957&quot;},{&quot;countrycode&quot;:&quot;HU&quot;,&quot;countryname&quot;:&quot;Hungary&quot;,&quot;sites&quot;:&quot;945&quot;,&quot;fsites&quot;:&quot;945&quot;},{&quot;countrycode&quot;:&quot;TR&quot;,&quot;countryname&quot;:&quot;Turkey&quot;,&quot;sites&quot;:&quot;916&quot;,&quot;fsites&quot;:&quot;916&quot;},{&quot;countrycode&quot;:&quot;BE&quot;,&quot;countryname&quot;:&quot;Belgium&quot;,&quot;sites&quot;:&quot;824&quot;,&quot;fsites&quot;:&quot;824&quot;},{&quot;countrycode&quot;:&quot;CZ&quot;,&quot;countryname&quot;:&quot;Czechia&quot;,&quot;sites&quot;:&quot;817&quot;,&quot;fsites&quot;:&quot;817&quot;},{&quot;countrycode&quot;:&quot;IR&quot;,&quot;countryname&quot;:&quot;Iran (Islamic Republic of)&quot;,&quot;sites&quot;:&quot;805&quot;,&quot;fsites&quot;:&quot;805&quot;},{&quot;countrycode&quot;:&quot;VE&quot;,&quot;countryname&quot;:&quot;Venezuela (Bolivarian Republic of)&quot;,&quot;sites&quot;:&quot;743&quot;,&quot;fsites&quot;:&quot;743&quot;},{&quot;countrycode&quot;:&quot;NG&quot;,&quot;countryname&quot;:&quot;Nigeria&quot;,&quot;sites&quot;:&quot;709&quot;,&quot;fsites&quot;:&quot;709&quot;},{&quot;countrycode&quot;:&quot;CR&quot;,&quot;countryname&quot;:&quot;Costa Rica&quot;,&quot;sites&quot;:&quot;686&quot;,&quot;fsites&quot;:&quot;686&quot;},{&quot;countrycode&quot;:&quot;GT&quot;,&quot;countryname&quot;:&quot;Guatemala&quot;,&quot;sites&quot;:&quot;667&quot;,&quot;fsites&quot;:&quot;667&quot;},{&quot;countrycode&quot;:&quot;CT&quot;,&quot;countryname&quot;:&quot;CT&quot;,&quot;sites&quot;:&quot;662&quot;,&quot;fsites&quot;:&quot;662&quot;},{&quot;countrycode&quot;:&quot;KE&quot;,&quot;countryname&quot;:&quot;Kenya&quot;,&quot;sites&quot;:&quot;657&quot;,&quot;fsites&quot;:&quot;657&quot;},{&quot;countrycode&quot;:&quot;LT&quot;,&quot;countryname&quot;:&quot;Lithuania&quot;,&quot;sites&quot;:&quot;636&quot;,&quot;fsites&quot;:&quot;636&quot;},{&quot;countrycode&quot;:&quot;RO&quot;,&quot;countryname&quot;:&quot;Romania&quot;,&quot;sites&quot;:&quot;588&quot;,&quot;fsites&quot;:&quot;588&quot;},{&quot;countrycode&quot;:&quot;IE&quot;,&quot;countryname&quot;:&quot;Ireland&quot;,&quot;sites&quot;:&quot;549&quot;,&quot;fsites&quot;:&quot;549&quot;},{&quot;countrycode&quot;:&quot;DO&quot;,&quot;countryname&quot;:&quot;Dominican Republic&quot;,&quot;sites&quot;:&quot;545&quot;,&quot;fsites&quot;:&quot;545&quot;},{&quot;countrycode&quot;:&quot;NZ&quot;,&quot;countryname&quot;:&quot;New Zealand&quot;,&quot;sites&quot;:&quot;523&quot;,&quot;fsites&quot;:&quot;523&quot;},{&quot;countrycode&quot;:&quot;IL&quot;,&quot;countryname&quot;:&quot;Israel&quot;,&quot;sites&quot;:&quot;501&quot;,&quot;fsites&quot;:&quot;501&quot;},{&quot;countrycode&quot;:&quot;MY&quot;,&quot;countryname&quot;:&quot;Malaysia&quot;,&quot;sites&quot;:&quot;496&quot;,&quot;fsites&quot;:&quot;496&quot;},{&quot;countrycode&quot;:&quot;LK&quot;,&quot;countryname&quot;:&quot;Sri Lanka&quot;,&quot;sites&quot;:&quot;482&quot;,&quot;fsites&quot;:&quot;482&quot;},{&quot;countrycode&quot;:&quot;RS&quot;,&quot;countryname&quot;:&quot;Serbia&quot;,&quot;sites&quot;:&quot;444&quot;,&quot;fsites&quot;:&quot;444&quot;},{&quot;countrycode&quot;:&quot;BG&quot;,&quot;countryname&quot;:&quot;Bulgaria&quot;,&quot;sites&quot;:&quot;438&quot;,&quot;fsites&quot;:&quot;438&quot;},{&quot;countrycode&quot;:&quot;SA&quot;,&quot;countryname&quot;:&quot;Saudi Arabia&quot;,&quot;sites&quot;:&quot;428&quot;,&quot;fsites&quot;:&quot;428&quot;},{&quot;countrycode&quot;:&quot;MA&quot;,&quot;countryname&quot;:&quot;Morocco&quot;,&quot;sites&quot;:&quot;421&quot;,&quot;fsites&quot;:&quot;421&quot;},{&quot;countrycode&quot;:&quot;CN&quot;,&quot;countryname&quot;:&quot;China&quot;,&quot;sites&quot;:&quot;414&quot;,&quot;fsites&quot;:&quot;414&quot;},{&quot;countrycode&quot;:&quot;PY&quot;,&quot;countryname&quot;:&quot;Paraguay&quot;,&quot;sites&quot;:&quot;394&quot;,&quot;fsites&quot;:&quot;394&quot;},{&quot;countrycode&quot;:&quot;PK&quot;,&quot;countryname&quot;:&quot;Pakistan&quot;,&quot;sites&quot;:&quot;393&quot;,&quot;fsites&quot;:&quot;393&quot;},{&quot;countrycode&quot;:&quot;UY&quot;,&quot;countryname&quot;:&quot;Uruguay&quot;,&quot;sites&quot;:&quot;379&quot;,&quot;fsites&quot;:&quot;379&quot;},{&quot;countrycode&quot;:&quot;FI&quot;,&quot;countryname&quot;:&quot;Finland&quot;,&quot;sites&quot;:&quot;366&quot;,&quot;fsites&quot;:&quot;366&quot;},{&quot;countrycode&quot;:&quot;AE&quot;,&quot;countryname&quot;:&quot;United Arab Emirates&quot;,&quot;sites&quot;:&quot;360&quot;,&quot;fsites&quot;:&quot;360&quot;},{&quot;countrycode&quot;:&quot;SV&quot;,&quot;countryname&quot;:&quot;El Salvador&quot;,&quot;sites&quot;:&quot;357&quot;,&quot;fsites&quot;:&quot;357&quot;},{&quot;countrycode&quot;:&quot;KZ&quot;,&quot;countryname&quot;:&quot;Kazakhstan&quot;,&quot;sites&quot;:&quot;348&quot;,&quot;fsites&quot;:&quot;348&quot;},{&quot;countrycode&quot;:&quot;NO&quot;,&quot;countryname&quot;:&quot;Norway&quot;,&quot;sites&quot;:&quot;339&quot;,&quot;fsites&quot;:&quot;339&quot;},{&quot;countrycode&quot;:&quot;TW&quot;,&quot;countryname&quot;:&quot;Taiwan&quot;,&quot;sites&quot;:&quot;327&quot;,&quot;fsites&quot;:&quot;327&quot;},{&quot;countrycode&quot;:&quot;SI&quot;,&quot;countryname&quot;:&quot;Slovenia&quot;,&quot;sites&quot;:&quot;304&quot;,&quot;fsites&quot;:&quot;304&quot;},{&quot;countrycode&quot;:&quot;DZ&quot;,&quot;countryname&quot;:&quot;Algeria&quot;,&quot;sites&quot;:&quot;304&quot;,&quot;fsites&quot;:&quot;304&quot;},{&quot;countrycode&quot;:&quot;SK&quot;,&quot;countryname&quot;:&quot;Slovakia&quot;,&quot;sites&quot;:&quot;291&quot;,&quot;fsites&quot;:&quot;291&quot;},{&quot;countrycode&quot;:&quot;SG&quot;,&quot;countryname&quot;:&quot;Singapore&quot;,&quot;sites&quot;:&quot;291&quot;,&quot;fsites&quot;:&quot;291&quot;},{&quot;countrycode&quot;:&quot;CI&quot;,&quot;countryname&quot;:&quot;C\u00f4te d&#039;Ivoire&quot;,&quot;sites&quot;:&quot;284&quot;,&quot;fsites&quot;:&quot;284&quot;},{&quot;countrycode&quot;:&quot;GH&quot;,&quot;countryname&quot;:&quot;Ghana&quot;,&quot;sites&quot;:&quot;275&quot;,&quot;fsites&quot;:&quot;275&quot;},{&quot;countrycode&quot;:&quot;HK&quot;,&quot;countryname&quot;:&quot;Hong Kong&quot;,&quot;sites&quot;:&quot;270&quot;,&quot;fsites&quot;:&quot;270&quot;},{&quot;countrycode&quot;:&quot;DK&quot;,&quot;countryname&quot;:&quot;Denmark&quot;,&quot;sites&quot;:&quot;268&quot;,&quot;fsites&quot;:&quot;268&quot;},{&quot;countrycode&quot;:&quot;SN&quot;,&quot;countryname&quot;:&quot;Senegal&quot;,&quot;sites&quot;:&quot;262&quot;,&quot;fsites&quot;:&quot;262&quot;},{&quot;countrycode&quot;:&quot;PA&quot;,&quot;countryname&quot;:&quot;Panama&quot;,&quot;sites&quot;:&quot;257&quot;,&quot;fsites&quot;:&quot;257&quot;},{&quot;countrycode&quot;:&quot;ET&quot;,&quot;countryname&quot;:&quot;Ethiopia&quot;,&quot;sites&quot;:&quot;247&quot;,&quot;fsites&quot;:&quot;247&quot;},{&quot;countrycode&quot;:&quot;HN&quot;,&quot;countryname&quot;:&quot;Honduras&quot;,&quot;sites&quot;:&quot;240&quot;,&quot;fsites&quot;:&quot;240&quot;},{&quot;countrycode&quot;:&quot;BY&quot;,&quot;countryname&quot;:&quot;Belarus&quot;,&quot;sites&quot;:&quot;235&quot;,&quot;fsites&quot;:&quot;235&quot;},{&quot;countrycode&quot;:&quot;SE&quot;,&quot;countryname&quot;:&quot;Sweden&quot;,&quot;sites&quot;:&quot;235&quot;,&quot;fsites&quot;:&quot;235&quot;},{&quot;countrycode&quot;:&quot;TN&quot;,&quot;countryname&quot;:&quot;Tunisia&quot;,&quot;sites&quot;:&quot;230&quot;,&quot;fsites&quot;:&quot;230&quot;},{&quot;countrycode&quot;:&quot;LV&quot;,&quot;countryname&quot;:&quot;Latvia&quot;,&quot;sites&quot;:&quot;221&quot;,&quot;fsites&quot;:&quot;221&quot;},{&quot;countrycode&quot;:&quot;UG&quot;,&quot;countryname&quot;:&quot;Uganda&quot;,&quot;sites&quot;:&quot;221&quot;,&quot;fsites&quot;:&quot;221&quot;},{&quot;countrycode&quot;:&quot;UZ&quot;,&quot;countryname&quot;:&quot;Uzbekistan&quot;,&quot;sites&quot;:&quot;201&quot;,&quot;fsites&quot;:&quot;201&quot;},{&quot;countrycode&quot;:&quot;JO&quot;,&quot;countryname&quot;:&quot;Jordan&quot;,&quot;sites&quot;:&quot;188&quot;,&quot;fsites&quot;:&quot;188&quot;},{&quot;countrycode&quot;:&quot;HR&quot;,&quot;countryname&quot;:&quot;Croatia&quot;,&quot;sites&quot;:&quot;182&quot;,&quot;fsites&quot;:&quot;182&quot;},{&quot;countrycode&quot;:&quot;EE&quot;,&quot;countryname&quot;:&quot;Estonia&quot;,&quot;sites&quot;:&quot;182&quot;,&quot;fsites&quot;:&quot;182&quot;},{&quot;countrycode&quot;:&quot;NI&quot;,&quot;countryname&quot;:&quot;Nicaragua&quot;,&quot;sites&quot;:&quot;180&quot;,&quot;fsites&quot;:&quot;180&quot;},{&quot;countrycode&quot;:&quot;CM&quot;,&quot;countryname&quot;:&quot;Cameroon&quot;,&quot;sites&quot;:&quot;177&quot;,&quot;fsites&quot;:&quot;177&quot;},{&quot;countrycode&quot;:&quot;NP&quot;,&quot;countryname&quot;:&quot;Nepal&quot;,&quot;sites&quot;:&quot;171&quot;,&quot;fsites&quot;:&quot;171&quot;},{&quot;countrycode&quot;:&quot;ZM&quot;,&quot;countryname&quot;:&quot;Zambia&quot;,&quot;sites&quot;:&quot;167&quot;,&quot;fsites&quot;:&quot;167&quot;},{&quot;countrycode&quot;:&quot;CY&quot;,&quot;countryname&quot;:&quot;Cyprus&quot;,&quot;sites&quot;:&quot;166&quot;,&quot;fsites&quot;:&quot;166&quot;},{&quot;countrycode&quot;:&quot;PR&quot;,&quot;countryname&quot;:&quot;Puerto Rico&quot;,&quot;sites&quot;:&quot;162&quot;,&quot;fsites&quot;:&quot;162&quot;},{&quot;countrycode&quot;:&quot;KR&quot;,&quot;countryname&quot;:&quot;Korea (the Republic of)&quot;,&quot;sites&quot;:&quot;150&quot;,&quot;fsites&quot;:&quot;150&quot;},{&quot;countrycode&quot;:&quot;JM&quot;,&quot;countryname&quot;:&quot;Jamaica&quot;,&quot;sites&quot;:&quot;141&quot;,&quot;fsites&quot;:&quot;141&quot;},{&quot;countrycode&quot;:&quot;MM&quot;,&quot;countryname&quot;:&quot;Myanmar&quot;,&quot;sites&quot;:&quot;138&quot;,&quot;fsites&quot;:&quot;138&quot;},{&quot;countrycode&quot;:&quot;BF&quot;,&quot;countryname&quot;:&quot;Burkina Faso&quot;,&quot;sites&quot;:&quot;138&quot;,&quot;fsites&quot;:&quot;138&quot;},{&quot;countrycode&quot;:&quot;BD&quot;,&quot;countryname&quot;:&quot;Bangladesh&quot;,&quot;sites&quot;:&quot;133&quot;,&quot;fsites&quot;:&quot;133&quot;},{&quot;countrycode&quot;:&quot;AF&quot;,&quot;countryname&quot;:&quot;Afghanistan&quot;,&quot;sites&quot;:&quot;125&quot;,&quot;fsites&quot;:&quot;125&quot;},{&quot;countrycode&quot;:&quot;LB&quot;,&quot;countryname&quot;:&quot;Lebanon&quot;,&quot;sites&quot;:&quot;124&quot;,&quot;fsites&quot;:&quot;124&quot;},{&quot;countrycode&quot;:&quot;HT&quot;,&quot;countryname&quot;:&quot;Haiti&quot;,&quot;sites&quot;:&quot;121&quot;,&quot;fsites&quot;:&quot;121&quot;},{&quot;countrycode&quot;:&quot;MZ&quot;,&quot;countryname&quot;:&quot;Mozambique&quot;,&quot;sites&quot;:&quot;119&quot;,&quot;fsites&quot;:&quot;119&quot;},{&quot;countrycode&quot;:&quot;NA&quot;,&quot;countryname&quot;:&quot;Namibia&quot;,&quot;sites&quot;:&quot;118&quot;,&quot;fsites&quot;:&quot;118&quot;},{&quot;countrycode&quot;:&quot;BA&quot;,&quot;countryname&quot;:&quot;Bosnia and Herzegovina&quot;,&quot;sites&quot;:&quot;115&quot;,&quot;fsites&quot;:&quot;115&quot;},{&quot;countrycode&quot;:&quot;MG&quot;,&quot;countryname&quot;:&quot;Madagascar&quot;,&quot;sites&quot;:&quot;114&quot;,&quot;fsites&quot;:&quot;114&quot;},{&quot;countrycode&quot;:&quot;IQ&quot;,&quot;countryname&quot;:&quot;Iraq&quot;,&quot;sites&quot;:&quot;114&quot;,&quot;fsites&quot;:&quot;114&quot;},{&quot;countrycode&quot;:&quot;ZW&quot;,&quot;countryname&quot;:&quot;Zimbabwe&quot;,&quot;sites&quot;:&quot;111&quot;,&quot;fsites&quot;:&quot;111&quot;},{&quot;countrycode&quot;:&quot;OM&quot;,&quot;countryname&quot;:&quot;Oman&quot;,&quot;sites&quot;:&quot;109&quot;,&quot;fsites&quot;:&quot;109&quot;},{&quot;countrycode&quot;:&quot;SD&quot;,&quot;countryname&quot;:&quot;Sudan&quot;,&quot;sites&quot;:&quot;106&quot;,&quot;fsites&quot;:&quot;106&quot;},{&quot;countrycode&quot;:&quot;TZ&quot;,&quot;countryname&quot;:&quot;Tanzania, the United Republic of&quot;,&quot;sites&quot;:&quot;90&quot;,&quot;fsites&quot;:&quot;90&quot;},{&quot;countrycode&quot;:&quot;RE&quot;,&quot;countryname&quot;:&quot;R\u00e9union&quot;,&quot;sites&quot;:&quot;89&quot;,&quot;fsites&quot;:&quot;89&quot;},{&quot;countrycode&quot;:&quot;MD&quot;,&quot;countryname&quot;:&quot;Moldova (the Republic of)&quot;,&quot;sites&quot;:&quot;88&quot;,&quot;fsites&quot;:&quot;88&quot;},{&quot;countrycode&quot;:&quot;LU&quot;,&quot;countryname&quot;:&quot;Luxembourg&quot;,&quot;sites&quot;:&quot;88&quot;,&quot;fsites&quot;:&quot;88&quot;},{&quot;countrycode&quot;:&quot;TT&quot;,&quot;countryname&quot;:&quot;Trinidad and Tobago&quot;,&quot;sites&quot;:&quot;87&quot;,&quot;fsites&quot;:&quot;87&quot;},{&quot;countrycode&quot;:&quot;AM&quot;,&quot;countryname&quot;:&quot;Armenia&quot;,&quot;sites&quot;:&quot;79&quot;,&quot;fsites&quot;:&quot;79&quot;},{&quot;countrycode&quot;:&quot;KH&quot;,&quot;countryname&quot;:&quot;Cambodia&quot;,&quot;sites&quot;:&quot;78&quot;,&quot;fsites&quot;:&quot;78&quot;},{&quot;countrycode&quot;:&quot;MK&quot;,&quot;countryname&quot;:&quot;North Macedonia&quot;,&quot;sites&quot;:&quot;76&quot;,&quot;fsites&quot;:&quot;76&quot;},{&quot;countrycode&quot;:&quot;MT&quot;,&quot;countryname&quot;:&quot;Malta&quot;,&quot;sites&quot;:&quot;75&quot;,&quot;fsites&quot;:&quot;75&quot;},{&quot;countrycode&quot;:&quot;AL&quot;,&quot;countryname&quot;:&quot;Albania&quot;,&quot;sites&quot;:&quot;73&quot;,&quot;fsites&quot;:&quot;73&quot;},{&quot;countrycode&quot;:&quot;MN&quot;,&quot;countryname&quot;:&quot;Mongolia&quot;,&quot;sites&quot;:&quot;72&quot;,&quot;fsites&quot;:&quot;72&quot;},{&quot;countrycode&quot;:&quot;RW&quot;,&quot;countryname&quot;:&quot;Rwanda&quot;,&quot;sites&quot;:&quot;70&quot;,&quot;fsites&quot;:&quot;70&quot;},{&quot;countrycode&quot;:&quot;SY&quot;,&quot;countryname&quot;:&quot;Syrian Arab Republic&quot;,&quot;sites&quot;:&quot;70&quot;,&quot;fsites&quot;:&quot;70&quot;},{&quot;countrycode&quot;:&quot;PS&quot;,&quot;countryname&quot;:&quot;Palestine, State of&quot;,&quot;sites&quot;:&quot;70&quot;,&quot;fsites&quot;:&quot;70&quot;},{&quot;countrycode&quot;:&quot;GE&quot;,&quot;countryname&quot;:&quot;Georgia&quot;,&quot;sites&quot;:&quot;67&quot;,&quot;fsites&quot;:&quot;67&quot;},{&quot;countrycode&quot;:&quot;MU&quot;,&quot;countryname&quot;:&quot;Mauritius&quot;,&quot;sites&quot;:&quot;65&quot;,&quot;fsites&quot;:&quot;65&quot;},{&quot;countrycode&quot;:&quot;KW&quot;,&quot;countryname&quot;:&quot;Kuwait&quot;,&quot;sites&quot;:&quot;63&quot;,&quot;fsites&quot;:&quot;63&quot;},{&quot;countrycode&quot;:&quot;AO&quot;,&quot;countryname&quot;:&quot;Angola&quot;,&quot;sites&quot;:&quot;62&quot;,&quot;fsites&quot;:&quot;62&quot;},{&quot;countrycode&quot;:&quot;CD&quot;,&quot;countryname&quot;:&quot;Congo (the Democratic Republic of the)&quot;,&quot;sites&quot;:&quot;60&quot;,&quot;fsites&quot;:&quot;60&quot;},{&quot;countrycode&quot;:&quot;LY&quot;,&quot;countryname&quot;:&quot;Libya&quot;,&quot;sites&quot;:&quot;59&quot;,&quot;fsites&quot;:&quot;59&quot;},{&quot;countrycode&quot;:&quot;BW&quot;,&quot;countryname&quot;:&quot;Botswana&quot;,&quot;sites&quot;:&quot;57&quot;,&quot;fsites&quot;:&quot;57&quot;},{&quot;countrycode&quot;:&quot;KG&quot;,&quot;countryname&quot;:&quot;Kyrgyzstan&quot;,&quot;sites&quot;:&quot;56&quot;,&quot;fsites&quot;:&quot;56&quot;},{&quot;countrycode&quot;:&quot;BJ&quot;,&quot;countryname&quot;:&quot;Benin&quot;,&quot;sites&quot;:&quot;56&quot;,&quot;fsites&quot;:&quot;56&quot;},{&quot;countrycode&quot;:&quot;IS&quot;,&quot;countryname&quot;:&quot;Iceland&quot;,&quot;sites&quot;:&quot;54&quot;,&quot;fsites&quot;:&quot;54&quot;},{&quot;countrycode&quot;:&quot;MW&quot;,&quot;countryname&quot;:&quot;Malawi&quot;,&quot;sites&quot;:&quot;51&quot;,&quot;fsites&quot;:&quot;51&quot;},{&quot;countrycode&quot;:&quot;BH&quot;,&quot;countryname&quot;:&quot;Bahrain&quot;,&quot;sites&quot;:&quot;49&quot;,&quot;fsites&quot;:&quot;49&quot;},{&quot;countrycode&quot;:&quot;YE&quot;,&quot;countryname&quot;:&quot;Yemen&quot;,&quot;sites&quot;:&quot;47&quot;,&quot;fsites&quot;:&quot;47&quot;},{&quot;countrycode&quot;:&quot;PG&quot;,&quot;countryname&quot;:&quot;Papua New Guinea&quot;,&quot;sites&quot;:&quot;43&quot;,&quot;fsites&quot;:&quot;43&quot;},{&quot;countrycode&quot;:&quot;TG&quot;,&quot;countryname&quot;:&quot;Togo&quot;,&quot;sites&quot;:&quot;43&quot;,&quot;fsites&quot;:&quot;43&quot;},{&quot;countrycode&quot;:&quot;FJ&quot;,&quot;countryname&quot;:&quot;Fiji&quot;,&quot;sites&quot;:&quot;41&quot;,&quot;fsites&quot;:&quot;41&quot;},{&quot;countrycode&quot;:&quot;CU&quot;,&quot;countryname&quot;:&quot;Cuba&quot;,&quot;sites&quot;:&quot;40&quot;,&quot;fsites&quot;:&quot;40&quot;},{&quot;countrycode&quot;:&quot;AD&quot;,&quot;countryname&quot;:&quot;Andorra&quot;,&quot;sites&quot;:&quot;39&quot;,&quot;fsites&quot;:&quot;39&quot;},{&quot;countrycode&quot;:&quot;EH&quot;,&quot;countryname&quot;:&quot;Western Sahara&quot;,&quot;sites&quot;:&quot;38&quot;,&quot;fsites&quot;:&quot;38&quot;},{&quot;countrycode&quot;:&quot;SO&quot;,&quot;countryname&quot;:&quot;Somalia&quot;,&quot;sites&quot;:&quot;38&quot;,&quot;fsites&quot;:&quot;38&quot;},{&quot;countrycode&quot;:&quot;AZ&quot;,&quot;countryname&quot;:&quot;Azerbaijan&quot;,&quot;sites&quot;:&quot;37&quot;,&quot;fsites&quot;:&quot;37&quot;},{&quot;countrycode&quot;:&quot;ML&quot;,&quot;countryname&quot;:&quot;Mali&quot;,&quot;sites&quot;:&quot;37&quot;,&quot;fsites&quot;:&quot;37&quot;},{&quot;countrycode&quot;:&quot;BZ&quot;,&quot;countryname&quot;:&quot;Belize&quot;,&quot;sites&quot;:&quot;34&quot;,&quot;fsites&quot;:&quot;34&quot;},{&quot;countrycode&quot;:&quot;MO&quot;,&quot;countryname&quot;:&quot;Macao&quot;,&quot;sites&quot;:&quot;32&quot;,&quot;fsites&quot;:&quot;32&quot;},{&quot;countrycode&quot;:&quot;BB&quot;,&quot;countryname&quot;:&quot;Barbados&quot;,&quot;sites&quot;:&quot;30&quot;,&quot;fsites&quot;:&quot;30&quot;},{&quot;countrycode&quot;:&quot;GN&quot;,&quot;countryname&quot;:&quot;Guinea&quot;,&quot;sites&quot;:&quot;30&quot;,&quot;fsites&quot;:&quot;30&quot;},{&quot;countrycode&quot;:&quot;PF&quot;,&quot;countryname&quot;:&quot;French Polynesia&quot;,&quot;sites&quot;:&quot;29&quot;,&quot;fsites&quot;:&quot;29&quot;},{&quot;countrycode&quot;:&quot;LR&quot;,&quot;countryname&quot;:&quot;Liberia&quot;,&quot;sites&quot;:&quot;29&quot;,&quot;fsites&quot;:&quot;29&quot;},{&quot;countrycode&quot;:&quot;QA&quot;,&quot;countryname&quot;:&quot;Qatar&quot;,&quot;sites&quot;:&quot;29&quot;,&quot;fsites&quot;:&quot;29&quot;},{&quot;countrycode&quot;:&quot;SZ&quot;,&quot;countryname&quot;:&quot;Eswatini&quot;,&quot;sites&quot;:&quot;29&quot;,&quot;fsites&quot;:&quot;29&quot;},{&quot;countrycode&quot;:&quot;BT&quot;,&quot;countryname&quot;:&quot;Bhutan&quot;,&quot;sites&quot;:&quot;28&quot;,&quot;fsites&quot;:&quot;28&quot;},{&quot;countrycode&quot;:&quot;GY&quot;,&quot;countryname&quot;:&quot;Guyana&quot;,&quot;sites&quot;:&quot;27&quot;,&quot;fsites&quot;:&quot;27&quot;},{&quot;countrycode&quot;:&quot;CV&quot;,&quot;countryname&quot;:&quot;Cabo Verde&quot;,&quot;sites&quot;:&quot;27&quot;,&quot;fsites&quot;:&quot;27&quot;},{&quot;countrycode&quot;:&quot;GP&quot;,&quot;countryname&quot;:&quot;Guadeloupe&quot;,&quot;sites&quot;:&quot;27&quot;,&quot;fsites&quot;:&quot;27&quot;},{&quot;countrycode&quot;:&quot;BS&quot;,&quot;countryname&quot;:&quot;Bahamas&quot;,&quot;sites&quot;:&quot;26&quot;,&quot;fsites&quot;:&quot;26&quot;},{&quot;countrycode&quot;:&quot;TJ&quot;,&quot;countryname&quot;:&quot;Tajikistan&quot;,&quot;sites&quot;:&quot;25&quot;,&quot;fsites&quot;:&quot;25&quot;},{&quot;countrycode&quot;:&quot;MQ&quot;,&quot;countryname&quot;:&quot;Martinique&quot;,&quot;sites&quot;:&quot;24&quot;,&quot;fsites&quot;:&quot;24&quot;},{&quot;countrycode&quot;:&quot;ME&quot;,&quot;countryname&quot;:&quot;Montenegro&quot;,&quot;sites&quot;:&quot;24&quot;,&quot;fsites&quot;:&quot;24&quot;},{&quot;countrycode&quot;:&quot;LA&quot;,&quot;countryname&quot;:&quot;Lao People&#039;s Democratic Republic&quot;,&quot;sites&quot;:&quot;22&quot;,&quot;fsites&quot;:&quot;22&quot;},{&quot;countrycode&quot;:&quot;NC&quot;,&quot;countryname&quot;:&quot;New Caledonia&quot;,&quot;sites&quot;:&quot;21&quot;,&quot;fsites&quot;:&quot;21&quot;},{&quot;countrycode&quot;:&quot;MV&quot;,&quot;countryname&quot;:&quot;Maldives&quot;,&quot;sites&quot;:&quot;21&quot;,&quot;fsites&quot;:&quot;21&quot;},{&quot;countrycode&quot;:&quot;NE&quot;,&quot;countryname&quot;:&quot;Niger&quot;,&quot;sites&quot;:&quot;21&quot;,&quot;fsites&quot;:&quot;21&quot;},{&quot;countrycode&quot;:&quot;LC&quot;,&quot;countryname&quot;:&quot;Saint Lucia&quot;,&quot;sites&quot;:&quot;19&quot;,&quot;fsites&quot;:&quot;19&quot;},{&quot;countrycode&quot;:&quot;GA&quot;,&quot;countryname&quot;:&quot;Gabon&quot;,&quot;sites&quot;:&quot;18&quot;,&quot;fsites&quot;:&quot;18&quot;},{&quot;countrycode&quot;:&quot;MR&quot;,&quot;countryname&quot;:&quot;Mauritania&quot;,&quot;sites&quot;:&quot;18&quot;,&quot;fsites&quot;:&quot;18&quot;},{&quot;countrycode&quot;:&quot;VU&quot;,&quot;countryname&quot;:&quot;Vanuatu&quot;,&quot;sites&quot;:&quot;17&quot;,&quot;fsites&quot;:&quot;17&quot;},{&quot;countrycode&quot;:&quot;SR&quot;,&quot;countryname&quot;:&quot;Suriname&quot;,&quot;sites&quot;:&quot;16&quot;,&quot;fsites&quot;:&quot;16&quot;},{&quot;countrycode&quot;:&quot;GF&quot;,&quot;countryname&quot;:&quot;French Guiana&quot;,&quot;sites&quot;:&quot;16&quot;,&quot;fsites&quot;:&quot;16&quot;},{&quot;countrycode&quot;:&quot;BI&quot;,&quot;countryname&quot;:&quot;Burundi&quot;,&quot;sites&quot;:&quot;14&quot;,&quot;fsites&quot;:&quot;14&quot;},{&quot;countrycode&quot;:&quot;CG&quot;,&quot;countryname&quot;:&quot;Congo&quot;,&quot;sites&quot;:&quot;14&quot;,&quot;fsites&quot;:&quot;14&quot;},{&quot;countrycode&quot;:&quot;SL&quot;,&quot;countryname&quot;:&quot;Sierra Leone&quot;,&quot;sites&quot;:&quot;13&quot;,&quot;fsites&quot;:&quot;13&quot;},{&quot;countrycode&quot;:&quot;LS&quot;,&quot;countryname&quot;:&quot;Lesotho&quot;,&quot;sites&quot;:&quot;13&quot;,&quot;fsites&quot;:&quot;13&quot;},{&quot;countrycode&quot;:&quot;BN&quot;,&quot;countryname&quot;:&quot;Brunei Darussalam&quot;,&quot;sites&quot;:&quot;12&quot;,&quot;fsites&quot;:&quot;12&quot;},{&quot;countrycode&quot;:&quot;CW&quot;,&quot;countryname&quot;:&quot;Cura\u00e7ao&quot;,&quot;sites&quot;:&quot;11&quot;,&quot;fsites&quot;:&quot;11&quot;},{&quot;countrycode&quot;:&quot;KI&quot;,&quot;countryname&quot;:&quot;Kiribati&quot;,&quot;sites&quot;:&quot;11&quot;,&quot;fsites&quot;:&quot;11&quot;},{&quot;countrycode&quot;:&quot;GD&quot;,&quot;countryname&quot;:&quot;Grenada&quot;,&quot;sites&quot;:&quot;11&quot;,&quot;fsites&quot;:&quot;11&quot;},{&quot;countrycode&quot;:&quot;AW&quot;,&quot;countryname&quot;:&quot;Aruba&quot;,&quot;sites&quot;:&quot;11&quot;,&quot;fsites&quot;:&quot;11&quot;},{&quot;countrycode&quot;:&quot;BQ&quot;,&quot;countryname&quot;:&quot;Bonaire, Sint Eustatius and Saba&quot;,&quot;sites&quot;:&quot;10&quot;,&quot;fsites&quot;:&quot;10&quot;},{&quot;countrycode&quot;:&quot;TD&quot;,&quot;countryname&quot;:&quot;Chad&quot;,&quot;sites&quot;:&quot;10&quot;,&quot;fsites&quot;:&quot;10&quot;},{&quot;countrycode&quot;:&quot;GQ&quot;,&quot;countryname&quot;:&quot;Equatorial Guinea&quot;,&quot;sites&quot;:&quot;10&quot;,&quot;fsites&quot;:&quot;10&quot;},{&quot;countrycode&quot;:&quot;AG&quot;,&quot;countryname&quot;:&quot;Antigua and Barbuda&quot;,&quot;sites&quot;:&quot;9&quot;,&quot;fsites&quot;:&quot;9&quot;},{&quot;countrycode&quot;:&quot;WS&quot;,&quot;countryname&quot;:&quot;Samoa&quot;,&quot;sites&quot;:&quot;9&quot;,&quot;fsites&quot;:&quot;9&quot;},{&quot;countrycode&quot;:&quot;LI&quot;,&quot;countryname&quot;:&quot;Liechtenstein&quot;,&quot;sites&quot;:&quot;8&quot;,&quot;fsites&quot;:&quot;8&quot;},{&quot;countrycode&quot;:&quot;AX&quot;,&quot;countryname&quot;:&quot;\u00c5land Islands&quot;,&quot;sites&quot;:&quot;8&quot;,&quot;fsites&quot;:&quot;8&quot;},{&quot;countrycode&quot;:&quot;DM&quot;,&quot;countryname&quot;:&quot;Dominica&quot;,&quot;sites&quot;:&quot;8&quot;,&quot;fsites&quot;:&quot;8&quot;},{&quot;countrycode&quot;:&quot;VC&quot;,&quot;countryname&quot;:&quot;Saint Vincent and the Grenadines&quot;,&quot;sites&quot;:&quot;7&quot;,&quot;fsites&quot;:&quot;7&quot;},{&quot;countrycode&quot;:&quot;GM&quot;,&quot;countryname&quot;:&quot;Gambia&quot;,&quot;sites&quot;:&quot;7&quot;,&quot;fsites&quot;:&quot;7&quot;},{&quot;countrycode&quot;:&quot;BM&quot;,&quot;countryname&quot;:&quot;Bermuda&quot;,&quot;sites&quot;:&quot;7&quot;,&quot;fsites&quot;:&quot;7&quot;},{&quot;countrycode&quot;:&quot;SB&quot;,&quot;countryname&quot;:&quot;Solomon Islands&quot;,&quot;sites&quot;:&quot;6&quot;,&quot;fsites&quot;:&quot;6&quot;},{&quot;countrycode&quot;:&quot;GW&quot;,&quot;countryname&quot;:&quot;Guinea-Bissau&quot;,&quot;sites&quot;:&quot;6&quot;,&quot;fsites&quot;:&quot;6&quot;},{&quot;countrycode&quot;:&quot;GU&quot;,&quot;countryname&quot;:&quot;Guam&quot;,&quot;sites&quot;:&quot;6&quot;,&quot;fsites&quot;:&quot;6&quot;},{&quot;countrycode&quot;:&quot;UM&quot;,&quot;countryname&quot;:&quot;United States Minor Outlying Islands&quot;,&quot;sites&quot;:&quot;6&quot;,&quot;fsites&quot;:&quot;6&quot;},{&quot;countrycode&quot;:&quot;KM&quot;,&quot;countryname&quot;:&quot;Comoros&quot;,&quot;sites&quot;:&quot;6&quot;,&quot;fsites&quot;:&quot;6&quot;},{&quot;countrycode&quot;:&quot;DJ&quot;,&quot;countryname&quot;:&quot;Djibouti&quot;,&quot;sites&quot;:&quot;6&quot;,&quot;fsites&quot;:&quot;6&quot;},{&quot;countrycode&quot;:&quot;IM&quot;,&quot;countryname&quot;:&quot;Isle of Man&quot;,&quot;sites&quot;:&quot;5&quot;,&quot;fsites&quot;:&quot;5&quot;},{&quot;countrycode&quot;:&quot;GG&quot;,&quot;countryname&quot;:&quot;Guernsey&quot;,&quot;sites&quot;:&quot;5&quot;,&quot;fsites&quot;:&quot;5&quot;},{&quot;countrycode&quot;:&quot;VG&quot;,&quot;countryname&quot;:&quot;Virgin Islands (British)&quot;,&quot;sites&quot;:&quot;5&quot;,&quot;fsites&quot;:&quot;5&quot;},{&quot;countrycode&quot;:&quot;KP&quot;,&quot;countryname&quot;:&quot;Korea (the Democratic People&#039;s Republic of)&quot;,&quot;sites&quot;:&quot;5&quot;,&quot;fsites&quot;:&quot;5&quot;},{&quot;countrycode&quot;:&quot;SS&quot;,&quot;countryname&quot;:&quot;South Sudan&quot;,&quot;sites&quot;:&quot;5&quot;,&quot;fsites&quot;:&quot;5&quot;},{&quot;countrycode&quot;:&quot;SC&quot;,&quot;countryname&quot;:&quot;Seychelles&quot;,&quot;sites&quot;:&quot;5&quot;,&quot;fsites&quot;:&quot;5&quot;},{&quot;countrycode&quot;:&quot;TL&quot;,&quot;countryname&quot;:&quot;Timor-Leste&quot;,&quot;sites&quot;:&quot;5&quot;,&quot;fsites&quot;:&quot;5&quot;},{&quot;countrycode&quot;:&quot;AI&quot;,&quot;countryname&quot;:&quot;Anguilla&quot;,&quot;sites&quot;:&quot;4&quot;,&quot;fsites&quot;:&quot;4&quot;},{&quot;countrycode&quot;:&quot;KN&quot;,&quot;countryname&quot;:&quot;Saint Kitts and Nevis&quot;,&quot;sites&quot;:&quot;4&quot;,&quot;fsites&quot;:&quot;4&quot;},{&quot;countrycode&quot;:&quot;TO&quot;,&quot;countryname&quot;:&quot;Tonga&quot;,&quot;sites&quot;:&quot;4&quot;,&quot;fsites&quot;:&quot;4&quot;},{&quot;countrycode&quot;:&quot;AS&quot;,&quot;countryname&quot;:&quot;American Samoa&quot;,&quot;sites&quot;:&quot;3&quot;,&quot;fsites&quot;:&quot;3&quot;},{&quot;countrycode&quot;:&quot;YT&quot;,&quot;countryname&quot;:&quot;Mayotte&quot;,&quot;sites&quot;:&quot;3&quot;,&quot;fsites&quot;:&quot;3&quot;},{&quot;countrycode&quot;:&quot;AQ&quot;,&quot;countryname&quot;:&quot;Antarctica&quot;,&quot;sites&quot;:&quot;3&quot;,&quot;fsites&quot;:&quot;3&quot;},{&quot;countrycode&quot;:&quot;KY&quot;,&quot;countryname&quot;:&quot;Cayman Islands&quot;,&quot;sites&quot;:&quot;3&quot;,&quot;fsites&quot;:&quot;3&quot;},{&quot;countrycode&quot;:&quot;VI&quot;,&quot;countryname&quot;:&quot;Virgin Islands (U.S.)&quot;,&quot;sites&quot;:&quot;3&quot;,&quot;fsites&quot;:&quot;3&quot;},{&quot;countrycode&quot;:&quot;MP&quot;,&quot;countryname&quot;:&quot;Northern Mariana Islands&quot;,&quot;sites&quot;:&quot;2&quot;,&quot;fsites&quot;:&quot;2&quot;},{&quot;countrycode&quot;:&quot;GI&quot;,&quot;countryname&quot;:&quot;Gibraltar&quot;,&quot;sites&quot;:&quot;2&quot;,&quot;fsites&quot;:&quot;2&quot;},{&quot;countrycode&quot;:&quot;MH&quot;,&quot;countryname&quot;:&quot;Marshall Islands&quot;,&quot;sites&quot;:&quot;2&quot;,&quot;fsites&quot;:&quot;2&quot;},{&quot;countrycode&quot;:&quot;JE&quot;,&quot;countryname&quot;:&quot;Jersey&quot;,&quot;sites&quot;:&quot;2&quot;,&quot;fsites&quot;:&quot;2&quot;},{&quot;countrycode&quot;:&quot;MC&quot;,&quot;countryname&quot;:&quot;Monaco&quot;,&quot;sites&quot;:&quot;2&quot;,&quot;fsites&quot;:&quot;2&quot;},{&quot;countrycode&quot;:&quot;FO&quot;,&quot;countryname&quot;:&quot;Faroe Islands&quot;,&quot;sites&quot;:&quot;2&quot;,&quot;fsites&quot;:&quot;2&quot;},{&quot;countrycode&quot;:&quot;XK&quot;,&quot;countryname&quot;:&quot;XK&quot;,&quot;sites&quot;:&quot;2&quot;,&quot;fsites&quot;:&quot;2&quot;},{&quot;countrycode&quot;:&quot;SM&quot;,&quot;countryname&quot;:&quot;San Marino&quot;,&quot;sites&quot;:&quot;2&quot;,&quot;fsites&quot;:&quot;2&quot;},{&quot;countrycode&quot;:&quot;CF&quot;,&quot;countryname&quot;:&quot;Central African Republic&quot;,&quot;sites&quot;:&quot;2&quot;,&quot;fsites&quot;:&quot;2&quot;},{&quot;countrycode&quot;:&quot;TM&quot;,&quot;countryname&quot;:&quot;Turkmenistan&quot;,&quot;sites&quot;:&quot;2&quot;,&quot;fsites&quot;:&quot;2&quot;},{&quot;countrycode&quot;:&quot;PW&quot;,&quot;countryname&quot;:&quot;Palau&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;00&quot;,&quot;countryname&quot;:&quot;00&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;O1&quot;,&quot;countryname&quot;:&quot;O1&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;TV&quot;,&quot;countryname&quot;:&quot;Tuvalu&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;NU&quot;,&quot;countryname&quot;:&quot;Niue&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;TC&quot;,&quot;countryname&quot;:&quot;Turks and Caicos Islands&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;SX&quot;,&quot;countryname&quot;:&quot;Sint Maarten (Dutch part)&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;CK&quot;,&quot;countryname&quot;:&quot;Cook Islands&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;FE&quot;,&quot;countryname&quot;:&quot;FE&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;GZ&quot;,&quot;countryname&quot;:&quot;GZ&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;VA&quot;,&quot;countryname&quot;:&quot;Holy See&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;NR&quot;,&quot;countryname&quot;:&quot;Nauru&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;CC&quot;,&quot;countryname&quot;:&quot;Cocos (Keeling) Islands&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;ST&quot;,&quot;countryname&quot;:&quot;Sao Tome and Principe&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;FM&quot;,&quot;countryname&quot;:&quot;Micronesia (Federated States of)&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;},{&quot;countrycode&quot;:&quot;HM&quot;,&quot;countryname&quot;:&quot;Heard Island and McDonald Islands&quot;,&quot;sites&quot;:&quot;1&quot;,&quot;fsites&quot;:&quot;1&quot;}]">
+        <div class="d-flex justify-content-center align-items-center" style="height: 700px">
+            
+            
+            <div class="lds-css ng-scope">
+            <div class="lds-spinner" style="width:100%;height:100%"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+            <style type="text/css">@keyframes lds-spinner {
+              0% {
+                opacity: 1;
+              }
+              100% {
+                opacity: 0;
+              }
+            }
+            @-webkit-keyframes lds-spinner {
+              0% {
+                opacity: 1;
+              }
+              100% {
+                opacity: 0;
+              }
+            }
+            .lds-spinner {
+              position: relative;
+            }
+            .lds-spinner div {
+              left: 94px;
+              top: 48px;
+              position: absolute;
+              -webkit-animation: lds-spinner linear 1s infinite;
+              animation: lds-spinner linear 1s infinite;
+              background: #f98012;
+              width: 12px;
+              height: 24px;
+              border-radius: 40%;
+              -webkit-transform-origin: 6px 52px;
+              transform-origin: 6px 52px;
+            }
+            .lds-spinner div:nth-child(1) {
+              -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+              -webkit-animation-delay: -0.916666666666667s;
+              animation-delay: -0.916666666666667s;
+            }
+            .lds-spinner div:nth-child(2) {
+              -webkit-transform: rotate(30deg);
+              transform: rotate(30deg);
+              -webkit-animation-delay: -0.833333333333333s;
+              animation-delay: -0.833333333333333s;
+            }
+            .lds-spinner div:nth-child(3) {
+              -webkit-transform: rotate(60deg);
+              transform: rotate(60deg);
+              -webkit-animation-delay: -0.75s;
+              animation-delay: -0.75s;
+            }
+            .lds-spinner div:nth-child(4) {
+              -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+              -webkit-animation-delay: -0.666666666666667s;
+              animation-delay: -0.666666666666667s;
+            }
+            .lds-spinner div:nth-child(5) {
+              -webkit-transform: rotate(120deg);
+              transform: rotate(120deg);
+              -webkit-animation-delay: -0.583333333333333s;
+              animation-delay: -0.583333333333333s;
+            }
+            .lds-spinner div:nth-child(6) {
+              -webkit-transform: rotate(150deg);
+              transform: rotate(150deg);
+              -webkit-animation-delay: -0.5s;
+              animation-delay: -0.5s;
+            }
+            .lds-spinner div:nth-child(7) {
+              -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+              -webkit-animation-delay: -0.416666666666667s;
+              animation-delay: -0.416666666666667s;
+            }
+            .lds-spinner div:nth-child(8) {
+              -webkit-transform: rotate(210deg);
+              transform: rotate(210deg);
+              -webkit-animation-delay: -0.333333333333333s;
+              animation-delay: -0.333333333333333s;
+            }
+            .lds-spinner div:nth-child(9) {
+              -webkit-transform: rotate(240deg);
+              transform: rotate(240deg);
+              -webkit-animation-delay: -0.25s;
+              animation-delay: -0.25s;
+            }
+            .lds-spinner div:nth-child(10) {
+              -webkit-transform: rotate(270deg);
+              transform: rotate(270deg);
+              -webkit-animation-delay: -0.166666666666667s;
+              animation-delay: -0.166666666666667s;
+            }
+            .lds-spinner div:nth-child(11) {
+              -webkit-transform: rotate(300deg);
+              transform: rotate(300deg);
+              -webkit-animation-delay: -0.083333333333333s;
+              animation-delay: -0.083333333333333s;
+            }
+            .lds-spinner div:nth-child(12) {
+              -webkit-transform: rotate(330deg);
+              transform: rotate(330deg);
+              -webkit-animation-delay: 0s;
+              animation-delay: 0s;
+            }
+            .lds-spinner {
+              width: 200px !important;
+              height: 200px !important;
+              -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+              transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+            }
+            </style></div>
+        </div>
+    </div>
+
+    <h2 class="text-center mt-5 mb-3">Top 10 from 237 countries by registrations</h2>
+
+    <table class="table table-striped mx-auto" style="max-width: 50rem">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Country</th>
+                <th scope="col">Registered sites</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tbody>
+            <tr>
+                <td>Spain</td>
+                <td>12,811</td>
+            </tr>
+            <tr>
+                <td>United States</td>
+                <td>11,910</td>
+            </tr>
+            <tr>
+                <td>Germany</td>
+                <td>8,166</td>
+            </tr>
+            <tr>
+                <td>Mexico</td>
+                <td>7,813</td>
+            </tr>
+            <tr>
+                <td>Brazil</td>
+                <td>7,338</td>
+            </tr>
+            <tr>
+                <td>Russian Federation</td>
+                <td>5,246</td>
+            </tr>
+            <tr>
+                <td>Indonesia</td>
+                <td>5,225</td>
+            </tr>
+            <tr>
+                <td>France</td>
+                <td>5,220</td>
+            </tr>
+            <tr>
+                <td>Colombia</td>
+                <td>4,519</td>
+            </tr>
+            <tr>
+                <td>Italy</td>
+                <td>4,373</td>
+            </tr>
+        </tbody>
+    </tbody></table>
+
+    <h2 class="text-center mt-5 mb-3">Registered sites by size</h2>
+
+    <table class="table table-striped mx-auto" style="max-width: 50rem">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Users</th>
+                <th scope="col">Registered sites</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tbody>
+            <tr>
+                <td>0 - 1,000</td>
+                <td>121,062</td>
+            </tr>
+            <tr>
+                <td>1,000 - 10,000</td>
+                <td>20,521</td>
+            </tr>
+            <tr>
+                <td>10,000 - 20,000</td>
+                <td>3,019</td>
+            </tr>
+            <tr>
+                <td>20,000 - 50,000</td>
+                <td>2,285</td>
+            </tr>
+            <tr>
+                <td>50,000 - 100,000</td>
+                <td>931</td>
+            </tr>
+            <tr>
+                <td>100,000 - 200,000</td>
+                <td>451</td>
+            </tr>
+            <tr>
+                <td>200,000 - 300,000</td>
+                <td>124</td>
+            </tr>
+            <tr>
+                <td>300,000 - 400,000</td>
+                <td>54</td>
+            </tr>
+            <tr>
+                <td>400,000 - 500,000</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>500,000 - 1,000,000</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>&gt; 1,000,000</td>
+                <td>24</td>
+            </tr>
+        </tbody>
+    </tbody></table>
+
+    <h2 class="text-center mt-5 mb-3">Versions used</h2>
+
+    <div id="chart-registration-versions" class="w-100" data-chart="[{&quot;branch&quot;:&quot;00&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;0.0&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;0.0.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;02&quot;,&quot;total&quot;:3,&quot;major&quot;:&quot;0.2&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;0.2.0&quot;,&quot;sites&quot;:3}]},{&quot;branch&quot;:&quot;055&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;0.55&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;0.55.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;08&quot;,&quot;total&quot;:4,&quot;major&quot;:&quot;0.8&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;0.8.0&quot;,&quot;sites&quot;:4}]},{&quot;branch&quot;:&quot;10&quot;,&quot;total&quot;:155,&quot;major&quot;:&quot;1.0&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;1.0.0&quot;,&quot;sites&quot;:155}]},{&quot;branch&quot;:&quot;11&quot;,&quot;total&quot;:4,&quot;major&quot;:&quot;1.1&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;1.1.0&quot;,&quot;sites&quot;:4}]},{&quot;branch&quot;:&quot;128&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;1.28&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;1.28.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;14&quot;,&quot;total&quot;:2,&quot;major&quot;:&quot;1.4&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;1.4.1&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;1.4.4&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;15&quot;,&quot;total&quot;:19,&quot;major&quot;:&quot;1.5&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;1.5.0&quot;,&quot;sites&quot;:5},{&quot;version&quot;:&quot;1.5.3&quot;,&quot;sites&quot;:7},{&quot;version&quot;:&quot;1.5.4&quot;,&quot;sites&quot;:7}]},{&quot;branch&quot;:&quot;16&quot;,&quot;total&quot;:13,&quot;major&quot;:&quot;1.6&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;1.6.0&quot;,&quot;sites&quot;:3},{&quot;version&quot;:&quot;1.6.2&quot;,&quot;sites&quot;:2},{&quot;version&quot;:&quot;1.6.4&quot;,&quot;sites&quot;:3},{&quot;version&quot;:&quot;1.6.5&quot;,&quot;sites&quot;:2},{&quot;version&quot;:&quot;1.6.9&quot;,&quot;sites&quot;:3}]},{&quot;branch&quot;:&quot;17&quot;,&quot;total&quot;:11,&quot;major&quot;:&quot;1.7&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;1.7.0&quot;,&quot;sites&quot;:2},{&quot;version&quot;:&quot;1.7.1&quot;,&quot;sites&quot;:3},{&quot;version&quot;:&quot;1.7.2&quot;,&quot;sites&quot;:2},{&quot;version&quot;:&quot;1.7.4&quot;,&quot;sites&quot;:2},{&quot;version&quot;:&quot;1.7.7&quot;,&quot;sites&quot;:2}]},{&quot;branch&quot;:&quot;18&quot;,&quot;total&quot;:36,&quot;major&quot;:&quot;1.8&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;1.8.0&quot;,&quot;sites&quot;:6},{&quot;version&quot;:&quot;1.8.10&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;1.8.11&quot;,&quot;sites&quot;:3},{&quot;version&quot;:&quot;1.8.14&quot;,&quot;sites&quot;:3},{&quot;version&quot;:&quot;1.8.2&quot;,&quot;sites&quot;:5},{&quot;version&quot;:&quot;1.8.3&quot;,&quot;sites&quot;:5},{&quot;version&quot;:&quot;1.8.4&quot;,&quot;sites&quot;:10},{&quot;version&quot;:&quot;1.8.5&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;1.8.8&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;1.8.9&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;184&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;1.84&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;1.84.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;187&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;1.87&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;1.87.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;19&quot;,&quot;total&quot;:437,&quot;major&quot;:&quot;1.9&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;1.9.0&quot;,&quot;sites&quot;:14},{&quot;version&quot;:&quot;1.9.1&quot;,&quot;sites&quot;:10},{&quot;version&quot;:&quot;1.9.10&quot;,&quot;sites&quot;:44},{&quot;version&quot;:&quot;1.9.11&quot;,&quot;sites&quot;:14},{&quot;version&quot;:&quot;1.9.12&quot;,&quot;sites&quot;:18},{&quot;version&quot;:&quot;1.9.13&quot;,&quot;sites&quot;:15},{&quot;version&quot;:&quot;1.9.14&quot;,&quot;sites&quot;:8},{&quot;version&quot;:&quot;1.9.15&quot;,&quot;sites&quot;:9},{&quot;version&quot;:&quot;1.9.16&quot;,&quot;sites&quot;:7},{&quot;version&quot;:&quot;1.9.17&quot;,&quot;sites&quot;:10},{&quot;version&quot;:&quot;1.9.18&quot;,&quot;sites&quot;:5},{&quot;version&quot;:&quot;1.9.19&quot;,&quot;sites&quot;:20},{&quot;version&quot;:&quot;1.9.2&quot;,&quot;sites&quot;:16},{&quot;version&quot;:&quot;1.9.3&quot;,&quot;sites&quot;:20},{&quot;version&quot;:&quot;1.9.4&quot;,&quot;sites&quot;:30},{&quot;version&quot;:&quot;1.9.5&quot;,&quot;sites&quot;:71},{&quot;version&quot;:&quot;1.9.6&quot;,&quot;sites&quot;:17},{&quot;version&quot;:&quot;1.9.7&quot;,&quot;sites&quot;:31},{&quot;version&quot;:&quot;1.9.8&quot;,&quot;sites&quot;:22},{&quot;version&quot;:&quot;1.9.9&quot;,&quot;sites&quot;:56}]},{&quot;branch&quot;:&quot;20&quot;,&quot;total&quot;:56,&quot;major&quot;:&quot;2.0&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;2.0.0&quot;,&quot;sites&quot;:53},{&quot;version&quot;:&quot;2.0.2&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;2.0.4&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;2.0.9&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;21&quot;,&quot;total&quot;:7,&quot;major&quot;:&quot;2.1&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;2.1.0&quot;,&quot;sites&quot;:7}]},{&quot;branch&quot;:&quot;22&quot;,&quot;total&quot;:50,&quot;major&quot;:&quot;2.2&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;2.2.0&quot;,&quot;sites&quot;:50}]},{&quot;branch&quot;:&quot;23&quot;,&quot;total&quot;:55,&quot;major&quot;:&quot;2.3&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;2.3.0&quot;,&quot;sites&quot;:55}]},{&quot;branch&quot;:&quot;24&quot;,&quot;total&quot;:105,&quot;major&quot;:&quot;2.4&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;2.4.0&quot;,&quot;sites&quot;:104},{&quot;version&quot;:&quot;2.4.1&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;25&quot;,&quot;total&quot;:243,&quot;major&quot;:&quot;2.5&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;2.5.0&quot;,&quot;sites&quot;:243}]},{&quot;branch&quot;:&quot;26&quot;,&quot;total&quot;:379,&quot;major&quot;:&quot;2.6&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;2.6.0&quot;,&quot;sites&quot;:376},{&quot;version&quot;:&quot;2.6.2&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;2.6.3&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;2.6.5&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;27&quot;,&quot;total&quot;:83,&quot;major&quot;:&quot;2.7&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;2.7.0&quot;,&quot;sites&quot;:82},{&quot;version&quot;:&quot;2.7.7&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;28&quot;,&quot;total&quot;:222,&quot;major&quot;:&quot;2.8&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;2.8.0&quot;,&quot;sites&quot;:221},{&quot;version&quot;:&quot;2.8.12&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;29&quot;,&quot;total&quot;:312,&quot;major&quot;:&quot;2.9&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;2.9.0&quot;,&quot;sites&quot;:312}]},{&quot;branch&quot;:&quot;30&quot;,&quot;total&quot;:410,&quot;major&quot;:&quot;3.0&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.0.0&quot;,&quot;sites&quot;:408},{&quot;version&quot;:&quot;3.0.10&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;3.0.2&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;310&quot;,&quot;total&quot;:5764,&quot;major&quot;:&quot;3.10&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.10.0&quot;,&quot;sites&quot;:4820},{&quot;version&quot;:&quot;3.10.1&quot;,&quot;sites&quot;:252},{&quot;version&quot;:&quot;3.10.10&quot;,&quot;sites&quot;:68},{&quot;version&quot;:&quot;3.10.11&quot;,&quot;sites&quot;:205},{&quot;version&quot;:&quot;3.10.2&quot;,&quot;sites&quot;:46},{&quot;version&quot;:&quot;3.10.3&quot;,&quot;sites&quot;:112},{&quot;version&quot;:&quot;3.10.4&quot;,&quot;sites&quot;:112},{&quot;version&quot;:&quot;3.10.5&quot;,&quot;sites&quot;:22},{&quot;version&quot;:&quot;3.10.6&quot;,&quot;sites&quot;:28},{&quot;version&quot;:&quot;3.10.7&quot;,&quot;sites&quot;:26},{&quot;version&quot;:&quot;3.10.8&quot;,&quot;sites&quot;:45},{&quot;version&quot;:&quot;3.10.9&quot;,&quot;sites&quot;:28}]},{&quot;branch&quot;:&quot;31&quot;,&quot;total&quot;:549,&quot;major&quot;:&quot;3.1&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.1.0&quot;,&quot;sites&quot;:548},{&quot;version&quot;:&quot;3.1.5&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;311&quot;,&quot;total&quot;:10179,&quot;major&quot;:&quot;3.11&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.11.0&quot;,&quot;sites&quot;:8093},{&quot;version&quot;:&quot;3.11.1&quot;,&quot;sites&quot;:62},{&quot;version&quot;:&quot;3.11.10&quot;,&quot;sites&quot;:70},{&quot;version&quot;:&quot;3.11.11&quot;,&quot;sites&quot;:72},{&quot;version&quot;:&quot;3.11.12&quot;,&quot;sites&quot;:55},{&quot;version&quot;:&quot;3.11.13&quot;,&quot;sites&quot;:60},{&quot;version&quot;:&quot;3.11.14&quot;,&quot;sites&quot;:24},{&quot;version&quot;:&quot;3.11.15&quot;,&quot;sites&quot;:53},{&quot;version&quot;:&quot;3.11.16&quot;,&quot;sites&quot;:40},{&quot;version&quot;:&quot;3.11.17&quot;,&quot;sites&quot;:50},{&quot;version&quot;:&quot;3.11.18&quot;,&quot;sites&quot;:336},{&quot;version&quot;:&quot;3.11.2&quot;,&quot;sites&quot;:201},{&quot;version&quot;:&quot;3.11.3&quot;,&quot;sites&quot;:218},{&quot;version&quot;:&quot;3.11.4&quot;,&quot;sites&quot;:219},{&quot;version&quot;:&quot;3.11.5&quot;,&quot;sites&quot;:284},{&quot;version&quot;:&quot;3.11.6&quot;,&quot;sites&quot;:169},{&quot;version&quot;:&quot;3.11.7&quot;,&quot;sites&quot;:68},{&quot;version&quot;:&quot;3.11.8&quot;,&quot;sites&quot;:71},{&quot;version&quot;:&quot;3.11.9&quot;,&quot;sites&quot;:34}]},{&quot;branch&quot;:&quot;313&quot;,&quot;total&quot;:2,&quot;major&quot;:&quot;3.13&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.13.0&quot;,&quot;sites&quot;:2}]},{&quot;branch&quot;:&quot;315&quot;,&quot;total&quot;:2,&quot;major&quot;:&quot;3.15&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.15.0&quot;,&quot;sites&quot;:2}]},{&quot;branch&quot;:&quot;317&quot;,&quot;total&quot;:213,&quot;major&quot;:&quot;3.17&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.17.0&quot;,&quot;sites&quot;:213}]},{&quot;branch&quot;:&quot;318&quot;,&quot;total&quot;:78,&quot;major&quot;:&quot;3.18&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.18.0&quot;,&quot;sites&quot;:78}]},{&quot;branch&quot;:&quot;32&quot;,&quot;total&quot;:356,&quot;major&quot;:&quot;3.2&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.2.0&quot;,&quot;sites&quot;:356}]},{&quot;branch&quot;:&quot;33&quot;,&quot;total&quot;:729,&quot;major&quot;:&quot;3.3&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.3.0&quot;,&quot;sites&quot;:724},{&quot;version&quot;:&quot;3.3.1&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;3.3.9&quot;,&quot;sites&quot;:4}]},{&quot;branch&quot;:&quot;34&quot;,&quot;total&quot;:1074,&quot;major&quot;:&quot;3.4&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.4.0&quot;,&quot;sites&quot;:1064},{&quot;version&quot;:&quot;3.4.1&quot;,&quot;sites&quot;:4},{&quot;version&quot;:&quot;3.4.2&quot;,&quot;sites&quot;:4},{&quot;version&quot;:&quot;3.4.7&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;3.4.9&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;344&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;3.44&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.44.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;35&quot;,&quot;total&quot;:2026,&quot;major&quot;:&quot;3.5&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.5.0&quot;,&quot;sites&quot;:1997},{&quot;version&quot;:&quot;3.5.1&quot;,&quot;sites&quot;:4},{&quot;version&quot;:&quot;3.5.11&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;3.5.13&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;3.5.14&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;3.5.16&quot;,&quot;sites&quot;:2},{&quot;version&quot;:&quot;3.5.17&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;3.5.18&quot;,&quot;sites&quot;:7},{&quot;version&quot;:&quot;3.5.2&quot;,&quot;sites&quot;:4},{&quot;version&quot;:&quot;3.5.3&quot;,&quot;sites&quot;:2},{&quot;version&quot;:&quot;3.5.4&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;3.5.5&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;3.5.6&quot;,&quot;sites&quot;:2},{&quot;version&quot;:&quot;3.5.8&quot;,&quot;sites&quot;:1},{&quot;version&quot;:&quot;3.5.9&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;36&quot;,&quot;total&quot;:2063,&quot;major&quot;:&quot;3.6&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.6.0&quot;,&quot;sites&quot;:1977},{&quot;version&quot;:&quot;3.6.1&quot;,&quot;sites&quot;:3},{&quot;version&quot;:&quot;3.6.10&quot;,&quot;sites&quot;:41},{&quot;version&quot;:&quot;3.6.2&quot;,&quot;sites&quot;:3},{&quot;version&quot;:&quot;3.6.3&quot;,&quot;sites&quot;:4},{&quot;version&quot;:&quot;3.6.6&quot;,&quot;sites&quot;:5},{&quot;version&quot;:&quot;3.6.7&quot;,&quot;sites&quot;:6},{&quot;version&quot;:&quot;3.6.8&quot;,&quot;sites&quot;:6},{&quot;version&quot;:&quot;3.6.9&quot;,&quot;sites&quot;:18}]},{&quot;branch&quot;:&quot;37&quot;,&quot;total&quot;:2278,&quot;major&quot;:&quot;3.7&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.7.0&quot;,&quot;sites&quot;:2155},{&quot;version&quot;:&quot;3.7.2&quot;,&quot;sites&quot;:14},{&quot;version&quot;:&quot;3.7.3&quot;,&quot;sites&quot;:25},{&quot;version&quot;:&quot;3.7.4&quot;,&quot;sites&quot;:13},{&quot;version&quot;:&quot;3.7.5&quot;,&quot;sites&quot;:26},{&quot;version&quot;:&quot;3.7.6&quot;,&quot;sites&quot;:5},{&quot;version&quot;:&quot;3.7.7&quot;,&quot;sites&quot;:9},{&quot;version&quot;:&quot;3.7.8&quot;,&quot;sites&quot;:7},{&quot;version&quot;:&quot;3.7.9&quot;,&quot;sites&quot;:24}]},{&quot;branch&quot;:&quot;38&quot;,&quot;total&quot;:6248,&quot;major&quot;:&quot;3.8&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.8.0&quot;,&quot;sites&quot;:5573},{&quot;version&quot;:&quot;3.8.1&quot;,&quot;sites&quot;:69},{&quot;version&quot;:&quot;3.8.2&quot;,&quot;sites&quot;:263},{&quot;version&quot;:&quot;3.8.3&quot;,&quot;sites&quot;:165},{&quot;version&quot;:&quot;3.8.4&quot;,&quot;sites&quot;:45},{&quot;version&quot;:&quot;3.8.5&quot;,&quot;sites&quot;:17},{&quot;version&quot;:&quot;3.8.6&quot;,&quot;sites&quot;:11},{&quot;version&quot;:&quot;3.8.7&quot;,&quot;sites&quot;:21},{&quot;version&quot;:&quot;3.8.8&quot;,&quot;sites&quot;:15},{&quot;version&quot;:&quot;3.8.9&quot;,&quot;sites&quot;:69}]},{&quot;branch&quot;:&quot;39&quot;,&quot;total&quot;:6849,&quot;major&quot;:&quot;3.9&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;3.9.0&quot;,&quot;sites&quot;:5553},{&quot;version&quot;:&quot;3.9.1&quot;,&quot;sites&quot;:239},{&quot;version&quot;:&quot;3.9.10&quot;,&quot;sites&quot;:20},{&quot;version&quot;:&quot;3.9.11&quot;,&quot;sites&quot;:26},{&quot;version&quot;:&quot;3.9.12&quot;,&quot;sites&quot;:32},{&quot;version&quot;:&quot;3.9.13&quot;,&quot;sites&quot;:14},{&quot;version&quot;:&quot;3.9.14&quot;,&quot;sites&quot;:26},{&quot;version&quot;:&quot;3.9.15&quot;,&quot;sites&quot;:8},{&quot;version&quot;:&quot;3.9.16&quot;,&quot;sites&quot;:17},{&quot;version&quot;:&quot;3.9.17&quot;,&quot;sites&quot;:30},{&quot;version&quot;:&quot;3.9.18&quot;,&quot;sites&quot;:46},{&quot;version&quot;:&quot;3.9.19&quot;,&quot;sites&quot;:19},{&quot;version&quot;:&quot;3.9.2&quot;,&quot;sites&quot;:223},{&quot;version&quot;:&quot;3.9.20&quot;,&quot;sites&quot;:13},{&quot;version&quot;:&quot;3.9.21&quot;,&quot;sites&quot;:11},{&quot;version&quot;:&quot;3.9.22&quot;,&quot;sites&quot;:19},{&quot;version&quot;:&quot;3.9.23&quot;,&quot;sites&quot;:23},{&quot;version&quot;:&quot;3.9.24&quot;,&quot;sites&quot;:27},{&quot;version&quot;:&quot;3.9.25&quot;,&quot;sites&quot;:222},{&quot;version&quot;:&quot;3.9.3&quot;,&quot;sites&quot;:77},{&quot;version&quot;:&quot;3.9.4&quot;,&quot;sites&quot;:64},{&quot;version&quot;:&quot;3.9.5&quot;,&quot;sites&quot;:17},{&quot;version&quot;:&quot;3.9.6&quot;,&quot;sites&quot;:20},{&quot;version&quot;:&quot;3.9.7&quot;,&quot;sites&quot;:61},{&quot;version&quot;:&quot;3.9.8&quot;,&quot;sites&quot;:13},{&quot;version&quot;:&quot;3.9.9&quot;,&quot;sites&quot;:29}]},{&quot;branch&quot;:&quot;40&quot;,&quot;total&quot;:9577,&quot;major&quot;:&quot;4.0&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;4.0.0&quot;,&quot;sites&quot;:7736},{&quot;version&quot;:&quot;4.0.1&quot;,&quot;sites&quot;:314},{&quot;version&quot;:&quot;4.0.10&quot;,&quot;sites&quot;:57},{&quot;version&quot;:&quot;4.0.11&quot;,&quot;sites&quot;:31},{&quot;version&quot;:&quot;4.0.12&quot;,&quot;sites&quot;:365},{&quot;version&quot;:&quot;4.0.2&quot;,&quot;sites&quot;:192},{&quot;version&quot;:&quot;4.0.3&quot;,&quot;sites&quot;:121},{&quot;version&quot;:&quot;4.0.4&quot;,&quot;sites&quot;:373},{&quot;version&quot;:&quot;4.0.5&quot;,&quot;sites&quot;:158},{&quot;version&quot;:&quot;4.0.6&quot;,&quot;sites&quot;:71},{&quot;version&quot;:&quot;4.0.7&quot;,&quot;sites&quot;:63},{&quot;version&quot;:&quot;4.0.8&quot;,&quot;sites&quot;:47},{&quot;version&quot;:&quot;4.0.9&quot;,&quot;sites&quot;:49}]},{&quot;branch&quot;:&quot;401&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;4.01&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;4.01.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;41&quot;,&quot;total&quot;:23313,&quot;major&quot;:&quot;4.1&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;4.1.0&quot;,&quot;sites&quot;:16625},{&quot;version&quot;:&quot;4.1.1&quot;,&quot;sites&quot;:491},{&quot;version&quot;:&quot;4.1.10&quot;,&quot;sites&quot;:182},{&quot;version&quot;:&quot;4.1.11&quot;,&quot;sites&quot;:577},{&quot;version&quot;:&quot;4.1.12&quot;,&quot;sites&quot;:121},{&quot;version&quot;:&quot;4.1.13&quot;,&quot;sites&quot;:250},{&quot;version&quot;:&quot;4.1.14&quot;,&quot;sites&quot;:217},{&quot;version&quot;:&quot;4.1.15&quot;,&quot;sites&quot;:255},{&quot;version&quot;:&quot;4.1.16&quot;,&quot;sites&quot;:313},{&quot;version&quot;:&quot;4.1.17&quot;,&quot;sites&quot;:309},{&quot;version&quot;:&quot;4.1.18&quot;,&quot;sites&quot;:1695},{&quot;version&quot;:&quot;4.1.2&quot;,&quot;sites&quot;:400},{&quot;version&quot;:&quot;4.1.3&quot;,&quot;sites&quot;:200},{&quot;version&quot;:&quot;4.1.4&quot;,&quot;sites&quot;:385},{&quot;version&quot;:&quot;4.1.5&quot;,&quot;sites&quot;:200},{&quot;version&quot;:&quot;4.1.6&quot;,&quot;sites&quot;:562},{&quot;version&quot;:&quot;4.1.7&quot;,&quot;sites&quot;:65},{&quot;version&quot;:&quot;4.1.8&quot;,&quot;sites&quot;:189},{&quot;version&quot;:&quot;4.1.9&quot;,&quot;sites&quot;:277}]},{&quot;branch&quot;:&quot;42&quot;,&quot;total&quot;:6867,&quot;major&quot;:&quot;4.2&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;4.2.0&quot;,&quot;sites&quot;:5749},{&quot;version&quot;:&quot;4.2.1&quot;,&quot;sites&quot;:359},{&quot;version&quot;:&quot;4.2.10&quot;,&quot;sites&quot;:50},{&quot;version&quot;:&quot;4.2.11&quot;,&quot;sites&quot;:125},{&quot;version&quot;:&quot;4.2.2&quot;,&quot;sites&quot;:218},{&quot;version&quot;:&quot;4.2.3&quot;,&quot;sites&quot;:83},{&quot;version&quot;:&quot;4.2.4&quot;,&quot;sites&quot;:32},{&quot;version&quot;:&quot;4.2.5&quot;,&quot;sites&quot;:62},{&quot;version&quot;:&quot;4.2.6&quot;,&quot;sites&quot;:60},{&quot;version&quot;:&quot;4.2.7&quot;,&quot;sites&quot;:43},{&quot;version&quot;:&quot;4.2.8&quot;,&quot;sites&quot;:52},{&quot;version&quot;:&quot;4.2.9&quot;,&quot;sites&quot;:34}]},{&quot;branch&quot;:&quot;43&quot;,&quot;total&quot;:9632,&quot;major&quot;:&quot;4.3&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;4.3.0&quot;,&quot;sites&quot;:7949},{&quot;version&quot;:&quot;4.3.1&quot;,&quot;sites&quot;:72},{&quot;version&quot;:&quot;4.3.10&quot;,&quot;sites&quot;:72},{&quot;version&quot;:&quot;4.3.11&quot;,&quot;sites&quot;:53},{&quot;version&quot;:&quot;4.3.12&quot;,&quot;sites&quot;:86},{&quot;version&quot;:&quot;4.3.2&quot;,&quot;sites&quot;:361},{&quot;version&quot;:&quot;4.3.3&quot;,&quot;sites&quot;:449},{&quot;version&quot;:&quot;4.3.4&quot;,&quot;sites&quot;:98},{&quot;version&quot;:&quot;4.3.5&quot;,&quot;sites&quot;:133},{&quot;version&quot;:&quot;4.3.6&quot;,&quot;sites&quot;:70},{&quot;version&quot;:&quot;4.3.7&quot;,&quot;sites&quot;:120},{&quot;version&quot;:&quot;4.3.8&quot;,&quot;sites&quot;:84},{&quot;version&quot;:&quot;4.3.9&quot;,&quot;sites&quot;:85}]},{&quot;branch&quot;:&quot;44&quot;,&quot;total&quot;:18897,&quot;major&quot;:&quot;4.4&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;4.4.0&quot;,&quot;sites&quot;:12408},{&quot;version&quot;:&quot;4.4.1&quot;,&quot;sites&quot;:711},{&quot;version&quot;:&quot;4.4.2&quot;,&quot;sites&quot;:3588},{&quot;version&quot;:&quot;4.4.3&quot;,&quot;sites&quot;:656},{&quot;version&quot;:&quot;4.4.4&quot;,&quot;sites&quot;:240},{&quot;version&quot;:&quot;4.4.5&quot;,&quot;sites&quot;:156},{&quot;version&quot;:&quot;4.4.6&quot;,&quot;sites&quot;:214},{&quot;version&quot;:&quot;4.4.7&quot;,&quot;sites&quot;:556},{&quot;version&quot;:&quot;4.4.8&quot;,&quot;sites&quot;:368}]},{&quot;branch&quot;:&quot;45&quot;,&quot;total&quot;:35781,&quot;major&quot;:&quot;4.5&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;4.5.0&quot;,&quot;sites&quot;:20207},{&quot;version&quot;:&quot;4.5.1&quot;,&quot;sites&quot;:1605},{&quot;version&quot;:&quot;4.5.2&quot;,&quot;sites&quot;:11100},{&quot;version&quot;:&quot;4.5.3&quot;,&quot;sites&quot;:1576},{&quot;version&quot;:&quot;4.5.4&quot;,&quot;sites&quot;:1293}]},{&quot;branch&quot;:&quot;46&quot;,&quot;total&quot;:4,&quot;major&quot;:&quot;4.6&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;4.6.0&quot;,&quot;sites&quot;:4}]},{&quot;branch&quot;:&quot;48&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;4.8&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;4.8.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;50&quot;,&quot;total&quot;:3274,&quot;major&quot;:&quot;5.0&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;5.0.0&quot;,&quot;sites&quot;:3274}]},{&quot;branch&quot;:&quot;51&quot;,&quot;total&quot;:14,&quot;major&quot;:&quot;5.1&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;5.1.0&quot;,&quot;sites&quot;:14}]},{&quot;branch&quot;:&quot;53&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;5.3&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;5.3.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;62&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;6.2&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;6.2.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;0802&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;08.02&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;08.02.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;105&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;10.5&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;10.5.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;1144&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;11.44&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;11.44.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;1231&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;12.31&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;12.31.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;128&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;12.8&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;12.8.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;1310&quot;,&quot;total&quot;:3,&quot;major&quot;:&quot;13.10&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;13.10.0&quot;,&quot;sites&quot;:3}]},{&quot;branch&quot;:&quot;1322&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;13.22&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;13.22.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;136&quot;,&quot;total&quot;:2,&quot;major&quot;:&quot;13.6&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;13.6.0&quot;,&quot;sites&quot;:2}]},{&quot;branch&quot;:&quot;140&quot;,&quot;total&quot;:5,&quot;major&quot;:&quot;14.0&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;14.0.0&quot;,&quot;sites&quot;:5}]},{&quot;branch&quot;:&quot;1457&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;14.57&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;14.57.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;150&quot;,&quot;total&quot;:2,&quot;major&quot;:&quot;15.0&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;15.0.0&quot;,&quot;sites&quot;:2}]},{&quot;branch&quot;:&quot;151&quot;,&quot;total&quot;:2,&quot;major&quot;:&quot;15.1&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;15.1.0&quot;,&quot;sites&quot;:2}]},{&quot;branch&quot;:&quot;155&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;15.5&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;15.5.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;1720&quot;,&quot;total&quot;:2,&quot;major&quot;:&quot;17.20&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;17.20.0&quot;,&quot;sites&quot;:2}]},{&quot;branch&quot;:&quot;1727&quot;,&quot;total&quot;:2,&quot;major&quot;:&quot;17.27&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;17.27.0&quot;,&quot;sites&quot;:2}]},{&quot;branch&quot;:&quot;173&quot;,&quot;total&quot;:13,&quot;major&quot;:&quot;17.3&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;17.3.0&quot;,&quot;sites&quot;:13}]},{&quot;branch&quot;:&quot;179&quot;,&quot;total&quot;:2,&quot;major&quot;:&quot;17.9&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;17.9.0&quot;,&quot;sites&quot;:2}]},{&quot;branch&quot;:&quot;1813&quot;,&quot;total&quot;:2,&quot;major&quot;:&quot;18.13&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;18.13.0&quot;,&quot;sites&quot;:2}]},{&quot;branch&quot;:&quot;182&quot;,&quot;total&quot;:3,&quot;major&quot;:&quot;18.2&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;18.2.0&quot;,&quot;sites&quot;:3}]},{&quot;branch&quot;:&quot;187&quot;,&quot;total&quot;:9,&quot;major&quot;:&quot;18.7&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;18.7.0&quot;,&quot;sites&quot;:9}]},{&quot;branch&quot;:&quot;190&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;19.0&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;19.0.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;208&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;20.8&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;20.8.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;249&quot;,&quot;total&quot;:2,&quot;major&quot;:&quot;24.9&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;24.9.0&quot;,&quot;sites&quot;:2}]},{&quot;branch&quot;:&quot;2609&quot;,&quot;total&quot;:2,&quot;major&quot;:&quot;26.09&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;26.09.0&quot;,&quot;sites&quot;:2}]},{&quot;branch&quot;:&quot;4933&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;49.33&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;49.33.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;611&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;61.1&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;61.1.0&quot;,&quot;sites&quot;:1}]},{&quot;branch&quot;:&quot;7227&quot;,&quot;total&quot;:1,&quot;major&quot;:&quot;72.27&quot;,&quot;minors&quot;:[{&quot;version&quot;:&quot;72.27.0&quot;,&quot;sites&quot;:1}]}]">
+        <div class="d-flex justify-content-center align-items-center" style="height: 500px">
+            
+            
+            <div class="lds-css ng-scope">
+            <div class="lds-spinner" style="width:100%;height:100%"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+            <style type="text/css">@keyframes lds-spinner {
+              0% {
+                opacity: 1;
+              }
+              100% {
+                opacity: 0;
+              }
+            }
+            @-webkit-keyframes lds-spinner {
+              0% {
+                opacity: 1;
+              }
+              100% {
+                opacity: 0;
+              }
+            }
+            .lds-spinner {
+              position: relative;
+            }
+            .lds-spinner div {
+              left: 94px;
+              top: 48px;
+              position: absolute;
+              -webkit-animation: lds-spinner linear 1s infinite;
+              animation: lds-spinner linear 1s infinite;
+              background: #f98012;
+              width: 12px;
+              height: 24px;
+              border-radius: 40%;
+              -webkit-transform-origin: 6px 52px;
+              transform-origin: 6px 52px;
+            }
+            .lds-spinner div:nth-child(1) {
+              -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+              -webkit-animation-delay: -0.916666666666667s;
+              animation-delay: -0.916666666666667s;
+            }
+            .lds-spinner div:nth-child(2) {
+              -webkit-transform: rotate(30deg);
+              transform: rotate(30deg);
+              -webkit-animation-delay: -0.833333333333333s;
+              animation-delay: -0.833333333333333s;
+            }
+            .lds-spinner div:nth-child(3) {
+              -webkit-transform: rotate(60deg);
+              transform: rotate(60deg);
+              -webkit-animation-delay: -0.75s;
+              animation-delay: -0.75s;
+            }
+            .lds-spinner div:nth-child(4) {
+              -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+              -webkit-animation-delay: -0.666666666666667s;
+              animation-delay: -0.666666666666667s;
+            }
+            .lds-spinner div:nth-child(5) {
+              -webkit-transform: rotate(120deg);
+              transform: rotate(120deg);
+              -webkit-animation-delay: -0.583333333333333s;
+              animation-delay: -0.583333333333333s;
+            }
+            .lds-spinner div:nth-child(6) {
+              -webkit-transform: rotate(150deg);
+              transform: rotate(150deg);
+              -webkit-animation-delay: -0.5s;
+              animation-delay: -0.5s;
+            }
+            .lds-spinner div:nth-child(7) {
+              -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+              -webkit-animation-delay: -0.416666666666667s;
+              animation-delay: -0.416666666666667s;
+            }
+            .lds-spinner div:nth-child(8) {
+              -webkit-transform: rotate(210deg);
+              transform: rotate(210deg);
+              -webkit-animation-delay: -0.333333333333333s;
+              animation-delay: -0.333333333333333s;
+            }
+            .lds-spinner div:nth-child(9) {
+              -webkit-transform: rotate(240deg);
+              transform: rotate(240deg);
+              -webkit-animation-delay: -0.25s;
+              animation-delay: -0.25s;
+            }
+            .lds-spinner div:nth-child(10) {
+              -webkit-transform: rotate(270deg);
+              transform: rotate(270deg);
+              -webkit-animation-delay: -0.166666666666667s;
+              animation-delay: -0.166666666666667s;
+            }
+            .lds-spinner div:nth-child(11) {
+              -webkit-transform: rotate(300deg);
+              transform: rotate(300deg);
+              -webkit-animation-delay: -0.083333333333333s;
+              animation-delay: -0.083333333333333s;
+            }
+            .lds-spinner div:nth-child(12) {
+              -webkit-transform: rotate(330deg);
+              transform: rotate(330deg);
+              -webkit-animation-delay: 0s;
+              animation-delay: 0s;
+            }
+            .lds-spinner {
+              width: 200px !important;
+              height: 200px !important;
+              -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+              transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+            }
+            </style></div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <small>Other - versions used on less than 2&nbsp;% of registered sites</small>
+    </div>
+</div><br></div>
+                        
+                        
+                    </section>
+                </div>
+            </div>
+        </div>
+        
+        <footer id="page-footer" class="footer-popover bg-white">
+            <div data-region="footer-container-popover">
+                <button class="btn btn-icon bg-secondary icon-no-margin btn-footer-popover" data-action="footer-popover" aria-label="Show footer">
+                    <i class="icon fa fa-question fa-fw " aria-hidden="true"></i>
+                </button>
+            </div>
+                <p class="translationhash"></p>
+<div class="footer-dark text-light brand-footer" dir="LTR">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 col-lg-4 col-xl-4 d-none d-md-flex flex-md-row flex-lg-column align-items-center order-md-last order-lg-0 mt-md-3 mt-lg-0">
+<div class="d-flex flex-md-column"><a href="https://moodle.com/"><img class="logo" src="theme/moodleorg/pix/logo-footer.svg" alt="Logo"></a> <a href="https://moodle.com/bcorp/"><img class="logo" title="This company meets the highest standards of social and environmental impact" src="theme/moodleorg/pix/b-corp-footer.png" alt="This company meets the highest standards of social and environmental impact"></a></div>
+<div class="bg-transparent border-0 d-flex mt-5 mt-md-1 ml-md-10 ml-lg-0 donations">
+<div>
+<h5 class="text-white line-height-4 mb-2 ">Empowering educators to improve our world</h5>
+<div class="card-text d-flex flex-md-row flex-lg-column"><a class="btn btn-arrow mr-md-5" href="https://moodle.org/donations/"> Donate </a> <a class="btn btn-arrow" href="https://moodle.com/shop/"> Shop </a></div>
+</div>
+</div>
+</div>
+<div class="col-md-12 col-lg-8 col-xl-8 order-md-first order-lg-0">
+<div class="card-deck d-flex flex-column flex-md-row">
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Moodle <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="400/en/About_Moodle.html">About Moodle</a></li>
+<li><a href="security/index.htm">Security alerts</a></li>
+<li><a href="index-6.htm">Statistics</a></li>
+<li><a href="mod/page/view.php.html?id=8191">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Support <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="500/en/Main_page.html">Documentation</a></li>
+<li><a href="course/index.htm">Forums</a></li>
+<li><a href="https://moodle.com/solutions/certified-service-providers/">Service Providers</a></li>
+<li><a href="mod/data/view.php.html?d=54">Jobs database</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Get Involved <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="general/development/gettingstarted.html">Development</a></li>
+<li><a href="plugins/index.htm?q=type:theme">Themes</a></li>
+<li><a href="index-3.htm">Translation</a></li>
+<li><a href="https://moodle.org//mod/page/view.php?id=8749">User Experience</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Contributions <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="dev/index.htm">Developer credits</a></li>
+<li><a href="local/amos/credits.php.html">Translator credits</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Downloads <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="releases/latest/index.htm">Latest release</a></li>
+<li><a href="plugins/index-1.htm">Plugins</a></li>
+<li><a href="mobile/index.htm">Moodle App</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Tracker <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="browse/MDL.html">Browse issues</a></li>
+<li><a href="mod/page/view.php-1.html?id=8751">Suggest a feature</a></li>
+<li><a href="mod/page/view.php-2.html?id=8750">Report a bug</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0" style="border-bottom: 0px !important;">
+<div class="inner-card-body">
+<h5 class="card-title text-white mb-2">Development <i class="fa fa-plus d-lg-none d-md-none"></i></h5>
+<div class="card-text">
+<ul class="unlist footer-list link">
+<li><a href="index-2.htm">Dev Docs</a></li>
+<li><a href="general/community/roadmap.html">Roadmap</a></li>
+<li><a href="mod/forum/view.php-1.html?id=55">Developer forum</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card bg-transparent m-0 border-0 d-flex d-md-none flex-column footer-logo mt-6 mx-auto">
+<div class="inner-card-body pl-1">
+<h5 class="text-white line-height-4 mb-2">Empowering educators to improve our world</h5>
+<div class="card-text d-flex"><a class="btn btn-arrow mr-4" href="https://moodle.org/donations/"> Donate </a> <a class="btn btn-arrow d-flex" href="https://moodle.com/shop/"> Shop </a></div>
+</div>
+</div>
+<div class="social-icons-block mb-6 mt-7 d-flex d-md-none mx-auto"><a class="facebook social-icon mr-6" href="moodle/index.htm" aria-label="Go to Facebook"> <img src="theme/moodleorg/pix/social/m_facebook.svg" width="32" height="32"> </a> <a class="linkedin social-icon mr-6" title="Go to LinkedIn" href="https://www.linkedin.com/company/moodle"> <img src="theme/moodleorg/pix/social/m_linkedin.svg" width="32" height="32"> </a> <a class="twitter social-icon mr-6" title="Go to Twitter" href="https://twitter.com/moodle"> <img src="theme/moodleorg/pix/social/m_twitter.svg" width="32" height="32"> </a> <a class="youtube social-icon mr-6" title="Go to Youtube" href="ml.html"> <img src="theme/moodleorg/pix/social/m_youtube.svg" width="32" height="32"> </a></div>
+<a class="d-flex d-md-none mb-6 ml-n3" href="https://moodle.com/bcorp/"><img class="logo mx-auto" title="This company meets the highest standards of social and environmental impact" src="theme/moodleorg/pix/b-corp-footer.png" alt="This company meets the highest standards of social and environmental impact" width="204" height="104"></a></div>
+</div>
+</div>
+<hr class="my-5 d-none d-lg-flex ml-lg-9 d-md-none row" style="border-top: 1px solid #476d85;" width="90%"><hr class="my-5 d-none d-lg-none ml-lg-9 d-md-flex row" width="100%">
+<div class="row ml-4 ml-lg-7 pl-lg-5 ml-md-n3">
+<div class="col-md-3 col-lg-2 link text-small "><a href="mod/page/view.php-3.html?id=8753&amp;forceview=1">Accessibility Statement</a></div>
+<div class="col-md-2 col-lg-2 link text-small ml-lg-5"><a href="https://moodle.com/cookies-policy/">Cookies Policy</a></div>
+<div class="col-md-2 col-lg-2 link text-small ml-lg-n3"><a href="mod/page/view.php-4.html?id=7080&amp;forceview=1">Site Policy</a></div>
+<div class="col-md-2 col-lg-2 link text-small ml-lg-n5 "><a class="ml-lg-n2" href="https://moodle.com/privacy-notice/">Privacy Notice</a></div>
+<div class="col-md-3 col-lg-2 link text-small ml-lg-n4"><a href="https://moodle.com/trademarks/">Trademark Policy</a></div>
+<div class="social-icons-block d-none d-md-flex mt-md-5 mt-lg-0 ml-md-3"><a class="facebook social-icon" href="moodle/index.htm" aria-label="Go to Facebook"> <img src="theme/moodleorg/pix/social/old/facebook.svg" width="20" height="20"> </a> <a class="linkedin social-icon" title="Go to LinkedIn" href="https://www.linkedin.com/company/moodle"> <img src="theme/moodleorg/pix/social/old/linkedin.svg" width="20" height="20"> </a> <a class="twitter social-icon" title="Go to Twitter" href="https://twitter.com/moodle"> <img src="theme/moodleorg/pix/social/old/twitter.svg" width="20" height="20"> </a> <a class="youtube social-icon" title="Go to Youtube" href="ml.html"> <img src="theme/moodleorg/pix/social/old/youtube.svg" width="20" height="20"> </a></div>
+</div>
+</div>
+</div>
+        
+            <div class="footer-content-popover container footer-dark bg-dark text-light" data-region="footer-content-popover">
+                    <div class="footer-section p-3 border-bottom">
+        
+        
+                            <div><a href="https://stats.moodle.org/user/contactsitesupport.php"><i class="icon fa-regular fa-envelope fa-fw " aria-hidden="true"></i>Contact site support</a></div>
+                    </div>
+                <div class="footer-section p-3 border-bottom">
+                    <div class="logininfo">
+                        <div class="logininfo">You are not logged in. (<a href="https://stats.moodle.org/login/index.php">Log in</a>)</div>
+                    </div>
+                    <div class="tool_usertours-resettourcontainer">
+                    </div>
+        
+                    
+                    <script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://stats.moodle.org/lib/requirejs.php/1745325490/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://stats.moodle.org/lib/javascript.php/1745325490/lib/jquery/jquery-3.7.1.min',
+        jqueryui: 'https://stats.moodle.org/lib/javascript.php/1745325490/lib/jquery/ui-1.14.1/jquery-ui.min',
+        jqueryprivate: 'https://stats.moodle.org/lib/javascript.php/1745325490/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://stats.moodle.org/lib/javascript.php/1745325490/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");
+require(['core/first'], function() {
+require(['core/prefetch'])
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('en');
+});;
+M.util.js_pending('filter_mathjaxloader/loader'); require(['filter_mathjaxloader/loader'], function(amd) {amd.configure({"mathjaxurl":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@3.2.2\/es5\/tex-mml-chtml.js","mathjaxconfig":"","lang":"en"}); M.util.js_complete('filter_mathjaxloader/loader');});;
+
+;
+
+require(['jquery'], function($) {
+    $(document).ready(function() {
+
+        var fluid = function() {
+            if ($(window).width() >= 992) {
+                $("#usernavigation").appendTo(".secondary-nav");
+                $('#usernavigation').removeClass('nav-mobile');
+               $(".sites-nav").addClass('d-none');
+               $('.navbar-nav').show();
+            } else {
+                $("#usernavigation").appendTo("#moodlesitestopnavbar");
+                $('#usernavigation').addClass('nav-mobile');
+                $("#usernavigation").show();
+            }
+        };
+
+        $('.moodle_sites').on('click', function() {
+        
+            $(".sites-nav").removeClass('d-none');
+            $('.navbar-nav').hide();
+            $(".sites-nav").show();
+            fluid();
+        });
+
+        $('.sites-nav .back').on('click', function() {
+        
+            $(".sites-nav").addClass('d-none');
+            $('.navbar-nav').show();
+            $(".sites-nav").hide();
+            fluid();
+        });
+
+        // Fire on DOM ready
+        fluid();
+
+        // Fire upon resize
+        $(window).resize(fluid);
+
+    });
+});
+;
+
+M.util.js_pending('theme_boost/drawers:load');
+require(['theme_boost/drawers'], function() {
+    M.util.js_complete('theme_boost/drawers:load');
+});
+;
+
+require(['jquery'], function($) {
+    $(document).ready(function() {
+        $('.footer-dark .card-title').on('click', function() {
+            if ($(window).width() < 754) {
+                $(this).next().toggle('1000');
+                $(this).find('i').toggleClass('fa-minus fa-plus');
+            }
+        });
+    });
+});
+
+require(['theme_boost/footer-popover'], function(FooterPopover) {
+    FooterPopover.init();
+});
+;
+
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader', 'theme_boost/drawer'], function(Loader, Drawer) {
+    Drawer.init();
+    M.util.js_complete('theme_boost/loader');
+});
+
+;
+M.util.js_pending('local_hub/charts'); require(['local_hub/charts'], function(amd) {amd.init("AIzaSyAlJWAHLuShe0SWp5hUHSTtjwphCtd06dk"); M.util.js_complete('local_hub/charts');});;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(2, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;
+M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});;
+M.util.js_pending('core/storage_validation'); require(['core/storage_validation'], function(amd) {amd.init(null); M.util.js_complete('core/storage_validation');});
+    M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL","collapseall":"Collapse all","expandall":"Expand all"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} links to this file","select":"Select"},"admin":{"confirmdeletecomments":"Are you sure you want to delete the selected comment(s)?","confirmation":"Confirmation"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {M.util.help_popups.setup(Y);
+ M.util.js_pending('random6810acc6221cd2'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6810acc6221cd2'); });
+})();
+//]]>
+</script>
+
+                </div>
+                <div class="footer-section p-3">
+                    <div>Powered by <a href="https://moodle.com">Moodle</a></div>
+                </div>
+            </div>
+        
+            <div class="footer-content-debugging footer-dark bg-dark text-light">
+                <div class="container-fluid footer-dark-inner">
+                    
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</div>
+
+
+</body></html>

@@ -1,0 +1,583 @@
+Uri: https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?delayStartupUntil=configured
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\npm\mathjax@2.7.9\MathJax.js
+Content Type: application/javascript
+
+Uri: https://download.moodle.org/mobile?version=2023100904&lang=en&iosappid=633359593&androidappid=com.moodle.moodlemobile
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\mobile-1.html
+Content Type: text/html
+
+Uri: https://download.moodle.org/mobile?version=2023100904&lang=es&iosappid=633359593&androidappid=com.moodle.moodlemobile
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\mobile.html
+Content Type: text/html
+
+Uri: https://download.moodle.org/mobile?version=2023100904&lang=eu&iosappid=633359593&androidappid=com.moodle.moodlemobile
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\mobile-2.html
+Content Type: text/html
+
+Uri: https://elearning6.hezkuntza.net/012982/course/format/onetopic/styles.php
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\course\format\onetopic\styles.php
+Content Type: text/css
+
+Uri: https://elearning6.hezkuntza.net/012982/lib/javascript.php/1738317656/lib/javascript-static.js
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\lib\javascript.php\1738317656\lib\javascript.php
+Content Type: application/javascript
+
+Uri: https://elearning6.hezkuntza.net/012982/lib/javascript.php/1738317656/lib/polyfills/polyfill.js
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\lib\javascript.php\1738317656\lib\polyfills\javascript.php
+Content Type: application/javascript
+
+Uri: https://elearning6.hezkuntza.net/012982/lib/javascript.php/1738317656/lib/requirejs/require.min.js
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\lib\javascript.php\1738317656\lib\requirejs\javascript.php
+Content Type: application/javascript
+
+Uri: https://elearning6.hezkuntza.net/012982/login/forgot_password.php
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\login\forgot_password.php.html
+Content Type: text/html
+
+Uri: https://elearning6.hezkuntza.net/012982/login/index.php
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\login\index.php.html
+Content Type: text/html
+
+Uri: https://elearning6.hezkuntza.net/012982/login/index.php?lang=en
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\login\index.php-1.html
+Content Type: text/html
+
+Uri: https://elearning6.hezkuntza.net/012982/login/index.php?lang=es
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\login\index.php-3.html
+Content Type: text/html
+
+Uri: https://elearning6.hezkuntza.net/012982/login/index.php?lang=eu
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\login\index.php-2.html
+Content Type: text/html
+
+Uri: https://elearning6.hezkuntza.net/012982/pluginfile.php/1/core_admin/logo/0x200/1738317656/Logo ZM Inicio sesion Moodle.png
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\pluginfile.php\1\core_admin\logo\0x200\1738317656\Logo ZM Inicio sesion Moodle.png
+Content Type: image/png
+
+Uri: https://elearning6.hezkuntza.net/012982/theme/image.php/boostpersonal/theme/1738317656/favicon
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\theme\image.php\boostpersonal\theme\1738317656\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://elearning6.hezkuntza.net/012982/theme/styles.php/boostpersonal/1738317656_1738318030/all
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\theme\styles.php\boostpersonal\1738317656_1738318030\styles.php
+Content Type: text/css
+
+Uri: https://elearning6.hezkuntza.net/012982/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\theme\combo
+Content Type: text/css
+
+Uri: https://elearning6.hezkuntza.net/012982/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\theme\combo-1
+Content Type: application/javascript
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-G39EJEKQJR
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\gtag\js
+Content Type: application/javascript
+
+46260\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://download.moodle.org/theme/font.php/moodleorg/core/1745846260/fa-solid-900.ttf
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\font.php\moodleorg\core\1745846260\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://download.moodle.org/theme/font.php/moodleorg/core/1745846260/fa-solid-900.woff2
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\font.php\moodleorg\core\1745846260\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://download.moodle.org/theme/font.php/moodleorg/theme/1745846260/DMSerifDisplay-Italic.woff
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\font.php\moodleorg\theme\1745846260\DMSerifDisplay-Italic.woff
+Content Type: font/woff
+
+Uri: https://download.moodle.org/theme/font.php/moodleorg/theme/1745846260/DMSerifDisplay-Italic.woff2
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\font.php\moodleorg\theme\1745846260\DMSerifDisplay-Italic.woff2
+Content Type: font/woff2
+
+Uri: https://download.moodle.org/theme/font.php/moodleorg/theme/1745846260/DMSerifDisplay-Regular.woff
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\font.php\moodleorg\theme\1745846260\DMSerifDisplay-Regular.woff
+Content Type: font/woff
+
+Uri: https://download.moodle.org/theme/font.php/moodleorg/theme/1745846260/DMSerifDisplay-Regular.woff2
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\font.php\moodleorg\theme\1745846260\DMSerifDisplay-Regular.woff2
+Content Type: font/woff2
+
+Uri: https://download.moodle.org/theme/font.php/moodleorg/theme/1745846260/OpenSans-Bold-webfont.eot
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\font.php\moodleorg\theme\1745846260\OpenSans-Bold-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://download.moodle.org/theme/font.php/moodleorg/theme/1745846260/OpenSans-Bold-webfont.woff
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\font.php\moodleorg\theme\1745846260\OpenSans-Bold-webfont.woff
+Content Type: font/woff
+
+Uri: https://download.moodle.org/theme/font.php/moodleorg/theme/1745846260/OpenSans-Light-webfont.eot
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\font.php\moodleorg\theme\1745846260\OpenSans-Light-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://download.moodle.org/theme/font.php/moodleorg/theme/1745846260/OpenSans-Light-webfont.woff
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\font.php\moodleorg\theme\1745846260\OpenSans-Light-webfont.woff
+Content Type: font/woff
+
+Uri: https://download.moodle.org/theme/font.php/moodleorg/theme/1745846260/OpenSans-Regular-webfont.eot
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\font.php\moodleorg\theme\1745846260\OpenSans-Regular-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://download.moodle.org/theme/font.php/moodleorg/theme/1745846260/OpenSans-Regular-webfont.woff
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\font.php\moodleorg\theme\1745846260\OpenSans-Regular-webfont.woff
+Content Type: font/woff
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/i/expired
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\i\expired.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/i/flagged
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\i\flagged.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/i/grade_correct
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\i\grade_correct.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/i/grade_incorrect
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\i\grade_incorrect.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/i/grade_partiallycorrect
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\i\grade_partiallycorrect.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/i/loading_small
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\i\loading_small.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/i/settings
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\i\settings.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/s/dead
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\s\dead.png
+Content Type: image/png
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/t/add
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\t\add.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/t/collapsed
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\t\collapsed.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/t/collapsed_empty
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\t\collapsed_empty.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/t/copy
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\t\copy.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/t/delete
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\t\delete.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/t/down
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\t\down.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/t/expanded
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\t\expanded.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/t/locked
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\t\locked.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/t/print
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\t\print.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/t/up
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\t\up.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/y/lm
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\y\lm.png
+Content Type: image/png
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/y/ln
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\y\ln.gif
+Content Type: image/gif
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/y/loading
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\y\loading.gif
+Content Type: image/gif
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/y/lp
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\y\lp.png
+Content Type: image/png
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/y/tm
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\y\tm.png
+Content Type: image/png
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/y/tn
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\y\tn.gif
+Content Type: image/gif
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/y/tp
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\y\tp.png
+Content Type: image/png
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/core/1745846260/y/vline
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\core\1745846260\y\vline.gif
+Content Type: image/gif
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/local_downloadmoodleorg/1745846260/app-store
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\local_downloadmoodleorg\1745846260\app-store.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/local_downloadmoodleorg/1745846260/banner-donate-mobile
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\local_downloadmoodleorg\1745846260\banner-donate-mobile.png
+Content Type: image/png
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/local_downloadmoodleorg/1745846260/google-play
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\local_downloadmoodleorg\1745846260\google-play.png
+Content Type: image/png
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/local_downloadmoodleorg/1745846260/moodle-mobile
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\local_downloadmoodleorg\1745846260\moodle-mobile.png
+Content Type: image/png
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/mod_forum/1745846260/t/subscribed
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\mod_forum\1745846260\t\subscribed.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/mod_forum/1745846260/t/unsubscribed
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\mod_forum\1745846260\t\unsubscribed.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/mod_workshop/1745846260/userplan/task-done
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\mod_workshop\1745846260\userplan\task-done.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/mod_workshop/1745846260/userplan/task-fail
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\mod_workshop\1745846260\userplan\task-fail.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/mod_workshop/1745846260/userplan/task-info
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\mod_workshop\1745846260\userplan\task-info.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/mod_workshop/1745846260/userplan/task-todo
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\mod_workshop\1745846260\userplan\task-todo.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/quiz/1745846260/flag-on
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\quiz\1745846260\flag-on.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/quiz/1745846260/navflagged
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\quiz\1745846260\navflagged.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/quiz/1745846260/warningtriangle
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\quiz\1745846260\warningtriangle.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/theme/1745846260/ellipse-orange
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\theme\1745846260\ellipse-orange.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/theme/1745846260/fp/alias
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\theme\1745846260\fp\alias.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/theme/1745846260/fp/alias_sm
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\theme\1745846260\fp\alias_sm.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/theme/1745846260/fp/link
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\theme\1745846260\fp\link.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/theme/1745846260/fp/link_sm
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\theme\1745846260\fp\link_sm.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/theme/1745846260/fp/path_folder
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\theme\1745846260\fp\path_folder.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/theme/1745846260/wave
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\theme\1745846260\wave.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/tiny_aiplacement/1745846260/sparkles-image
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\tiny_aiplacement\1745846260\sparkles-image.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/image.php/moodleorg/tiny_aiplacement/1745846260/sparkles-text
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\image.php\moodleorg\tiny_aiplacement\1745846260\sparkles-text.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/moodleorg/pix/arrow-left.svg
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\arrow-left.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/moodleorg/pix/arrow-r.svg
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\arrow-r.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/moodleorg/pix/favicons/favicon-180.webp
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\favicons\favicon-180.webp
+Content Type: image/webp
+
+Uri: https://download.moodle.org/theme/moodleorg/pix/favicons/favicon-192.webp
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\favicons\favicon-192.webp
+Content Type: image/webp
+
+Uri: https://download.moodle.org/theme/moodleorg/pix/favicons/favicon-32.webp
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\favicons\favicon-32.webp
+Content Type: image/webp
+
+Uri: https://download.moodle.org/theme/moodleorg/pix/favicons/favicon.ico
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\favicons\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://download.moodle.org/theme/moodleorg/pix/moodle_logo_TM.svg
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\moodle_logo_TM.svg
+Content Type: image/svg+xml
+
+Uri: https://download.moodle.org/theme/styles.php/moodleorg/1745846260_1745845993/all
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\styles.php\moodleorg\1745846260_1745845993\styles.php
+Content Type: text/css
+
+Uri: https://download.moodle.org/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\combo
+Content Type: text/css
+
+Uri: https://download.moodle.org/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\combo-1
+Content Type: application/javascript
+
+Uri: https://elearning6.hezkuntza.net/012982/course/format/onetopic/styles.php
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\course\format\onetopic\styles.php
+Content Type: text/css
+
+Uri: https://elearning6.hezkuntza.net/012982/lib/javascript.php/1738317656/lib/javascript-static.js
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\lib\javascript.php\1738317656\lib\javascript.php
+Content Type: application/javascript
+
+Uri: https://elearning6.hezkuntza.net/012982/lib/javascript.php/1738317656/lib/polyfills/polyfill.js
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\lib\javascript.php\1738317656\lib\polyfills\javascript.php
+Content Type: application/javascript
+
+Uri: https://elearning6.hezkuntza.net/012982/lib/javascript.php/1738317656/lib/requirejs/require.min.js
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\lib\javascript.php\1738317656\lib\requirejs\javascript.php
+Content Type: application/javascript
+
+Uri: https://elearning6.hezkuntza.net/012982/login/forgot_password.php
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\login\forgot_password.php.html
+Content Type: text/html
+
+Uri: https://elearning6.hezkuntza.net/012982/login/index.php
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\login\index.php.html
+Content Type: text/html
+
+Uri: https://elearning6.hezkuntza.net/012982/login/index.php?lang=en
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\login\index.php-1.html
+Content Type: text/html
+
+Uri: https://elearning6.hezkuntza.net/012982/login/index.php?lang=es
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\login\index.php-3.html
+Content Type: text/html
+
+Uri: https://elearning6.hezkuntza.net/012982/login/index.php?lang=eu
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\login\index.php-2.html
+Content Type: text/html
+
+Uri: https://elearning6.hezkuntza.net/012982/pluginfile.php/1/core_admin/logo/0x200/1738317656/Logo ZM Inicio sesion Moodle.png
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\pluginfile.php\1\core_admin\logo\0x200\1738317656\Logo ZM Inicio sesion Moodle.png
+Content Type: image/png
+
+Uri: https://elearning6.hezkuntza.net/012982/theme/image.php/boostpersonal/theme/1738317656/favicon
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\theme\image.php\boostpersonal\theme\1738317656\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://elearning6.hezkuntza.net/012982/theme/styles.php/boostpersonal/1738317656_1738318030/all
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\theme\styles.php\boostpersonal\1738317656_1738318030\styles.php
+Content Type: text/css
+
+Uri: https://elearning6.hezkuntza.net/012982/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\theme\combo
+Content Type: text/css
+
+Uri: https://elearning6.hezkuntza.net/012982/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\012982\theme\combo-1
+Content Type: application/javascript
+
+Uri: https://lang.moodle.org/
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\index-3.htm
+Content Type: text/html
+
+Uri: https://lang.moodle.org/local/amos/credits.php
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\local\amos\credits.php.html
+Content Type: text/html
+
+Uri: https://moodle.academy/
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\index-5.htm
+Content Type: text/html
+
+Uri: https://moodle.net/
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\index-4.htm
+Content Type: text/html
+
+Uri: https://moodle.org/
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\index.htm
+Content Type: text/html
+
+Uri: https://moodle.org/course/
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\course\index.htm
+Content Type: text/html
+
+Uri: https://moodle.org/demo
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\demo.html
+Content Type: text/html
+
+Uri: https://moodle.org/dev/
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\dev\index.htm
+Content Type: text/html
+
+Uri: https://moodle.org/mod/data/view.php?d=54
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\mod\data\view.php.html
+Content Type: text/html
+
+Uri: https://moodle.org/mod/forum/view.php?id=55
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\mod\forum\view.php-1.html
+Content Type: text/html
+
+Uri: https://moodle.org/mod/forum/view.php?id=7798
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\mod\forum\view.php.html
+Content Type: text/html
+
+Uri: https://moodle.org/mod/page/view.php?id=7080&forceview=1
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\mod\page\view.php-4.html
+Content Type: text/html
+
+Uri: https://moodle.org/mod/page/view.php?id=8191
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\mod\page\view.php.html
+Content Type: text/html
+
+Uri: https://moodle.org/mod/page/view.php?id=8750
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\mod\page\view.php-2.html
+Content Type: text/html
+
+Uri: https://moodle.org/mod/page/view.php?id=8751
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\mod\page\view.php-1.html
+Content Type: text/html
+
+Uri: https://moodle.org/mod/page/view.php?id=8753&forceview=1
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\mod\page\view.php-3.html
+Content Type: text/html
+
+Uri: https://moodle.org/plugins/
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\plugins\index-1.htm
+Content Type: text/html
+
+Uri: https://moodle.org/plugins/?q=type:theme
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\plugins\index.htm
+Content Type: text/html
+
+Uri: https://moodle.org/public/search
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\public\search.html
+Content Type: text/html
+
+Uri: https://moodle.org/security/
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\security\index.htm
+Content Type: text/html
+
+Uri: https://moodledev.io/
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\index-2.htm
+Content Type: text/html
+
+Uri: https://moodledev.io/general/app_releases
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\general\app_releases.html
+Content Type: text/html
+
+Uri: https://moodledev.io/general/community/roadmap
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\general\community\roadmap.html
+Content Type: text/html
+
+Uri: https://moodledev.io/general/development/gettingstarted
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\general\development\gettingstarted.html
+Content Type: text/html
+
+Uri: https://packaging.moodle.org/desktop/android/moodlemobile-android-v450.apk
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\desktop\android\moodlemobile-android-v450.apk
+Content Type: application/vnd.android.package-archive
+
+Uri: https://play.google.com/store/apps/details?id=com.moodle.moodlemobile
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\store\apps\details.html
+Content Type: text/html
+
+Uri: https://stats.moodle.org/
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\index-6.htm
+Content Type: text/html
+
+Uri: https://stats.moodle.org/theme/moodleorg/pix/b-corp-footer.png
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\b-corp-footer.png
+Content Type: image/png
+
+Uri: https://stats.moodle.org/theme/moodleorg/pix/logo-footer.svg
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\logo-footer.svg
+Content Type: image/svg+xml
+
+Uri: https://stats.moodle.org/theme/moodleorg/pix/social/m_facebook.svg
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\social\m_facebook.svg
+Content Type: image/svg+xml
+
+Uri: https://stats.moodle.org/theme/moodleorg/pix/social/m_linkedin.svg
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\social\m_linkedin.svg
+Content Type: image/svg+xml
+
+Uri: https://stats.moodle.org/theme/moodleorg/pix/social/m_twitter.svg
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\social\m_twitter.svg
+Content Type: image/svg+xml
+
+Uri: https://stats.moodle.org/theme/moodleorg/pix/social/m_youtube.svg
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\social\m_youtube.svg
+Content Type: image/svg+xml
+
+Uri: https://stats.moodle.org/theme/moodleorg/pix/social/old/facebook.svg
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\social\old\facebook.svg
+Content Type: image/svg+xml
+
+Uri: https://stats.moodle.org/theme/moodleorg/pix/social/old/linkedin.svg
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\social\old\linkedin.svg
+Content Type: image/svg+xml
+
+Uri: https://stats.moodle.org/theme/moodleorg/pix/social/old/twitter.svg
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\social\old\twitter.svg
+Content Type: image/svg+xml
+
+Uri: https://stats.moodle.org/theme/moodleorg/pix/social/old/youtube.svg
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\theme\moodleorg\pix\social\old\youtube.svg
+Content Type: image/svg+xml
+
+Uri: https://tracker.moodle.org/browse/MDL
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\browse\MDL.html
+Content Type: text/html
+
+Uri: https://tracker.moodle.org/browse/MOBILE
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\browse\MOBILE.html
+Content Type: text/html
+
+Uri: https://www.facebook.com/moodle/
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\moodle\index.htm
+Content Type: text/html
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-G39EJEKQJR
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\gtag\js
+Content Type: application/javascript
+
+Uri: https://www.googletagmanager.com/ns.html?id=GTM-P26VCTMD
+File Name: C:\Users\Segur\Downloads\elearning6.hezkuntza.net\ns.html
+Content Type: text/html
+

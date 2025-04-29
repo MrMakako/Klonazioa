@@ -1,0 +1,1648 @@
+﻿<!DOCTYPE html>
+
+<html dir="ltr" lang="es" xml:lang="es" data-tenantid="1" data-tenantidnumber="Moodlers">
+<head>
+    <title>Página Principal | Moodle Academy</title>
+    <link rel="shortcut icon" href="https://moodle.academy/pluginfile.php/1/tool_tenant/favicon/1/Academy_Mobile_App_Icon.png">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="moodle, Página Principal | Moodle Academy">
+<link rel="stylesheet" type="text/css" href="https://moodle.academy/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css"><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://moodle.academy/theme/workplace/wpcss.php/academy/1743395478_1743395826/all-1-1732506843">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+<link rel="stylesheet" type="text/css" href="https://moodle.academy/filter/videoeasy/videoeasycss.php?t=3&rev=1737070274">
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle.academy","apibase":"https:\/\/moodle.academy\/r.php\/api","homeurl":{},"sesskey":"L2BjSY3I1r","sessiontimeout":"14400","sessiontimeoutwarning":"1200","themerev":"1743395478","slasharguments":1,"theme":"academy","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1743395478","admin":"admin","svgicons":true,"usertimezone":"UTC","language":"es_wp","courseId":1,"courseContextId":2,"contextid":2,"contextInstanceId":1,"langrev":1745902775,"templaterev":"1743395478","siteId":1,"userId":0};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/moodle.academy\/lib\/yuilib\/3.18.1\/","comboBase":"https:\/\/moodle.academy\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/moodle.academy\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle.academy\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle.academy\/theme\/yui_combo.php?m\/1743395478\/","combine":true,"comboBase":"https:\/\/moodle.academy\/theme\/yui_combo.php?","ext":false,"root":"m\/1743395478\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_credit-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_gwpayments-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_language-form":{"requires":["base","node","event","node-event-simulate","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_hsuforum-article":{"requires":["base","node","event","router","core_rating","querystring","moodle-mod_hsuforum-io","moodle-mod_hsuforum-livelog"]},"moodle-mod_hsuforum-io":{"requires":["base","io-base","io-form","io-upload-iframe","json-parse"]},"moodle-mod_hsuforum-livelog":{"requires":["widget"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form","datatype-date-format"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_embedquestion-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_styles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_translations-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/moodle.academy\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/moodle.academy\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1743395478\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle.academy\/lib\/javascript.php\/1743395478\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/moodle.academy\/lib\/javascript.php\/1743395478\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}},"logInclude":[],"logExclude":[],"logLevel":null};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HWERZBYTH6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-HWERZBYTH6');
+</script>
+<!-- Hotjar Tracking Code for https://moodle.academy -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2655864,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<meta name="moodle-validation" content="9bb90c9b79e2fe4f57713a402322d9c2">
+
+<!-- OneTrust Cookies Consent Notice start for moodle.academy -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/da437867-07f9-47fc-ba1d-6157c9e2b7fd-test/OtAutoBlock.js"></script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="da437867-07f9-47fc-ba1d-6157c9e2b7fd-test"></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for moodle.academy -->
+
+<script id="6senseWebTag" src="https://j.6sc.co/j/c8971021-fc65-4bbd-9a05-b6e57875e886.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="page-site-index" class="limitedwidth format-site course path-site dir-ltr lang-es_wp yui-skin-sam yui3-skin-sam moodle-academy pagelayout-frontpage course-1 context-2 notloggedin theme uses-drawers">
+<div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+<div id="page-wrapper" class="d-print-block">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Salta al contenido principal</a>
+</div><script src="https://moodle.academy/lib/javascript.php/1743395478/lib/polyfills/polyfill.js"></script>
+<script src="https://moodle.academy/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js"></script><script src="https://moodle.academy/lib/javascript.php/1743395478/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+<div class="eupopup eupopup-container eupopup-container-block eupopup-container-bottom eupopup-block eupopup-style-compact" role="dialog" aria-label="Políticas">
+    </div>
+    <div class="eupopup-markup d-none">
+        <div class="eupopup-head"></div>
+        <div class="eupopup-body">
+            Para continuar usando este sitio web, debe aceptar nuestras políticas:
+            <ul>
+                    <li>
+                        <a href="https://moodle.academy/admin/tool/policy/view.php?versionid=15&returnurl=https%3A%2F%2Fmoodle.academy%2F" data-action="view-guest" data-versionid="15" data-behalfid="1">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://moodle.academy/admin/tool/policy/view.php?versionid=8&returnurl=https%3A%2F%2Fmoodle.academy%2F" data-action="view-guest" data-versionid="8" data-behalfid="1">
+                            Cookies Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://moodle.academy/admin/tool/policy/view.php?versionid=17&returnurl=https%3A%2F%2Fmoodle.academy%2F" data-action="view-guest" data-versionid="17" data-behalfid="1">
+                            Marketing opt-in
+                        </a>
+                    </li>
+            </ul>
+        </div>
+        <div class="eupopup-buttons">
+            <a href="#" class="eupopup-button eupopup-button_1">Continuar</a>
+        </div>
+        <div class="clearfix"></div>
+        <a href="#" class="eupopup-closebutton">x</a>
+    </div>
+
+    <nav class="navbar fixed-top navbar-dark navbar-expand" aria-label="Navegación del sitio">
+    
+        <button class="navbar-toggler aabtn d-block d-md-none my-1 mr-2" data-toggler="drawers" data-action="toggle" data-target="theme_boost-drawers-primary">
+            <span class="navbar-toggler-icon"></span>
+            <span class="sr-only">Panel lateral</span>
+        </button>
+    
+        <a href="index-5.htm" class="navbar-brand d-none d-md-flex align-items-center m-0 mr-2 p-0 aabtn">
+                <img src="https://moodle.academy/pluginfile.php/1/tool_tenant/headerlogo/1/MoodleAcademyLogo_Landscape_TM_UseonOrange_RGB_1000px.png" class="logo mr-1" alt="Moodle Academy">
+        </a>
+    
+        <ul class="navbar-nav d-none d-md-flex mr-1 tenantswitch">
+            
+        </ul>
+    
+            <div class="primary-navigation">
+                <nav class="moremenu navigation">
+                    <ul id="moremenu-6810aca24a616-navbar-nav" role="menubar" class="nav more-nav navbar-nav">
+                                <li data-key="home" class="nav-item" role="none" data-forceintomoremenu="false">
+                                            <a role="menuitem" class="nav-link active " href="index-5.htm" aria-current="true" data-disableactive="true">
+                                                Página Principal
+                                            </a>
+                                </li>
+                        <li role="none" class="nav-item dropdown dropdownmoremenu d-none" data-region="morebutton">
+                            <a class="dropdown-toggle nav-link " href="#" id="moremenu-dropdown-6810aca24a616" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="-1">
+                                Más
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-left" data-region="moredropdown" aria-labelledby="moremenu-dropdown-6810aca24a616" role="menu">
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    
+        <ul class="navbar-nav d-none d-md-flex my-1 px-1">
+            <!-- page_heading_menu -->
+            
+        </ul>
+        <div id="usernavigation" class="navbar-nav ml-auto">
+                <div id="searchinput-navbar-6810aca2694076810aca22d9d24" class="simplesearchform">
+    <div class="collapse" id="searchform-navbar">
+        <form autocomplete="off" action="https://moodle.academy/search/index.php" method="get" accept-charset="utf-8" class="mform d-flex flex-wrap align-items-center searchform-navbar">
+                <input type="hidden" name="context" value="2">
+            <div class="input-group">
+                <label for="searchinput-6810aca2694076810aca22d9d24">
+                    <span class="sr-only">Buscar</span>
+                </label>
+                    <input type="text" id="searchinput-6810aca2694076810aca22d9d24" class="form-control withclear" placeholder="Buscar" aria-label="Buscar" name="q" data-region="input" autocomplete="off">
+                    <a class="btn btn-close" data-action="closesearch" data-toggle="collapse" href="#searchform-navbar" role="button">
+                        <i class="icon fa fa-xmark fa-fw " aria-hidden="true"></i>
+                        <span class="sr-only">Cerrar</span>
+                    </a>
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-submit" data-action="submit">
+                        <i class="icon fa fa-magnifying-glass fa-fw " aria-hidden="true"></i>
+                        <span class="sr-only">Buscar</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <a class="btn btn-open rounded-0 nav-link" data-toggle="collapse" data-action="opensearch" href="#searchform-navbar" role="button" aria-expanded="false" aria-controls="searchform-navbar" title="Selector de búsqueda de entrada">
+        <i class="icon fa fa-magnifying-glass fa-fw " aria-hidden="true"></i>
+        <span class="sr-only">Selector de búsqueda de entrada</span>
+    </a>
+</div>
+                <div class="langmenu">
+                    <div class="dropdown show">
+                        <a href="#" role="button" id="lang-menu-toggle" data-toggle="dropdown" aria-label="Idioma" aria-haspopup="true" aria-controls="lang-action-menu" class="btn dropdown-toggle">
+                            <i class="icon fa fa-language fa-fw me-1" aria-hidden="true"></i>
+                            <span class="langbutton">
+                                Español ‎(es_wp)‎
+                            </span>
+                            <b class="caret"></b>
+                        </a>
+                        <div role="menu" aria-labelledby="lang-menu-toggle" id="lang-action-menu" class="dropdown-menu dropdown-menu-right">
+                                    <a href="https://moodle.academy/?lang=af" class="dropdown-item ps-5" role="menuitem" lang="af">
+                                        Afrikaans ‎(af)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=an" class="dropdown-item ps-5" role="menuitem" lang="an">
+                                        Aragonés ‎(an)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=id" class="dropdown-item ps-5" role="menuitem" lang="id">
+                                        Bahasa Indonesia ‎(id)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=bs" class="dropdown-item ps-5" role="menuitem" lang="bs">
+                                        Bosanski ‎(bs)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=br" class="dropdown-item ps-5" role="menuitem" lang="br">
+                                        Brezhoneg ‎(br)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ca_wp" class="dropdown-item ps-5" role="menuitem" lang="ca">
+                                        Català ‎(ca_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ca_valencia" class="dropdown-item ps-5" role="menuitem" lang="ca">
+                                        Català (Valencià) ‎(ca_valencia)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=cs" class="dropdown-item ps-5" role="menuitem" lang="cs">
+                                        Čeština ‎(cs)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=cy" class="dropdown-item ps-5" role="menuitem" lang="cy">
+                                        Cymraeg ‎(cy)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=da_wp" class="dropdown-item ps-5" role="menuitem" lang="da">
+                                        Dansk ‎(da_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=da_kursus" class="dropdown-item ps-5" role="menuitem" lang="da">
+                                        Dansk (kursus) ‎(da_kursus)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=da_rum" class="dropdown-item ps-5" role="menuitem" lang="da">
+                                        Dansk Rum ‎(da_rum)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=se" class="dropdown-item ps-5" role="menuitem" lang="se">
+                                        Davvisámegiella ‎(se)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=de_wp" class="dropdown-item ps-5" role="menuitem" lang="de">
+                                        Deutsch ‎(de_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=dsb" class="dropdown-item ps-5" role="menuitem" lang="de">
+                                        Dolnoserbski ‎(dsb)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=mh" class="dropdown-item ps-5" role="menuitem" lang="mh">
+                                        Ebon ‎(mh)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=et" class="dropdown-item ps-5" role="menuitem" lang="et">
+                                        eesti ‎(et)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=en_us_wp" class="dropdown-item ps-5" role="menuitem" lang="en">
+                                        English - United States ‎(en_us_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=en_wp" class="dropdown-item ps-5" role="menuitem" lang="en">
+                                        English ‎(en_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=es_co" class="dropdown-item ps-5" role="menuitem" lang="es-co">
+                                        Español - Colombia ‎(es_co)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=es_mx" class="dropdown-item ps-5" role="menuitem" lang="es-mx">
+                                        Español - México ‎(es_mx)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=es_ve" class="dropdown-item ps-5" role="menuitem" lang="es-ve">
+                                        Español - Venezuela ‎(es_ve)‎
+                                    </a>
+                                    <a href="#" class="dropdown-item ps-5" role="menuitem" aria-current="true">
+                                        Español ‎(es_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=eu" class="dropdown-item ps-5" role="menuitem" lang="eu">
+                                        Euskara ‎(eu)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ee" class="dropdown-item ps-5" role="menuitem" lang="ee">
+                                        Èʋegbe ‎(ee)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=fil" class="dropdown-item ps-5" role="menuitem" lang="fil">
+                                        Filipino ‎(fil)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=sv_fi" class="dropdown-item ps-5" role="menuitem" lang="sv">
+                                        Finlandssvenska ‎(sv_fi)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=fr_ca" class="dropdown-item ps-5" role="menuitem" lang="fr">
+                                        Français (Canada) ‎(fr_ca)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=fr_wp" class="dropdown-item ps-5" role="menuitem" lang="fr">
+                                        Français ‎(fr_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ga" class="dropdown-item ps-5" role="menuitem" lang="ga">
+                                        Gaeilge ‎(ga)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=gd" class="dropdown-item ps-5" role="menuitem" lang="gd">
+                                        Gàidhlig ‎(gd)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=gl" class="dropdown-item ps-5" role="menuitem" lang="gl">
+                                        Galego ‎(gl)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=oc_gsc" class="dropdown-item ps-5" role="menuitem" lang="oc_gsc">
+                                        Gascon ‎(oc_gsc)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=hr" class="dropdown-item ps-5" role="menuitem" lang="hr">
+                                        Hrvatski ‎(hr)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=zu" class="dropdown-item ps-5" role="menuitem" lang="zu">
+                                        isiZulu ‎(zu)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=is" class="dropdown-item ps-5" role="menuitem" lang="is">
+                                        Íslenska ‎(is)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=it_wp" class="dropdown-item ps-5" role="menuitem" lang="it">
+                                        Italiano ‎(it_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=kl" class="dropdown-item ps-5" role="menuitem" lang="da">
+                                        Kalaallisut ‎(kl)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=sw" class="dropdown-item ps-5" role="menuitem" lang="sw">
+                                        Kiswahili ‎(sw)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=lv" class="dropdown-item ps-5" role="menuitem" lang="lv">
+                                        Latviešu ‎(lv)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=lb" class="dropdown-item ps-5" role="menuitem" lang="lb">
+                                        Lëtzebuergesch ‎(lb)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=lt" class="dropdown-item ps-5" role="menuitem" lang="lt">
+                                        Lietuvių ‎(lt)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=smj" class="dropdown-item ps-5" role="menuitem" lang="no">
+                                        Lulesamisk ‎(smj)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=hu" class="dropdown-item ps-5" role="menuitem" lang="hu">
+                                        magyar ‎(hu)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=mi" class="dropdown-item ps-5" role="menuitem" lang="mi">
+                                        Māori Te Reo ‎(mi)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=nl_wp" class="dropdown-item ps-5" role="menuitem" lang="nl">
+                                        Nederlands ‎(nl_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=nb" class="dropdown-item ps-5" role="menuitem" lang="nb">
+                                        Norsk - bokmål ‎(nb)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=nn" class="dropdown-item ps-5" role="menuitem" lang="no">
+                                        Norsk - nynorsk ‎(nn)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=no_gr" class="dropdown-item ps-5" role="menuitem" lang="no">
+                                        Norsk ‎(no_gr)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=no_wp" class="dropdown-item ps-5" role="menuitem" lang="no">
+                                        Norsk ‎(no_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=uz" class="dropdown-item ps-5" role="menuitem" lang="uz">
+                                        O&#039;zbekcha ‎(uz)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=oc_lnc" class="dropdown-item ps-5" role="menuitem" lang="oc">
+                                        Occitan-Lengadocian ‎(oc_lnc)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=pcm" class="dropdown-item ps-5" role="menuitem" lang="pc">
+                                        Pidgin ‎(pcm)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=pl" class="dropdown-item ps-5" role="menuitem" lang="pl">
+                                        Polski ‎(pl)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=pt_br_wp" class="dropdown-item ps-5" role="menuitem" lang="pt-br">
+                                        Português - Brasil ‎(pt_br_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=pt" class="dropdown-item ps-5" role="menuitem" lang="pt">
+                                        Português - Portugal ‎(pt)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ro_wp" class="dropdown-item ps-5" role="menuitem" lang="ro">
+                                        Română ‎(ro_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=rm_surs" class="dropdown-item ps-5" role="menuitem" lang="rm">
+                                        Romansh Sursilvan ‎(rm_surs)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=sm" class="dropdown-item ps-5" role="menuitem" lang="sm">
+                                        Samoan ‎(sm)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=sq" class="dropdown-item ps-5" role="menuitem" lang="sq">
+                                        Shqip ‎(sq)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=sk" class="dropdown-item ps-5" role="menuitem" lang="sk">
+                                        Slovenčina ‎(sk)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=sl" class="dropdown-item ps-5" role="menuitem" lang="sl">
+                                        Slovenščina ‎(sl)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=sma" class="dropdown-item ps-5" role="menuitem" lang="no">
+                                        Sørsamisk ‎(sma)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=sr_lt" class="dropdown-item ps-5" role="menuitem" lang="sr">
+                                        Srpski ‎(sr_lt)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=fi" class="dropdown-item ps-5" role="menuitem" lang="fi">
+                                        Suomi ‎(fi)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=fi_co" class="dropdown-item ps-5" role="menuitem" lang="fi">
+                                        Suomi+ ‎(fi_co)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=sv" class="dropdown-item ps-5" role="menuitem" lang="sv">
+                                        Svenska ‎(sv)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=tl" class="dropdown-item ps-5" role="menuitem" lang="tl">
+                                        Tagalog ‎(tl)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=tr" class="dropdown-item ps-5" role="menuitem" lang="tr">
+                                        Türkçe ‎(tr)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=fj" class="dropdown-item ps-5" role="menuitem" lang="fj">
+                                        VakaViti ‎(fj)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ca_valencia_racv" class="dropdown-item ps-5" role="menuitem" lang="ca">
+                                        Valencià_RACV ‎(ca_valencia_racv)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=vi" class="dropdown-item ps-5" role="menuitem" lang="vi">
+                                        Vietnamese ‎(vi)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=wo" class="dropdown-item ps-5" role="menuitem" lang="fr">
+                                        Wolof ‎(wo)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=zh_cn_wp" class="dropdown-item ps-5" role="menuitem" lang="zh">
+                                        Workplace 简体中文版 ‎(zh_cn_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=zh_tw_wp" class="dropdown-item ps-5" role="menuitem" lang="zh">
+                                        Workplace 繁體中文版 ‎(zh_tw_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ja_wp" class="dropdown-item ps-5" role="menuitem" lang="ja">
+                                        Workplace準拠の日本語 ‎(ja_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=el_wp" class="dropdown-item ps-5" role="menuitem" lang="el">
+                                        Ελληνικά ‎(el_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ba" class="dropdown-item ps-5" role="menuitem" lang="ba">
+                                        Башҡорт теле ‎(ba)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=be" class="dropdown-item ps-5" role="menuitem" lang="be">
+                                        Беларуская ‎(be)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=bg" class="dropdown-item ps-5" role="menuitem" lang="bg">
+                                        Български ‎(bg)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ky" class="dropdown-item ps-5" role="menuitem" lang="ru">
+                                        Кыргызча ‎(ky)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=kk" class="dropdown-item ps-5" role="menuitem" lang="kk">
+                                        Қазақша ‎(kk)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=mk" class="dropdown-item ps-5" role="menuitem" lang="mk">
+                                        Македонски ‎(mk)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=mn" class="dropdown-item ps-5" role="menuitem" lang="mn">
+                                        Монгол ‎(mn)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ru" class="dropdown-item ps-5" role="menuitem" lang="ru">
+                                        Русский ‎(ru)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=sr_cr" class="dropdown-item ps-5" role="menuitem" lang="sr">
+                                        Српски ‎(sr_cr)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=tg" class="dropdown-item ps-5" role="menuitem" lang="tg">
+                                        Тоҷикӣ ‎(tg)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=uk" class="dropdown-item ps-5" role="menuitem" lang="uk">
+                                        Українська ‎(uk)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ka" class="dropdown-item ps-5" role="menuitem" lang="ka">
+                                        ქართული ‎(ka)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=hy" class="dropdown-item ps-5" role="menuitem" lang="hy">
+                                        Հայերեն ‎(hy)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=he_wp" class="dropdown-item ps-5" role="menuitem" lang="he">
+                                        עברית עבור Workplace ‎(he_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ur" class="dropdown-item ps-5" role="menuitem" lang="ur">
+                                        اردو ‎(ur)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ar_wp" class="dropdown-item ps-5" role="menuitem" lang="ar">
+                                        بالعربي workplace ‎(ar_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ckb" class="dropdown-item ps-5" role="menuitem" lang="ku">
+                                        سۆرانی ‎(ckb)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=fa" class="dropdown-item ps-5" role="menuitem" lang="fa">
+                                        فارسی ‎(fa)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=dv" class="dropdown-item ps-5" role="menuitem" lang="dv">
+                                        ދިވެހި ‎(dv)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ti" class="dropdown-item ps-5" role="menuitem" lang="ti">
+                                        ትግርኛ ‎(ti)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ne" class="dropdown-item ps-5" role="menuitem" lang="ne">
+                                        नेपाली ‎(ne)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=mr" class="dropdown-item ps-5" role="menuitem" lang="mr">
+                                        मराठी ‎(mr)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=hi_wp" class="dropdown-item ps-5" role="menuitem" lang="hi">
+                                        वर्कप्लेस  के लिए  हिंदी ‎(hi_wp)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=bn" class="dropdown-item ps-5" role="menuitem" lang="bn">
+                                        বাংলা ‎(bn)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=gu" class="dropdown-item ps-5" role="menuitem" lang="gu">
+                                        ગુજરાતી ‎(gu)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=or" class="dropdown-item ps-5" role="menuitem" lang="or">
+                                        ଓଡ଼ିଆ ‎(or)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ta_lk" class="dropdown-item ps-5" role="menuitem" lang="ta">
+                                        தமிழ் ‎(ta_lk)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=te" class="dropdown-item ps-5" role="menuitem" lang="te">
+                                        తెలుగు  ‎(te)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=kn" class="dropdown-item ps-5" role="menuitem" lang="kn">
+                                        ಕನ್ನಡ ‎(kn)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ml" class="dropdown-item ps-5" role="menuitem" lang="ml">
+                                        മലയാളം ‎(ml)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=si" class="dropdown-item ps-5" role="menuitem" lang="si">
+                                        සිංහල ‎(si)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=dz" class="dropdown-item ps-5" role="menuitem" lang="dz">
+                                        རྫོང་ཁ ‎(dz)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=my" class="dropdown-item ps-5" role="menuitem" lang="my">
+                                        ဗမာစာ ‎(my)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=km" class="dropdown-item ps-5" role="menuitem" lang="km">
+                                        ខ្មែរ ‎(km)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=iu" class="dropdown-item ps-5" role="menuitem" lang="iu">
+                                        ᐃᓄᒃᑎᑐᑦ ‎(iu)‎
+                                    </a>
+                                    <a href="https://moodle.academy/?lang=ko" class="dropdown-item ps-5" role="menuitem" lang="ko">
+                                        한국어 ‎(ko)‎
+                                    </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider border-left h-75 align-self-center mx-1"></div>
+            
+    
+            
+    
+            <div class="d-flex align-items-stretch usermenu-container" data-region="usermenu">
+                    <div class="usermenu">
+                            <span class="login ps-2">
+                                    <a href="https://moodle.academy/login/index.php">Acceder</a>
+                            </span>
+                    </div>
+            </div>
+            
+        </div>
+    </nav>
+    
+
+<div class="drawer drawer-left drawer-primary d-print-none not-initialized" data-region="fixed-drawer" id="theme_boost-drawers-primary" data-preference="" data-state="show-drawer-primary" data-forceopen="0" data-close-on-resize="1">
+    <div class="drawerheader">
+        <button class="btn drawertoggle icon-no-margin hidden" data-toggler="drawers" data-action="closedrawer" data-target="theme_boost-drawers-primary" data-toggle="tooltip" data-placement="right" title="Cerrar caja">
+            <i class="icon fa fa-xmark fa-fw " aria-hidden="true"></i>
+        </button>
+        <a href="index-5.htm" title="Moodle Academy" data-region="site-home-link" class="aabtn text-reset d-flex align-items-center py-1 h-100 d-md-none">
+                        <img src="https://moodle.academy/pluginfile.php/1/tool_tenant/headerlogo/1/MoodleAcademyLogo_Landscape_TM_UseonOrange_RGB_1000px.png" class="logo py-1 h-100" alt="Moodle Academy">
+
+        </a>
+        <div class="drawerheadercontent hidden">
+            
+        </div>
+    </div>
+    <div class="drawercontent drag-container" data-usertour="scroller">
+                <div class="list-group">
+                <a href="index-5.htm" class="list-group-item list-group-item-action active " aria-current="true">
+                    Página Principal
+                </a>
+        </div>
+        <ul class="position-absolute fixed-bottom navbar-nav ml-3 tenantswitch">
+            
+        </ul>
+
+    </div>
+</div>
+        <div class="drawer drawer-right show d-print-none not-initialized" data-region="fixed-drawer" id="theme_boost-drawers-blocks" data-preference="drawer-open-block" data-state="show-drawer-right" data-forceopen="" data-close-on-resize="1">
+    <div class="drawerheader">
+        <button class="btn drawertoggle icon-no-margin hidden" data-toggler="drawers" data-action="closedrawer" data-target="theme_boost-drawers-blocks" data-toggle="tooltip" data-placement="left" title="Cerrar cajón del bloque">
+            <i class="icon fa fa-xmark fa-fw " aria-hidden="true"></i>
+        </button>
+        <a href="index-5.htm" title="Moodle Academy" data-region="site-home-link" class="aabtn text-reset d-flex align-items-center py-1 h-100 d-md-none">
+            
+        </a>
+        <div class="drawerheadercontent hidden">
+            
+        </div>
+    </div>
+    <div class="drawercontent drag-container" data-usertour="scroller">
+                        <section class="d-print-none" aria-label="Bloques">
+                    
+                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><h2 class="sr-only">Bloques</h2><section id="inst12798" class=" block_html block  card mb-3" role="region" data-block="html" data-instance-id="12798" aria-label="Texto">
+
+    <div class="card-body p-3">
+
+
+
+        <div class="card-text content mt-3">
+            <div class="no-overflow">
+<div class="simplesearchform ">
+    <form autocomplete="off" action="/search/index.php" method="get" accept-charset="utf-8" class="mform form-inline simplesearchform" abineguid="6138BD3413C24F1A8D3A2EAD61521216">
+        <input type="hidden" name="areaids" value="core_course-course">
+        <div class="input-group">
+            <label for="searchinput-6260baff0c7976260baff0a9e73">
+                <span class="sr-only">Search courses</span>
+            </label>
+            <input type="text" id="searchinput-6260baff0c7976260baff0a9e73" class="form-control" placeholder="Search courses" aria-label="Search courses" name="q" data-region="input" autocomplete="off" value="">
+            <div class="input-group-append">
+                <button type="submit" class="btn  btn-primary search-icon">
+                    <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                    <span class="sr-only">Search courses</span>
+                </button>
+            </div>
+        </div>
+    </form>
+    <div>&nbsp;or <a href="/course/index.php?categoryid=1">browse all courses</a>.
+    </div>
+</div></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section><section id="inst119" class=" block_html block  card mb-3" role="region" data-block="html" data-instance-id="119" aria-label="Texto">
+
+    <div class="card-body p-3">
+
+
+
+        <div class="card-text content mt-3">
+            <div class="no-overflow"><div class="block-html-timezone">
+  Times are UTC - log in to set your local time.</div></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section><a href="#sb-4" class="sr-only sr-only-focusable">Salta Próximos eventos</a>
+
+<section id="inst173" class=" block_calendar_upcoming block  card mb-3" role="region" data-block="calendar_upcoming" data-instance-id="173" aria-labelledby="instance-173-header">
+
+    <div class="card-body p-3">
+
+                <h3 id="instance-173-header" class="h5 card-title d-inline">Próximos eventos</h3>
+
+
+        <div class="card-text content mt-3">
+            <div id="calendar-upcoming-block-6810aca22d9d06810aca22d9d21" data-template="core_calendar/upcoming_mini">
+    <div class="card-text content calendarwrapper" id="month-upcoming-mini-6810aca22d9d06810aca22d9d21" data-context-id="0" data-courseid="1" data-categoryid="0">
+        <span class="overlay-icon-container hidden" data-region="overlay-icon-container">
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-spinner fa-spin fa-fw " title="Cargando" role="img" aria-label="Cargando"></i></span>
+        </span>
+            <div class="event d-flex border-bottom pt-2 pb-3" data-eventtype-other="1" data-region="event-item">
+                <div class="activityiconcontainer small courseicon me-3">
+                        <i class="icon fa-solid fa-globe fa-fw " title="Evento de sitio" role="img" aria-label="Evento de sitio"></i>
+                </div>
+                <div class="overflow-auto">
+                    <h6 class="d-flex mb-1">
+                        <a class="text-truncate" data-type="event" data-action="view-event" data-event-id="27568" href="https://moodle.academy/calendar/view.php?view=day&course=1&time=1747112400#event_27568" title="ウェビナー「数式自動採点システムSTACKの最新動向」に登録する">ウェビナー「数式自動採点システムSTACKの最新動向」に登録する</a>
+                    </h6>
+                    <div class="date small"><a href="https://moodle.academy/calendar/view.php?view=day&time=1747116000">martes, 13 mayo</a>, 05:00 <strong>&raquo;</strong> 06:00</div>
+                </div>
+            </div>
+            <div class="event d-flex border-bottom pt-2 pb-3" data-eventtype-other="1" data-region="event-item">
+                <div class="activityiconcontainer small courseicon me-3">
+                        <i class="icon fa-solid fa-globe fa-fw " title="Evento de sitio" role="img" aria-label="Evento de sitio"></i>
+                </div>
+                <div class="overflow-auto">
+                    <h6 class="d-flex mb-1">
+                        <a class="text-truncate" data-type="event" data-action="view-event" data-event-id="27740" href="https://moodle.academy/calendar/view.php?view=day&course=1&time=1747918800#event_27740" title="Register for the &#039;Get involved in the Moodle.org Community Forums&#039; webinar">Register for the 'Get involved in the Moodle.org Community Forums' webinar</a>
+                    </h6>
+                    <div class="date small"><a href="https://moodle.academy/calendar/view.php?view=day&time=1747922400">jueves, 22 mayo</a>, 13:00 <strong>&raquo;</strong> 14:00</div>
+                </div>
+            </div>
+            <div class="event d-flex border-bottom pt-2 pb-3" data-eventtype-other="1" data-region="event-item">
+                <div class="activityiconcontainer small courseicon me-3">
+                        <i class="icon fa-solid fa-globe fa-fw " title="Evento de sitio" role="img" aria-label="Evento de sitio"></i>
+                </div>
+                <div class="overflow-auto">
+                    <h6 class="d-flex mb-1">
+                        <a class="text-truncate" data-type="event" data-action="view-event" data-event-id="27239" href="https://moodle.academy/calendar/view.php?view=day&course=1&time=1749546000#event_27239" title="Register for webinar &#039;5 Custom Reports You Can&#039;t Live Without&#039;">Register for webinar '5 Custom Reports You Can't Live Without'</a>
+                    </h6>
+                    <div class="date small"><a href="https://moodle.academy/calendar/view.php?view=day&time=1749549600">martes, 10 junio</a>, 09:00 <strong>&raquo;</strong> 10:00</div>
+                </div>
+            </div>
+    </div>
+</div>
+            <div class="footer"><div class="gotocal"><a href="https://moodle.academy/calendar/view.php?view=upcoming">Ir al calendario...</a></div></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-4"></span><section id="inst324" class=" block_html block  card mb-3" role="region" data-block="html" data-instance-id="324" aria-label="Texto">
+
+    <div class="card-body p-3">
+
+
+
+        <div class="card-text content mt-3">
+            <div class="no-overflow"><div class="subscribe-events" dir="ltr" style="text-align: center;"><a href="/calendar/export.php?">Subscribe to events calendar</a></div></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section><a href="#sb-6" class="sr-only sr-only-focusable">Salta Latest courses and programs</a>
+
+<section id="inst4584" class=" block_html block  card mb-3" role="region" data-block="html" data-instance-id="4584" aria-labelledby="instance-4584-header">
+
+    <div class="card-body p-3">
+
+                <h3 id="instance-4584-header" class="h5 card-title d-inline">Latest courses and programs</h3>
+
+
+        <div class="card-text content mt-3">
+            <div class="no-overflow">
+
+<!---COURSE---->
+<div class="coursename"><i class="fa fa-graduation-cap" aria-hidden="true"></i> <a href="https://moodle.academy/course/view.php?id=165"> What's New in Moodle 5.0</a></div>
+<p></p>
+<!---COURSE---->
+<div class="coursename"><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span style="font-size: 1rem;"> </span><a href="https://moodle.academy/course/view.php?id=158"> Acceptance Testing with Behat</a></div>
+<p></p>
+<!---COURSE---->
+<div class="coursename"><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span style="font-size: 1rem;"> </span><a href="https://moodle.academy/course/view.php?id=157"> Moodle Assessment Tools program and certificate</a></div>
+<p></p>
+<!---COURSE---->
+<div class="coursename"><i class="fa fa-graduation-cap" aria-hidden="true"></i> <a href="https://moodle.academy/course/view.php?id=156"> Assessment: Giving Effective Feedback</a></div>
+<p></p></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-6"></span><a href="#sb-7" class="sr-only sr-only-focusable">Salta Avisos recientes</a>
+
+<section id="inst4665" class=" block_news_items block  card mb-3" role="region" data-block="news_items" data-instance-id="4665" aria-labelledby="instance-4665-header">
+
+    <div class="card-body p-3">
+
+                <h3 id="instance-4665-header" class="h5 card-title d-inline">Avisos recientes</h3>
+
+
+        <div class="card-text content mt-3">
+            
+<ul class='unlist'>
+<li class="post"><div class="head clearfix"><div class="date">10 abril 2025, 1:56 PM</div><div class="name">Sandra Matz</div></div><div class="info"><a href="https://moodle.academy/mod/forum/discuss.php?d=6794">Moodle Academy April Highlight</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">6 marzo 2025, 10:07 PM</div><div class="name">Sandra Matz</div></div><div class="info"><a href="https://moodle.academy/mod/forum/discuss.php?d=6617">Moodle Academy March Highlights</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">5 febrero 2025, 10:20 AM</div><div class="name">Sandra Matz</div></div><div class="info"><a href="https://moodle.academy/mod/forum/discuss.php?d=6478">Moodle Academy February Highlights</a></div></li>
+</ul>
+
+            <div class="footer"><a href="https://moodle.academy/mod/forum/view.php?f=110">Temas antiguos</a> ...</div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-7"></span><section id="inst97" class=" block_html block  card mb-3" role="region" data-block="html" data-instance-id="97" aria-label="Texto">
+
+    <div class="card-body p-3">
+
+
+
+        <div class="card-text content mt-3">
+            <div class="no-overflow"><div class="get-involved">
+    <p style="text-align: center;"><a href="/course/view.php?id=4"><img src="https://moodle.academy/pluginfile.php/201/block_html/content/AllIcons_forWebsite-22.png" alt="" width="100" height="100" class="lightbulb">
+        </a></p>
+    <p style="text-align: center;"><a href="/course/view.php?id=4">Get Involved!</a></p>
+</div></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section></aside>
+                </section>
+
+    </div>
+</div>
+    <div id="page" data-region="mainpage" data-usertour="scroller" class="drawers  show-drawer-right drag-container">
+        <div id="topofscroll" class="main-inner">
+            <div class="drawer-toggles d-flex">
+                    <div class="drawer-toggler drawer-right-toggle ml-auto d-print-none">
+                        <button class="btn icon-no-margin" data-toggler="drawers" data-action="toggle" data-target="theme_boost-drawers-blocks" data-toggle="tooltip" data-placement="right" title="Abrir cajón de bloques">
+                            <span class="sr-only">Abrir cajón de bloques</span>
+                            <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"></i></span>
+                            <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"></i></span>
+                        </button>
+                    </div>
+            </div>
+            <div id="page-content" class="pb-3 d-print-block">
+                <div id="region-main-box">
+                    <section id="region-main" aria-label="Contenido">
+
+                        <span class="notifications" id="user-notifications"></span>
+                        <div role="main"><span id="maincontent"></span><div class="course-content">
+    <div class="sitetopic">
+        <ul class="topics frontpage">
+                <li id="section-1" class="section course-section main  clearfix
+                             
+                            " data-sectionid="1" data-sectionreturnnum="1" data-for="section" data-id="21" data-number="1" data-sectionname="Sitio">
+                    <div class="section-item">
+                            <div class="course-section-header d-flex" data-for="section_title" data-id="21" data-number="1">
+                                <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                </div>
+                            </div>
+                            <div id="coursecontentcollapseid21" class="content ">
+                                <div class=" my-3" data-for="sectioninfo">
+                                                <div class="summarytext">
+                                                    <div class="no-overflow">
+<div class="container mb-0">
+    <div class="row">
+        <p class="ml-3 ml-sm-1 ml-md-2 mb-0"><img src="https://moodle.academy/pluginfile.php/2/course/section/21/MoodleAcademyLogo_Landscape_TM_PrimaryColour_RGB_1000px.png" alt="Moodle Academy logo" width="510" height="74" class="img-fluid atto_image_button_text-bottom ml-0"></p>
+        <p class="ml-3 ml-sm-1 ml-md-2 mb-0" style="font-size:22px;">
+            The learning hub for the global Moodle community
+        </p>
+    </div>
+</div></div>
+                                                </div>
+                                            <div class="section_availability">
+                                            </div>
+                                </div>
+                                        <ul class="section m-0 p-0 img-text " data-for="cmlist">
+                                            </ul>
+                                
+                            </div>
+                    </div>
+                
+                </li>
+        </ul>
+    </div>
+</div><br></div>
+                            <section class="main-blocks">
+                                <aside id="block-region-main" class="block-region" data-blockregion="main" data-droptarget="1"><section id="inst97519" class=" block_html block  card mb-3" role="region" data-block="html" data-instance-id="97519" aria-label="Texto">
+
+    <div class="card-body p-3">
+
+
+
+        <div class="card-text content mt-3">
+            <div class="no-overflow">
+<div class="academyfrontpage container">
+    <h1>Learn all about Moodle with free online courses</h1>
+    <p>Develop your career as a Moodle Educator, Administrator, Designer and Developer and learn all about online education with Moodle.&nbsp;</p>
+    <p></p>
+    <ul>
+        <li><a href="calendar/view.php?view=upcoming" title="/calendar/view.php?view=upcoming">Attend webinars</a>.</li>
+        <li><a href="index-5.htm#learning-pathways">Complete courses</a>.</li>
+        <li><a href="index-5.htm#programs">Enrol in programs</a>.</li>
+    </ul><br>
+    <p></p>
+    <p class="mb-0 pb-0"><strong><span class="styles-highlight-link">New to Moodle?</span></strong> Take the 1 hour <a href="https://moodle.academy/course/view.php?id=46">Introduction to Moodle</a> course to get started.</p>
+</div></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section><section id="inst97522" class=" block_html block  card mb-3" role="region" data-block="html" data-instance-id="97522" aria-label="Texto">
+
+    <div class="card-body p-3">
+
+
+
+        <div class="card-text content mt-3">
+            <div class="no-overflow">
+<a name="learning-pathways"></a>
+<div class="academyfrontpage container">
+    <div class="pathways">
+        <h2>Moodle Academy Learning Pathways</h2>
+        <p>Read about the three learning pathways or <strong><span class="highlight-link"></span></strong><strong><a href="https://moodle.academy/course/index.php?categoryid=1">browse all courses</a></strong>.</p>
+        <div class="row ml-md-0">
+            <div class="col-md-4 col-12 reducemargin col-6">
+                <div class="card h-100 moodlecard">
+                    <a href="/course/index.php?categoryid=2" title="Browse Educator courses">
+                        <div class="card-header">
+                            <h3 style="text-align: center;"><img src="https://moodle.academy/pluginfile.php/134714/block_html/content/Educator-icon.png" alt="" width="100" height="100" role="presentation" class="img-fluid atto_image_button_middle"><br></h3>
+                            <h3 style="text-align: center;">Moodle Educator</h3>
+                        </div>
+                    </a>
+                    <div class="card-body">
+                        <p>Use Moodle to teach, assess and communicate with your learners.</p>
+                        <div class="float-right ml-auto learn-more"><a href="/mod/page/view.php?id=57&forceview=1" title="Learn more about the Moodle Educator pathway"><i class="fa fa-2x fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 reducemargin col-6">
+                <div class="card h-100 moodlecard">
+                    <a href="/course/index.php?categoryid=3" title="Browse Administrator courses">
+                        <div class="card-header">
+                            <h3 style="text-align: center;"><img src="https://moodle.academy/pluginfile.php/134714/block_html/content/Administrator-icon.png" alt="" width="100" height="100" role="presentation" class="img-fluid atto_image_button_text-bottom"><br></h3>
+                            <h3 style="text-align: center;">Moodle Administrator</h3>
+                        </div>
+                    </a>
+                    <div class="card-body">
+                        <p>Manage and customise your Moodle site.</p>
+                        <div class="float-right ml-auto learn-more"><a href="/mod/page/view.php?id=58&forceview=1" title="Learn more about the Moodle Administrator pathway"><i class="fa fa-2x fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 reducemargin col-6">
+                <div class="card h-100 moodlecard">
+                    <a href="/course/index.php?categoryid=4" title="Browse Developer courses">
+                        <div class="card-header">
+                            <h3 style="text-align: center;"><img src="https://moodle.academy/pluginfile.php/134714/block_html/content/Dev-icon.png" alt="" width="100" height="100" role="presentation" class="img-fluid atto_image_button_middle"><br></h3>
+                            <h3 style="text-align: center;">Moodle Developer</h3>
+                        </div>
+                    </a>
+                    <div class="card-body">
+                        <p>Learn to create plugins and use the Moodle development environment.<br>
+                        </p>
+                        <div class="float-right ml-auto learn-more"><a href="/mod/page/view.php?id=59&forceview=1" title="Learn more about the Moodle Developer pathway"><i class="fa fa-2x fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section><section id="inst97523" class=" block_html block  card mb-3" role="region" data-block="html" data-instance-id="97523" aria-label="Texto">
+
+    <div class="card-body p-3">
+
+
+
+        <div class="card-text content mt-3">
+            <div class="no-overflow"><a name="programs"></a>
+<div class="academyfrontpage container">
+    <h2>Moodle Academy Programs</h2>
+    <p>Verify your skills by completing a program of short courses.</p>
+
+    <div class="row ac-programs ml-md-0">
+        <div class="col-12 col-sm-6 col-md-3 reducemargin">
+            <div class="card h-100 moodlecard"><a name="programs">
+                </a><a href="https://moodle.academy/course/view.php?id=57">
+                    <p style="text-align: center;"><br><img src="https://moodle.academy/pluginfile.php/134715/block_html/content/MA_Program_MoodleTeachingBasics.png" alt="Moodle Teaching Basics badge" width="80" height="74" role="presentation" class="atto_image_button_text-bottom"></p>
+                    <h3 style="text-align: center;">Moodle Teaching Basics</h3>
+                    <p style="text-align: center;"><span style="font-weight: normal;">Beginner</span></p>
+                    <p style="text-align: center;">Understand the basics of teaching with Moodle.</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-3 reducemargin">
+            <div class="card h-100 moodlecard">
+                <a href="https://moodle.academy/course/view.php?id=64">
+                    <p style="text-align: center;"><br><img src="https://moodle.academy/pluginfile.php/134715/block_html/content/MA_Program_MoodleDeveloperBasics.png" alt="Moodle Developer Basics Badge image" width="80" height="74" role="presentation" class="img-fluid atto_image_button_text-bottom"></p>
+                    <h3 style="text-align: center;">Moodle Developer Basics</h3>
+                    <p style="text-align: center;"><span style="font-weight: normal;">Beginner</span></p>
+                    <p style="text-align: center;">Learn Moodle development essentials.</p>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-3 reducemargin">
+            <div class="card h-100 moodlecard">
+                <a href="https://moodle.academy/course/view.php?id=60">
+                    <p style="text-align: center;"><br><img src="https://moodle.academy/pluginfile.php/134715/block_html/content/MA_Program_MoodleAdminBasics.png" alt="Moodle Admin Basics badge" width="80" height="74" role="presentation" class="atto_image_button_text-bottom"></p>
+                    <h3 style="text-align: center;">Moodle Admin Basics</h3>
+                    <p style="text-align: center;"><span style="font-weight: normal;">Beginner</span></p>
+                    <p style="text-align: center;">Understand how to manage a basic Moodle site.</p>
+                </a>
+            </div>
+
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 reducemargin">
+            <div class="card h-100 moodlecard justify-content-center align-items-center text-center" style="min-height: 120px">
+                <a href="https://moodle.academy/mod/page/view.php?id=2747">
+                    <p class="py-2">See all programs</p><i class="fa fa-2x fa-arrow-right" aria-hidden="true">
+
+                    </i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section><section id="inst97524" class=" block_html block  card mb-3" role="region" data-block="html" data-instance-id="97524" aria-label="Texto">
+
+    <div class="card-body p-3">
+
+
+
+        <div class="card-text content mt-3">
+            <div class="no-overflow">
+<div class="academyfrontpage container">
+    <div class="mec-certification pt-1">
+        <div class="row">
+            <div class="col-md-4 col-12 pr-md-0">
+                <div class="card moodlecard card-left border border-dark h-100 bg-dark text-white">
+                    <div class="card-body align-items-center">
+                        <p class="h5"><a href="https://moodle.academy/mod/page/view.php?id=4171">Moodle&nbsp; Qualifications</a></p>
+                        <a class="stretched-link" href="https://moodle.academy/mod/page/view.php?id=4171"></a>
+                        <div class="align-self-end ml-auto"><img src="https://moodle.academy/pluginfile.php/134716/block_html/content/MEC-badge.png" alt="Moodle ribbon" width="50" height="70" role="presentation" class="img-fluid atto_image_button_right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-12 pl-md-0">
+                <div class="card moodlecard card-right h-100 border border-dark">
+                    <div class="card-body">
+                        <h3 class="h4">Validate your expertise and enhance your career prospects as an educator or administrator with Moodle Qualifications.</h3>
+                        <p>Learn more about Moodle Qualifications.</p>
+                        <a class="stretched-link" href="https://moodle.academy/mod/page/view.php?id=4171"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section><section id="inst97520" class=" block_html block  card mb-3" role="region" data-block="html" data-instance-id="97520" aria-label="Texto">
+
+    <div class="card-body p-3">
+
+
+
+        <div class="card-text content mt-3">
+            <div class="no-overflow">
+<div class="academyfrontpage container">
+    <div class="watch">
+        <h2 class="mb-3 mt-n1 pt-0">Watch and learn with Moodle</h2>
+        <a href="https://www.youtube.com/playlist?list=PLxcO_MFWQBDdxi4VkQpzm_8qV1EOSConb"><img src="https://moodle.academy/pluginfile.php/134712/block_html/content/youtube-logo-transparent-background-png.png" alt="" width="60" height="42" role="presentation" class="atto_image_button_left"></a>
+
+        <p>Watch past webinars on the <a href="https://www.youtube.com/playlist?list=PLxcO_MFWQBDdxi4VkQpzm_8qV1EOSConb">Moodle Academy YouTube playlist</a><br>or<span style="font-size: 1rem; font-family: &quot;Open Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;;">&nbsp;<a href="https://moodle.academy/mod/data/view.php?d=8&advanced=1">directly on Moodle Academy</a>.&nbsp;<br><br></span></p>
+        <div class="row">
+            <div class="col-md-4 col-12 reducemargin col-6">
+                <div class="card h-100"><input id="filter_videoeasy_amdopts_fv_17459232341397374771" type="hidden" value="{&quot;AUTOMIME&quot;:&quot;video\/mp4&quot;,&quot;FILENAME&quot;:&quot;n14R5PHsUcg&quot;,&quot;FILENAMESTUB&quot;:&quot;n14R5PHsUcg&quot;,&quot;FILETITLE&quot;:&quot;&quot;,&quot;AUTOPNGFILENAME&quot;:&quot;hqdefault.png&quot;,&quot;AUTOJPGFILENAME&quot;:&quot;hqdefault.jpg&quot;,&quot;VIDEOURL&quot;:&quot;https:\/\/www.youtube.com\/watch?v=n14R5PHsUcg&quot;,&quot;RAWVIDEOURL&quot;:&quot;https:\/\/www.youtube.com\/watch?v=n14R5PHsUcg&quot;,&quot;RAWPARAMS&quot;:&quot;&quot;,&quot;URLSTUB&quot;:&quot;&quot;,&quot;AUTOPOSTERURLJPG&quot;:&quot;http:\/\/img.youtube.com\/vi\/n14R5PHsUcg\/hqdefault.jpg&quot;,&quot;AUTOPOSTERURLPNG&quot;:&quot;http:\/\/img.youtube.com\/vi\/n14R5PHsUcg\/hqdefault.png&quot;,&quot;DEFAULTPOSTERURL&quot;:&quot;https:\/\/moodle.academy\/filter\/videoeasy\/defaultposter.jpg&quot;,&quot;TITLE&quot;:&quot;&quot;,&quot;AUTOID&quot;:&quot;fv_17459232341397374771&quot;,&quot;CSSLINK&quot;:false,&quot;CSSUPLOAD&quot;:false,&quot;TEMPLATEID&quot;:3,&quot;WIDTH&quot;:&quot;100%&quot;,&quot;HEIGHT&quot;:&quot;100%&quot;,&quot;FILEEXT&quot;:&quot;youtube&quot;,&quot;COURSEID&quot;:&quot;1&quot;,&quot;COURSECONTEXTID&quot;:2,&quot;videowidth&quot;:&quot;600&quot;,&quot;videoheight&quot;:&quot;400&quot;,&quot;youtubedomain&quot;:&quot;youtube-nocookie&quot;,&quot;CSSCUSTOM&quot;:false}"><a href="https://www.youtube-nocookie.com/watch?v=n14R5PHsUcg" data-fancybox="" data-width="600" data-height="400"><div class="filter_videoeasy_ytl"><img src="http://img.youtube.com/vi/n14R5PHsUcg/hqdefault.jpg" style="width:100%; height:100%; min-width:180px; min-height: 120px; alt="></div></a><br>
+                    <div class="card-body"><strong>What's New in Moodle 4.5</strong></div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 reducemargin col-6">
+                <div class="card h-100"><input id="filter_videoeasy_amdopts_fv_1745923234435048106" type="hidden" value="{&quot;AUTOMIME&quot;:&quot;video\/mp4&quot;,&quot;FILENAME&quot;:&quot;aFtiVkxnKnk&quot;,&quot;FILENAMESTUB&quot;:&quot;aFtiVkxnKnk&quot;,&quot;FILETITLE&quot;:&quot;&quot;,&quot;AUTOPNGFILENAME&quot;:&quot;hqdefault.png&quot;,&quot;AUTOJPGFILENAME&quot;:&quot;hqdefault.jpg&quot;,&quot;VIDEOURL&quot;:&quot;https:\/\/www.youtube.com\/watch?v=aFtiVkxnKnk&quot;,&quot;RAWVIDEOURL&quot;:&quot;https:\/\/www.youtube.com\/watch?v=aFtiVkxnKnk&quot;,&quot;RAWPARAMS&quot;:&quot;&quot;,&quot;URLSTUB&quot;:&quot;&quot;,&quot;AUTOPOSTERURLJPG&quot;:&quot;http:\/\/img.youtube.com\/vi\/aFtiVkxnKnk\/hqdefault.jpg&quot;,&quot;AUTOPOSTERURLPNG&quot;:&quot;http:\/\/img.youtube.com\/vi\/aFtiVkxnKnk\/hqdefault.png&quot;,&quot;DEFAULTPOSTERURL&quot;:&quot;https:\/\/moodle.academy\/filter\/videoeasy\/defaultposter.jpg&quot;,&quot;TITLE&quot;:&quot;&quot;,&quot;AUTOID&quot;:&quot;fv_1745923234435048106&quot;,&quot;CSSLINK&quot;:false,&quot;CSSUPLOAD&quot;:false,&quot;TEMPLATEID&quot;:3,&quot;WIDTH&quot;:&quot;100%&quot;,&quot;HEIGHT&quot;:&quot;100%&quot;,&quot;FILEEXT&quot;:&quot;youtube&quot;,&quot;COURSEID&quot;:&quot;1&quot;,&quot;COURSECONTEXTID&quot;:2,&quot;videowidth&quot;:&quot;600&quot;,&quot;videoheight&quot;:&quot;400&quot;,&quot;youtubedomain&quot;:&quot;youtube-nocookie&quot;,&quot;CSSCUSTOM&quot;:false}"><a href="https://www.youtube-nocookie.com/watch?v=aFtiVkxnKnk" data-fancybox="" data-width="600" data-height="400"><div class="filter_videoeasy_ytl"><img src="http://img.youtube.com/vi/aFtiVkxnKnk/hqdefault.jpg" style="width:100%; height:100%; min-width:180px; min-height: 120px; alt="></div></a><br>
+                    <div class="card-body"><strong>What is Moodle LMS?</strong></div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 reducemargin col-6">
+                <div class="card h-100"><input id="filter_videoeasy_amdopts_fv_17459232341544570907" type="hidden" value="{&quot;AUTOMIME&quot;:&quot;video\/mp4&quot;,&quot;FILENAME&quot;:&quot;G2X6Rdlajcc&quot;,&quot;FILENAMESTUB&quot;:&quot;G2X6Rdlajcc&quot;,&quot;FILETITLE&quot;:&quot;&quot;,&quot;AUTOPNGFILENAME&quot;:&quot;hqdefault.png&quot;,&quot;AUTOJPGFILENAME&quot;:&quot;hqdefault.jpg&quot;,&quot;VIDEOURL&quot;:&quot;https:\/\/www.youtube.com\/watch?v=G2X6Rdlajcc&quot;,&quot;RAWVIDEOURL&quot;:&quot;https:\/\/www.youtube.com\/watch?v=G2X6Rdlajcc&quot;,&quot;RAWPARAMS&quot;:&quot;&quot;,&quot;URLSTUB&quot;:&quot;&quot;,&quot;AUTOPOSTERURLJPG&quot;:&quot;http:\/\/img.youtube.com\/vi\/G2X6Rdlajcc\/hqdefault.jpg&quot;,&quot;AUTOPOSTERURLPNG&quot;:&quot;http:\/\/img.youtube.com\/vi\/G2X6Rdlajcc\/hqdefault.png&quot;,&quot;DEFAULTPOSTERURL&quot;:&quot;https:\/\/moodle.academy\/filter\/videoeasy\/defaultposter.jpg&quot;,&quot;TITLE&quot;:&quot;&quot;,&quot;AUTOID&quot;:&quot;fv_17459232341544570907&quot;,&quot;CSSLINK&quot;:false,&quot;CSSUPLOAD&quot;:false,&quot;TEMPLATEID&quot;:3,&quot;WIDTH&quot;:&quot;100%&quot;,&quot;HEIGHT&quot;:&quot;100%&quot;,&quot;FILEEXT&quot;:&quot;youtube&quot;,&quot;COURSEID&quot;:&quot;1&quot;,&quot;COURSECONTEXTID&quot;:2,&quot;videowidth&quot;:&quot;600&quot;,&quot;videoheight&quot;:&quot;400&quot;,&quot;youtubedomain&quot;:&quot;youtube-nocookie&quot;,&quot;CSSCUSTOM&quot;:false}"><a href="https://www.youtube-nocookie.com/watch?v=G2X6Rdlajcc" data-fancybox="" data-width="600" data-height="400"><div class="filter_videoeasy_ytl"><img src="http://img.youtube.com/vi/G2X6Rdlajcc/hqdefault.jpg" style="width:100%; height:100%; min-width:180px; min-height: 120px; alt="></div></a><br>
+                    <div class="card-body"><b>Moodle Qualifications: Empowering Educators and Administrators</b></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section><section id="inst97521" class=" block_html block  card mb-3" role="region" data-block="html" data-instance-id="97521" aria-label="Texto">
+
+    <div class="card-body p-3">
+
+
+
+        <div class="card-text content mt-3">
+            <div class="no-overflow">
+<a name="other-resources"></a>
+<div class="academyfrontpage container">
+    <div class="other-resources">
+        <h2 class="mb-3">Other resources</h2>
+        <div class="row">
+            <div class="col-md-3 col-6 reducemargin">
+                <div class="card h-100 border-0">
+                    <div class="card-body text-center">
+                        <img src="https://moodle.academy/pluginfile.php/134713/block_html/content/Discuss-icon.png" alt="" width="75" height="75" role="presentation" class="img-fluid atto_image_button_text-bottom">
+                        <h3>Moodle forums</h3>
+                        <a class="stretched-link" href="course/index.htm">
+                            <span class="sr-only">Visit the moodle forums page</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 reducemargin">
+                <div class="card h-100 border-0">
+                    <div class="card-body text-center">
+                        <img src="https://moodle.academy/pluginfile.php/134713/block_html/content/docs-icon.png" alt="" width="75" height="75" role="presentation" class="img-fluid atto_image_button_text-bottom">
+                        <h3>Moodle docs</h3>
+                        <a class="stretched-link aabtn" href="500/en/Main_page.html">
+                            <span class="sr-only">Visit the moodle docs page</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 reducemargin">
+                <div class="card h-100 border-0">
+                    <div class="card-body text-center">
+                        <img src="https://moodle.academy/pluginfile.php/134713/block_html/content/translate-icon.png" alt="" width="75" height="75" role="presentation" class="img-fluid atto_image_button_text-bottom">
+                        <h3>Translation</h3>
+                        <a class="stretched-link" href="https://moodle.academy/mod/page/view.php?id=3650">
+                            <span class="sr-only">Visit the Moodle translation site</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 reducemargin">
+                <div class="card h-100 border-0">
+                    <div class="card-body text-center">
+                        <img src="https://moodle.academy/pluginfile.php/134713/block_html/content/Share-icon.png" alt="" width="75" height="75" role="presentation" class="img-fluid atto_image_button_text-bottom">
+                        <h3>MoodleNet</h3>
+                        <a class="stretched-link" href="index-4.htm">
+                        </a><span class="sr-only"><a class="stretched-link" href="https:moodle.net">Visit the moodle net page</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section><a href="#sb-16" class="sr-only sr-only-focusable">Salta Find courses</a>
+
+<section id="inst19698" class=" block_tags block  card mb-3" role="region" data-block="tags" data-instance-id="19698" aria-labelledby="instance-19698-header">
+
+    <div class="card-body p-3">
+
+                <h2 id="instance-19698-header" class="card-title d-inline">Find courses</h2>
+
+
+        <div class="card-text content mt-3">
+            <div class="tag_cloud">
+    <ul class="inline-list">
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Accessibility&from=2" class="standardtag s2" title="Entradas: 5">
+                            Accessibility
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Administrator&from=2" class="standardtag s10" title="Entradas: 18">
+                            Administrator
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=API&from=2" class="standardtag s2" title="Entradas: 4">
+                            API
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Artificial%20intelligence&from=2" class="standardtag s0" title="Entradas: 1">
+                            Artificial intelligence
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Assessment&from=2" class="standardtag s4" title="Entradas: 7">
+                            Assessment
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Assignment&from=2" class="standardtag s0" title="Entradas: 1">
+                            Assignment
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Community&from=2" class=" s0" title="Entradas: 1">
+                            Community
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Developer&from=2" class="standardtag s11" title="Entradas: 19">
+                            Developer
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Edmodo&from=2" class="standardtag s0" title="Entradas: 1">
+                            Edmodo
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Educator&from=2" class="standardtag s20" title="Entradas: 34">
+                            Educator
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Forum&from=2" class="standardtag s1" title="Entradas: 3">
+                            Forum
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Gamification&from=2" class="standardtag s0" title="Entradas: 1">
+                            Gamification
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Glossary&from=2" class="standardtag s0" title="Entradas: 1">
+                            Glossary
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Javascript&from=2" class="standardtag s1" title="Entradas: 2">
+                            Javascript
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Language&from=2" class="standardtag s1" title="Entradas: 2">
+                            Language
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=learning&from=2" class=" s0" title="Entradas: 1">
+                            learning
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Learning%20Design&from=2" class="standardtag s1" title="Entradas: 3">
+                            Learning Design
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=MAQ&from=2" class=" s0" title="Entradas: 1">
+                            MAQ
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=MEQ&from=2" class="standardtag s0" title="Entradas: 1">
+                            MEQ
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Moodle%20Admin%20Basics%20program&from=2" class="standardtag s2" title="Entradas: 4">
+                            Moodle Admin Basics program
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Moodle%20Admin%20Skills%20program&from=2" class="standardtag s0" title="Entradas: 1">
+                            Moodle Admin Skills program
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Moodle%20App&from=2" class="standardtag s1" title="Entradas: 2">
+                            Moodle App
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Moodle%20Developer%20Basics%20program&from=2" class="standardtag s3" title="Entradas: 6">
+                            Moodle Developer Basics program
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Moodle%20Developer%20Skills%20program&from=2" class=" s3" title="Entradas: 6">
+                            Moodle Developer Skills program
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Moodle%20Teaching%20Basics%20program&from=2" class="standardtag s2" title="Entradas: 5">
+                            Moodle Teaching Basics program
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Moodle%20Teaching%20Skills%20program&from=2" class="standardtag s3" title="Entradas: 6">
+                            Moodle Teaching Skills program
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=MoodleCloud&from=2" class="standardtag s0" title="Entradas: 1">
+                            MoodleCloud
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=MoodleMoot&from=2" class="standardtag s1" title="Entradas: 2">
+                            MoodleMoot
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=MoodleNet&from=2" class="standardtag s1" title="Entradas: 2">
+                            MoodleNet
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Plugins&from=2" class="standardtag s1" title="Entradas: 3">
+                            Plugins
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Quiz&from=2" class="standardtag s1" title="Entradas: 2">
+                            Quiz
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Reports&from=2" class="standardtag s0" title="Entradas: 1">
+                            Reports
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Testing&from=2" class=" s1" title="Entradas: 3">
+                            Testing
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Translation&from=2" class="standardtag s0" title="Entradas: 1">
+                            Translation
+                </a>
+            </li>
+            <li>
+                <a href="https://moodle.academy/tag/index.php?tc=2&tag=Workplace&from=2" class="standardtag s0" title="Entradas: 1">
+                            Workplace
+                </a>
+            </li>
+    </ul>
+    </div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-16"></span></aside>
+                            </section>
+                        
+                        
+
+                    </section>
+                </div>
+            </div>
+        </div>
+        
+        <footer id="page-footer">
+            <div data-region="footer-container-popover">
+                <button class="btn btn-icon bg-secondary icon-no-margin btn-footer-popover" data-action="footer-popover" aria-label="Mostrar pie de página">
+                    <i class="icon fa fa-question fa-fw " aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="footer-dark brand-footer">
+                    <div class="footer-links">
+<a href="/mod/page/view.php?id=31&forceview=1">About</a> | 
+<a href="/mod/page/view.php?id=313">Meet the Team</a> | 
+<a href="/mod/glossary/view.php?g=11">FAQs</a> | 
+<a href="/mod/page/view.php?id=70">Accessibility</a> | 
+<a href="/admin/tool/policy/view.php?policyid=1">Privacy Policy</a> | 
+<a href="/admin/tool/policy/view.php?policyid=2">Site Policy</a> | 
+<a href="/admin/tool/policy/view.php?policyid=3">Cookies Policy</a> |
+<span class="ot-sdk-show-settings">Cookie Settings</span> |  
+<a href="/admin/tool/certificate/index.php">Verify Certificate</a> | 
+<a href="/mod/page/view.php?id=1324">Credits</a> | 
+<a href="/mod/page/view.php?id=32">Contact</a> |
+<a href="https://www.opendigcompedu.eu/opendigcompedu-course">OpenDigCompEdu</a>
+</div>
+<div class="moodle-social">
+<a href="https://twitter.com/moodleacademy" target="_blank" title="Follow Moodle Academy on Twitter" rel="noreferrer noopener"><i class="icon fa fa-twitter-square social-icons"></i></a>
+<a href="moodle/index.htm" target="_blank" title="Follow Moodle on Facebook" rel="noreferrer noopener"><i class="icon fa fa-facebook-square social-icons"></i></a>
+<a href="https://www.youtube.com/moodlehq" target="_blank" title="Follow Moodle on YouTube" rel="noreferrer noopener"><i class="icon fa fa-youtube-square social-icons"></i></a>
+<a href="https://www.linkedin.com/company/moodle" target="_blank" title="Follow Moodle on LinkedIn" rel="noreferrer noopener"><i class="icon fa fa-linkedin-square social-icons"></i></a>
+<a href="https://moodle.com/feed/" target="_blank" title="Subscribe to the Moodle News RSS feed" rel="noreferrer noopener"><i class="icon fa fa-rss-square social-icons"></i></a>
+</div>
+<div class="moodle-tm">
+Moodle<sup class="trademark"><abbr title="Trademark">TM</abbr></sup> is a <a href="https://moodle.com/trademarks/">registered trademark</a>. 
+</div>
+<div class="moodle-news"><a target="_blank" href="https://moodle.com/newsletter/" class="moodle-news-link" rel="noreferrer noopener">
+<i class="icon fa fa-envelope-o moodle-news-icon"></i>Subscribe to Moodle News</a> <i class="fa fa-external-link" title="opens in new window"></i>
+</div>
+            </div>
+            <div class="footer-content-popover container" data-region="footer-content-popover">
+                    <div class="footer-section p-3 border-bottom">
+        
+        
+                            <div><a href="https://moodle.academy/mod/page/view.php?id=32" target="blank"><i class="icon fa-regular fa-envelope fa-fw " aria-hidden="true"></i>Contactar con el soporte del sitio<i class="icon fa fa-arrow-up-right-from-square fa-fw ms-1" aria-hidden="true"></i></a></div>
+                    </div>
+                <div class="footer-section p-3 border-bottom">
+                    <div class="logininfo">
+                        <div class="logininfo">Usted no se ha identificado. (<a href="https://moodle.academy/login/index.php">Acceder</a>)</div>
+                    </div>
+                    <div class="tool_usertours-resettourcontainer">
+                    </div>
+        
+                    <div class="policiesfooter"><a href="https://moodle.academy/admin/tool/policy/viewall.php?returnurl=https%3A%2F%2Fmoodle.academy%2F">Políticas</a></div>
+                    <script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://moodle.academy/lib/requirejs.php/1743395478/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://moodle.academy/lib/javascript.php/1743395478/lib/jquery/jquery-3.7.1.min',
+        jqueryui: 'https://moodle.academy/lib/javascript.php/1743395478/lib/jquery/ui-1.13.2/jquery-ui.min',
+        jqueryprivate: 'https://moodle.academy/lib/javascript.php/1743395478/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://moodle.academy/lib/javascript.php/1743395478/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");
+require(['core/first'], function() {
+require(['core/prefetch'])
+;
+M.util.js_pending('filter_mathjaxloader/loader'); require(['filter_mathjaxloader/loader'], function(amd) {amd.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"es"}); M.util.js_complete('filter_mathjaxloader/loader');});;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('es');
+});;
+M.util.js_pending('filter_glossary/autolinker'); require(['filter_glossary/autolinker'], function(amd) {amd.init(); M.util.js_complete('filter_glossary/autolinker');});;
+M.util.js_pending('block_advnotifications/notif'); require(['block_advnotifications/notif'], function(amd) {amd.initialise(); M.util.js_complete('block_advnotifications/notif');});;
+
+require([
+    'jquery',
+    'core_calendar/selectors',
+    'core_calendar/events',
+], function(
+    $,
+    CalendarSelectors,
+    CalendarEvents
+) {
+    var root = $('#month-upcoming-mini-6810aca22d9d06810aca22d9d21');
+
+    $('body').on(CalendarEvents.filterChanged, function(e, data) {
+        M.util.js_pending("month-upcoming-mini-6810aca22d9d06810aca22d9d21-filterChanged");
+
+        // A filter value has been changed.
+        // Find all matching cells in the popover data, and hide them.
+        var target = $("#month-upcoming-mini-6810aca22d9d06810aca22d9d21").find(CalendarSelectors.eventType[data.type]);
+
+        var transitionPromise = $.Deferred();
+        if (data.hidden) {
+            transitionPromise.then(function() {
+                return target.slideUp('fast').promise();
+            });
+        } else {
+            transitionPromise.then(function() {
+                return target.slideDown('fast').promise();
+            });
+        }
+
+        transitionPromise.then(function() {
+            M.util.js_complete("month-upcoming-mini-6810aca22d9d06810aca22d9d21-filterChanged");
+
+            return;
+        });
+
+        transitionPromise.resolve();
+    });
+});
+;
+define('filter_videoeasy_d3',['jquery','https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js'], function($,requiredjs_youtubelightboxnocookie){ return function(opts){requiredjs_youtubelightboxnocookie.Fancybox.bind('[data-fancybox]', {
+        Html : {
+          youtube: {controls: 1, rel: 0, fs: 1}
+        }
+});   
+}; });;
+M.util.js_pending('filter_videoeasy/videoeasy_amd'); require(['filter_videoeasy/videoeasy_amd'], function(amd) {amd.loadvideoeasy({"AUTOID":"fv_17459232341397374771"}); M.util.js_complete('filter_videoeasy/videoeasy_amd');});;
+define('filter_videoeasy_d3',['jquery','https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js'], function($,requiredjs_youtubelightboxnocookie){ return function(opts){requiredjs_youtubelightboxnocookie.Fancybox.bind('[data-fancybox]', {
+        Html : {
+          youtube: {controls: 1, rel: 0, fs: 1}
+        }
+});   
+}; });;
+M.util.js_pending('filter_videoeasy/videoeasy_amd'); require(['filter_videoeasy/videoeasy_amd'], function(amd) {amd.loadvideoeasy({"AUTOID":"fv_1745923234435048106"}); M.util.js_complete('filter_videoeasy/videoeasy_amd');});;
+define('filter_videoeasy_d3',['jquery','https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js'], function($,requiredjs_youtubelightboxnocookie){ return function(opts){requiredjs_youtubelightboxnocookie.Fancybox.bind('[data-fancybox]', {
+        Html : {
+          youtube: {controls: 1, rel: 0, fs: 1}
+        }
+});   
+}; });;
+M.util.js_pending('filter_videoeasy/videoeasy_amd'); require(['filter_videoeasy/videoeasy_amd'], function(amd) {amd.loadvideoeasy({"AUTOID":"fv_17459232341544570907"}); M.util.js_complete('filter_videoeasy/videoeasy_amd');});;
+
+        require(['jquery', 'tool_policy/jquery-eu-cookie-law-popup', 'tool_policy/policyactions'], function($, Popup, ActionsMod) {
+            // Initialise the guest popup.
+            $(document).ready(function() {
+                // Initialize popup.
+                $(document.body).addClass('eupopup');
+                if ($(".eupopup").length > 0) {
+                    $(document).euCookieLawPopup().init();
+                }
+
+                // Initialise the JS for the modal window which displays the policy versions.
+                ActionsMod.init('[data-action="view-guest"]');
+            });
+        });
+    ;
+
+    require(['core/moremenu'], function(moremenu) {
+        moremenu(document.querySelector('#moremenu-6810aca24a616-navbar-nav'));
+    });
+;
+
+require(
+[
+    'jquery',
+],
+function(
+    $
+) {
+    var uniqid = "6810aca2691b26810aca22d9d23";
+    var container = $('#searchinput-navbar-' + uniqid);
+    var opensearch = container.find('[data-action="opensearch"]');
+    var input = container.find('[data-region="input"]');
+    var submit = container.find('[data-action="submit"]');
+
+    submit.on('click', function(e) {
+        if (input.val() === '') {
+            e.preventDefault();
+        }
+    });
+    container.on('hidden.bs.collapse', function() {
+        opensearch.removeClass('d-none');
+        input.val('');
+    });
+    container.on('show.bs.collapse', function() {
+        opensearch.addClass('d-none');
+    });
+    container.on('shown.bs.collapse', function() {
+        input.focus();
+    });
+});
+;
+
+require(
+[
+    'jquery',
+],
+function(
+    $
+) {
+    var uniqid = "6810aca2694076810aca22d9d24";
+    var container = $('#searchinput-navbar-' + uniqid);
+    var opensearch = container.find('[data-action="opensearch"]');
+    var input = container.find('[data-region="input"]');
+    var submit = container.find('[data-action="submit"]');
+
+    submit.on('click', function(e) {
+        if (input.val() === '') {
+            e.preventDefault();
+        }
+    });
+    container.on('hidden.bs.collapse', function() {
+        opensearch.removeClass('d-none');
+        input.val('');
+    });
+    container.on('show.bs.collapse', function() {
+        opensearch.addClass('d-none');
+    });
+    container.on('shown.bs.collapse', function() {
+        input.focus();
+    });
+});
+;
+
+    require(['core/usermenu'], function(UserMenu) {
+        UserMenu.init();
+    });
+;
+
+M.util.js_pending('theme_boost/drawers:load');
+require(['theme_boost/drawers'], function() {
+    M.util.js_complete('theme_boost/drawers:load');
+});
+;
+
+M.util.js_pending('theme_boost/drawers:load');
+require(['theme_boost/drawers'], function() {
+    M.util.js_complete('theme_boost/drawers:load');
+});
+;
+
+require(['theme_boost/footer-popover'], function(FooterPopover) {
+    FooterPopover.init();
+});
+;
+
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader', 'theme_boost/drawer'], function(Loader, Drawer) {
+    Drawer.init();
+    M.util.js_complete('theme_boost/loader');
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(2, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;
+M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});;
+M.util.js_pending('core/storage_validation'); require(['core/storage_validation'], function(amd) {amd.init(null); M.util.js_complete('core/storage_validation');});
+    M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script src="npm/mathjax%402.7.9/MathJax.js?delayStartupUntil=configured"></script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima modificaci\u00f3n","name":"Nombre","error":"Error","info":"Informaci\u00f3n","yes":"S\u00ed","no":"No","cancel":"Cancelar","confirm":"Confirmar","areyousure":"\u00bfEst\u00e1 seguro?","closebuttontitle":"Cerrar","unknownerror":"Error desconocido","file":"Archivo","url":"URL","collapseall":"Colapsar todo","expandall":"Expandir todo"},"repository":{"type":"Tipo","size":"Tama\u00f1o","invalidjson":"Cadena JSON no v\u00e1lida","nofilesattached":"No se han adjuntado archivos","filepicker":"Selector de archivos","logout":"Salir","nofilesavailable":"No hay archivos disponibles","norepositoriesavailable":"Lo sentimos, ninguno de sus repositorios actuales puede devolver archivos en el formato solicitado.","fileexistsdialogheader":"El archivo existe","fileexistsdialog_editor":"Un archivo con ese nombre ha sido anexado al texto que Usted est\u00e1 editando","fileexistsdialog_filemanager":"Ya ha sido anexado un archivo con ese nombre","renameto":"Cambiar el nombre a \"{$a}\"","referencesexist":"Existen {$a} enlaces a este archivo","select":"Seleccionar"},"admin":{"confirmdeletecomments":"\u00bfSeguro que quiere eliminar el\/los comentario(s) seleccionados?","confirmation":"Confirmaci\u00f3n"},"debug":{"debuginfo":"Informaci\u00f3n de depuraci\u00f3n","line":"L\u00ednea","stacktrace":"Trazado de la pila (stack)"},"langconfig":{"labelsep":":"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {M.util.help_popups.setup(Y);
+ M.util.js_pending('random6810aca22d9d25'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6810aca22d9d25'); });
+})();
+//]]>
+</script>
+
+                </div>
+                <div class="footer-section p-3">
+                    <span>Provisto por</span>
+                    <a href="https://moodle.com/workplace/" target="_blank">
+                        Moodle Workplace
+                    </a>
+                </div>
+            </div>
+        
+            <div class="footer-content-debugging footer-dark bg-dark text-light">
+                <div class="container-fluid footer-dark-inner">
+                    
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</div>
+
+
+</body></html>
